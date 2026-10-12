@@ -122,7 +122,7 @@ display(Image(filename=str(ROOT / "outputs/figures/fiap_tsp.png")))
 '''),
 md("""## 7. Convergência, sensibilidade e limitações
 
-A reparação é parte do custo computacional da busca. Em problemas maiores, ela pode consumir todo o orçamento durante a inicialização. Um ponto isolado no gráfico indica essa interrupção e não comprova evolução ao longo de gerações. A dificuldade sugere uma reparação incremental e uma construção inicial mais eficiente como trabalhos futuros.
+A reparação tenta reduzir violações de capacidade e autonomia por realocação ou troca de entregas. Seu custo integra o teto de avaliações e pode interromper a inicialização. Na semente 42 com 30 entregas, 80/10% registra 38 gerações; 160/20% não completa uma geração seguinte; 240/30% não conclui a inicialização. Com 60 entregas, as três interrompem essa etapa. Linhas representam evolução registrada; marcadores distinguem observações inicial/final e resultados sobrepostos. Esses resultados não demonstram otimização eficaz nas configurações sem evolução suficiente. A dificuldade sugere reparação e inicialização mais eficientes.
 
 A análise de prioridade varia o coeficiente em um cenário de 30 entregas e uma semente. É uma exploração da premissa, sem alegação causal nem definição de pesos clínicos. A autonomia corresponde a distância, sem modelo de combustível ou bateria dependente da carga."""),
 code('''

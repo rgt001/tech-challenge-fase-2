@@ -1,6 +1,6 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-09T22:42:40.463783+00:00",
+  "created_at": "2026-10-12T19:45:21.110888+00:00",
   "checks": [
     {
       "name": "locked_install",
@@ -118,6 +118,11 @@
     {
       "name": "src/rotas_medicas/verification.py",
       "passed": true
+    },
+    {
+      "name": "convergence_render_in_new_copy",
+      "passed": true,
+      "same_png_sha256": "93b6fa568c0ff3329930d98cb3f2f50bd3898223a74daaad25b7f3784dad6e7a"
     }
   ],
   "artifacts": [
@@ -143,7 +148,7 @@
     },
     {
       "path": "src/rotas_medicas/analysis.py",
-      "sha256": "2cf6910e27040afb91433da172de98049a73b91ff51a204ddc89346e1065a822"
+      "sha256": "519ecd5b7979fcfe4ee4ad41a033f2e6264e71b748c6dc847fea1f52e45ec2c1"
     },
     {
       "path": "src/rotas_medicas/api.py",
@@ -220,5 +225,7 @@
   ],
   "method": "new virtual environment, locked dependencies, copied source/data, tests and CLI launched outside repository root",
   "platform": "Windows CPU Python 3.13",
-  "temporary": "ignored .tools workspace"
+  "temporary": "ignored .tools workspace",
+  "updated_at": "2026-10-12T19:55:00.465513+00:00",
+  "final_analysis_recheck": "Final plot labels copied into the same fresh locked environment; export from the copied package is byte-identical to the reviewed plot."
 }

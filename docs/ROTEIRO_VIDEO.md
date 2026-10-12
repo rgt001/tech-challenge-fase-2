@@ -76,6 +76,14 @@ configurações e mantivemos também os resultados em que o genético não melho
 a construção gulosa ou ficou atrás de OR-Tools. A reparação consome parte do
 orçamento e pode limitar a evolução nos problemas maiores.”
 
+Ao mostrar a figura de evolução, apontar a linha azul de 30 entregas e os
+marcadores laranja de 160/20%, sem completar uma geração seguinte nessa semente.
+Explicar que reparar significa realocar ou trocar entregas para tentar respeitar
+capacidade e autonomia. A configuração 240/30% e as três de 60 entregas executaram,
+mas interromperam a inicialização. Isso evidencia um gargalo; não comprova
+eficácia da evolução dessas configurações. Círculo, quadrado e cruz distinguem
+os resultados que ocupam a mesma coordenada.
+
 “Os dados hospitalares são fictícios. A malha de ruas é real, mas os tempos não
 consideram trânsito em tempo real. Os pesos de prioridade são premissas do
 experimento, sem validação clínica.”

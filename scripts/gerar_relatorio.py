@@ -191,11 +191,12 @@ p("Com 12 entregas, as configurações alcançam o mesmo J de OR-Tools nas semen
 p("A igualdade entre sementes nos problemas maiores não comprova robustez da evolução: pode resultar do orçamento consumido pela reparação. A distância e J devem ser lidos separadamente, pois J também considera chegada ponderada. Todos os resultados viáveis foram certificados quanto às restrições.")
 
 page("7 Convergência e uso do orçamento")
-picture("outputs/figures/convergence.png","Melhor J viável observado e interrupções antes de completar gerações.",height=3.2)
-p("Nos cenários maiores, a reparação avalia numerosas inserções e trocas. Ao contabilizar esse custo dentro das 20 mil chamadas, parte das execuções termina durante a inicialização. Um ponto isolado no gráfico indica esse término e não deve ser apresentado como convergência de um processo evolutivo completo.")
+picture("outputs/figures/convergence.png","Evolução registrada e observações inicial/final. Marcadores distintos conservam os valores sobrepostos; pontos sem gerações não comprovam convergência.",height=3.2)
+p("A reparação tenta corrigir rotas que excedem capacidade ou autonomia, transferindo ou trocando entregas entre veículos. Ela preserva as visitas, mas pode falhar. A implementação avalia muitas alternativas; esse custo entra no teto de 20 mil avaliações e pode interromper a própria busca genética.")
+p("Na semente 42 com 30 entregas, 80/10% registra 38 gerações. A configuração 160/20% avalia a população inicial, mas não completa uma geração seguinte: seus registros inicial e final aparecem como quadrados laranja, sem curva de evolução. A configuração 240/30% interrompe a inicialização. Com 60 entregas, as três interrompem essa etapa e retornam o mesmo J; círculo, quadrado e cruz permanecem na coordenada real. A aprovação dos testes dos operadores não demonstra otimização eficaz nesses casos.")
 table(["Condição de término","Execuções GA tabuladas"],[[k,v] for k,v in analysis["termination_counts"].items()],[4.5,2])
-p("O limite de tentativas encerra a busca quando a população repete candidatos, mesmo que a quantidade de chamadas novas de fitness seja menor que 20 mil. Esse encerramento evita interpretar cache como processamento adicional. A melhor solução viável já avaliada é conservada quando o orçamento termina em qualquer etapa.")
-p("A conclusão é que a reparação implementada funciona como mecanismo de preservação de restrições, mas é cara para este orçamento. Uma reparação incremental, candidatos de inserção mais seletivos e construção inicial com melhor diversidade são propostas de melhoria. Elas exigiriam nova avaliação; não atribuímos ganhos a versões ainda não testadas.")
+p("O limite de tentativas encerra a busca quando há repetição de candidatos, mesmo com menos de 20 mil avaliações novas. Tentativas com resultados em cache são contadas separadamente. Ao atingir qualquer limite, conservamos a melhor solução viável já avaliada.")
+p("A reparação preserva restrições, mas seu custo limita o algoritmo neste orçamento. Avaliar essa abordagem nas escalas maiores exige tornar a inicialização e a reparação mais eficientes e repetir os experimentos. Não atribuímos ganhos a melhorias ainda não testadas.")
 
 page("8 Resultados nos benchmarks públicos")
 rows=[]

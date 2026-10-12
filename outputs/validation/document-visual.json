@@ -1,6 +1,6 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-12T19:07:33.878848+00:00",
+  "created_at": "2026-10-12T20:00:07.846724+00:00",
   "pages": 19,
   "reviewer": "Codex: todas as 19 paginas da versao atual inspecionadas individualmente em resolucao original",
   "new_pages_inspected": [
@@ -30,16 +30,17 @@
     "figuras e legendas legiveis",
     "cabecalhos e rodapes",
     "quebras de pagina",
-    "titulo preto sem borda decorativa"
+    "titulo preto sem borda decorativa",
+    "observacoes de convergencia e marcadores sobrepostos legiveis na pagina 8"
   ],
   "artifacts": [
     {
       "path": "Tech_Challenge_Fase2_Entrega.docx",
-      "sha256": "1c27c4f142d8af8f9b73e99f7ab8c0b8b5e51cb959a6fde10d4b17dce7a06fda"
+      "sha256": "91e755dcb19402b5d3b67c4669a8b97693c4b68cc78a4f667dd9625528fce51d"
     },
     {
       "path": "outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf",
-      "sha256": "4f08b8d72b754b6b6dc5a15c7c6cdc0cb295baa361fd4708e4e688ed1e73d51a"
+      "sha256": "823718be3d52d3ce0131dd0c40517131205152017df98513d542f21c5194aa1d"
     }
   ]
 }

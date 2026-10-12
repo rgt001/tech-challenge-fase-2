@@ -956,8 +956,8 @@
     {
       "name": "convergence",
       "path": "outputs/figures/convergence.png",
-      "caption": "A reparação pode consumir grande parte do orçamento. Um ponto isolado indica interrupção antes de completar gerações; isso não é uma curva de convergência.",
-      "sha256": "bd4497e6ed041b1d1388e581824dabc78dfe0f9ea2632d77b1a2682526097754"
+      "caption": "Linhas representam evolução registrada; marcadores mostram observações inicial/final sem gerações. Círculo, quadrado e cruz distinguem resultados sobrepostos, sem deslocar seus valores. Inicialização interrompida não comprova convergência.",
+      "sha256": "93b6fa568c0ff3329930d98cb3f2f50bd3898223a74daaad25b7f3784dad6e7a"
     },
     {
       "name": "priority_sensitivity",
@@ -1010,5 +1010,276 @@
   "termination_counts": {
     "evaluation_budget": 190,
     "candidate_attempt_budget": 60
-  }
+  },
+  "convergence_runs": [
+    {
+      "scenario": "sp_evaluation_30",
+      "configuration": "pop80_mut10",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_30/genetic_pop80_mut10_42.json",
+      "source_sha256": "8a2eb2bff7218f3049df328f5940e6896211f2834cf47b7dc801c8662915518e",
+      "state": "evolucao_registrada",
+      "generations": 38,
+      "history_count": 39,
+      "evaluations": 20000,
+      "final_objective": 180.96678761454575,
+      "observations": [
+        {
+          "evaluations": 7941,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 9507,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 11301,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 11616,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 11657,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 11698,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 12203,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 12233,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 12260,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 12794,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13334,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13370,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13901,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13921,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13951,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 13985,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 14021,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 14050,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 14589,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 14626,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 15663,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 15708,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 15739,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 15773,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 16837,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 16868,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 16911,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17461,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17500,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17536,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17566,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17608,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 17895,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 18449,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 18963,
+          "best_objective": 180.96678761454575
+        },
+        {
+          "evaluations": 19001,
+          "best_objective": 180.96678761454575
+        },
+        {
+          "evaluations": 19545,
+          "best_objective": 180.96678761454575
+        },
+        {
+          "evaluations": 19586,
+          "best_objective": 180.96678761454575
+        },
+        {
+          "evaluations": 19636,
+          "best_objective": 180.96678761454575
+        },
+        {
+          "evaluations": 20000,
+          "best_objective": 180.96678761454575
+        }
+      ]
+    },
+    {
+      "scenario": "sp_evaluation_30",
+      "configuration": "pop160_mut20",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_30/genetic_pop160_mut20_42.json",
+      "source_sha256": "1789e3fb8637cfd11a8525f68badd3a51f80933e1daef5919092cf738c03d2cb",
+      "state": "populacao_inicial_avaliada",
+      "generations": 0,
+      "history_count": 1,
+      "evaluations": 20000,
+      "final_objective": 181.92943121195242,
+      "observations": [
+        {
+          "evaluations": 14854,
+          "best_objective": 181.92943121195242
+        },
+        {
+          "evaluations": 20000,
+          "best_objective": 181.92943121195242
+        }
+      ]
+    },
+    {
+      "scenario": "sp_evaluation_30",
+      "configuration": "pop240_mut30",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_30/genetic_pop240_mut30_42.json",
+      "source_sha256": "f2b2e1d28f829fe7278dd49ced034ed9be1749dbb1f6e62ddebca131aed63244",
+      "state": "inicializacao_incompleta",
+      "generations": 0,
+      "history_count": 0,
+      "evaluations": 20000,
+      "final_objective": 181.92943121195242,
+      "observations": [
+        {
+          "evaluations": 20000,
+          "best_objective": 181.92943121195242
+        }
+      ]
+    },
+    {
+      "scenario": "sp_evaluation_60",
+      "configuration": "pop80_mut10",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_60/genetic_pop80_mut10_42.json",
+      "source_sha256": "6fc484d93928543d3da7e2a3e88b389c67773f5b1c240cf51ffb335dff875d88",
+      "state": "inicializacao_incompleta",
+      "generations": 0,
+      "history_count": 0,
+      "evaluations": 20000,
+      "final_objective": 363.3894482885483,
+      "observations": [
+        {
+          "evaluations": 20000,
+          "best_objective": 363.3894482885483
+        }
+      ]
+    },
+    {
+      "scenario": "sp_evaluation_60",
+      "configuration": "pop160_mut20",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_60/genetic_pop160_mut20_42.json",
+      "source_sha256": "c67df9c006e228c7cde89b15ae9790b4ce71d82bb8a5aea87da7ef6f0c942f92",
+      "state": "inicializacao_incompleta",
+      "generations": 0,
+      "history_count": 0,
+      "evaluations": 20000,
+      "final_objective": 363.3894482885483,
+      "observations": [
+        {
+          "evaluations": 20000,
+          "best_objective": 363.3894482885483
+        }
+      ]
+    },
+    {
+      "scenario": "sp_evaluation_60",
+      "configuration": "pop240_mut30",
+      "seed": 42,
+      "source": "outputs/experiments/runs/sp_evaluation_60/genetic_pop240_mut30_42.json",
+      "source_sha256": "eb5c3dbfdd92c29be64b7a1f601b55850ac00404b2266f7242107f9ba2a4a407",
+      "state": "inicializacao_incompleta",
+      "generations": 0,
+      "history_count": 0,
+      "evaluations": 20000,
+      "final_objective": 363.3894482885483,
+      "observations": [
+        {
+          "evaluations": 20000,
+          "best_objective": 363.3894482885483
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-12T19:54:56.552016+00:00"
 }

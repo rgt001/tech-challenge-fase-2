@@ -15,6 +15,55 @@ from .maps import export_map
 LABELS={"pop80_mut10":"80 / 0,10","pop160_mut20":"160 / 0,20","pop240_mut30":"240 / 0,30"}
 
 
+def convergence_figure():
+    """Exibe registros reais, distinguindo evolução e inicialização interrompida."""
+    fig,axes=plt.subplots(1,2,figsize=(10,4),layout="constrained")
+    records=[]
+    styles=[("#1565c0","o",130),("#e65100","s",65),("#00897b","x",25)]
+    for n,ax in zip((30,60),axes):
+        final_values=[]
+        for index,(config,(color,marker,size)) in enumerate(zip(LABELS,styles)):
+            path=OUTPUT_ROOT/"experiments"/"runs"/f"sp_evaluation_{n}"/f"genetic_{config}_42.json"
+            solution=load_solution(path)
+            metadata=solution.metadata
+            history=metadata["history"]
+            points=[(h["evaluations"],h["best_objective"]) for h in history if h["best_objective"] is not None]
+            final=(metadata["evaluations"],solution.metrics.objective)
+            if not points or points[-1]!=final:
+                points.append(final)
+            if metadata["generations"]>0 and len(history)>1:
+                state="evolucao_registrada"
+                label=f"{LABELS[config]}: {metadata['generations']} gerações"
+                ax.step([p[0] for p in points],[p[1] for p in points],where="post",
+                        color=color,label=label,marker=marker,markevery=[0,len(points)-1],markersize=5,zorder=3)
+            else:
+                state="populacao_inicial_avaliada" if history else "inicializacao_incompleta"
+                stage="0 gerações completas" if history else "inicialização incompleta"
+                kwargs={"color":color} if marker=="x" else {"facecolors":"none","edgecolors":color}
+                ax.scatter([p[0] for p in points],[p[1] for p in points],marker=marker,s=size,
+                           linewidths=1.6,label=f"{LABELS[config]}: {stage}",zorder=4+index,**kwargs)
+            records.append({"scenario":f"sp_evaluation_{n}","configuration":config,"seed":42,
+                "source":f"outputs/experiments/runs/sp_evaluation_{n}/genetic_{config}_42.json",
+                "source_sha256":hashlib.sha256(path.read_bytes()).hexdigest(),"state":state,
+                "generations":metadata["generations"],"history_count":len(history),
+                "evaluations":metadata["evaluations"],"final_objective":final[1],
+                "observations":[{"evaluations":x,"best_objective":y} for x,y in points]})
+            final_values.append(final[1])
+        ax.set_title(f"{n} entregas, semente 42")
+        ax.set_xlim(0,20500)
+        if len(set(final_values))==1 and all(r["history_count"]==0 for r in records[-len(LABELS):]):
+            value=final_values[0]
+            padding=max(.05,abs(value)*.005)
+            ax.set_ylim(value-padding,value+padding)
+            ax.text(.04,.43,"Três resultados finais no mesmo ponto\n0 gerações; inicialização incompleta",
+                    transform=ax.transAxes,fontsize=8,va="center")
+        ax.set_xlabel("Chamadas de fitness, incluindo reparação")
+        ax.set_ylabel("Melhor J viável observado")
+        ax.grid(alpha=.2)
+        ax.legend(fontsize=7,loc="lower left" if n==30 else "upper left")
+    return fig,records
+
+
 def make_analysis():
     folder=OUTPUT_ROOT/"figures"
     folder.mkdir(parents=True,exist_ok=True)
@@ -71,16 +120,8 @@ def make_analysis():
     axes[0].set_ylabel("Tempo de execução (s)");axes[1].set_ylabel("Chegada média das críticas (min)")
     for ax in axes:ax.set_xlabel("Número de entregas");ax.grid(alpha=.2);ax.legend(fontsize=8)
     save(fig,"runtime_critical","O GA tem teto de fitness e tentativas; OR-Tools tem cinco segundos. As curvas de tempo não demonstram igualdade de orçamento. Chegadas são minutos após a saída de cada veículo.")
-    fig,axes=plt.subplots(1,2,figsize=(10,4),layout="constrained")
-    for config,color in zip(configs,("#1565c0","#e65100","#00897b")):
-        for n,ax in zip((30,60),axes):
-            solution=load_solution(OUTPUT_ROOT/"experiments"/"runs"/f"sp_evaluation_{n}"/f"genetic_{config}_42.json")
-            history=solution.metadata["history"]
-            if history:ax.step([h["evaluations"] for h in history],[h["best_objective"] for h in history],where="post",label=LABELS[config],color=color)
-            else:ax.scatter([solution.metadata["evaluations"]],[solution.metrics.objective],label=f"{LABELS[config]}: encerrou na inicialização",color=color,s=25)
-            ax.set_title(f"{n} entregas, semente 42")
-    for ax in axes:ax.set_xlabel("Chamadas de fitness, incluindo reparação");ax.set_ylabel("Melhor J viável observado");ax.grid(alpha=.2);ax.legend(fontsize=7)
-    save(fig,"convergence","A reparação pode consumir grande parte do orçamento. Um ponto isolado indica interrupção antes de completar gerações; isso não é uma curva de convergência.")
+    fig,convergence_runs=convergence_figure()
+    save(fig,"convergence","Linhas representam evolução registrada; marcadores mostram observações inicial/final sem gerações. Círculo, quadrado e cruz distinguem resultados sobrepostos, sem deslocar seus valores. Inicialização interrompida não comprova convergência.")
     sensitivity=df[df.scenario.str.startswith("sp_sensitivity_")].copy()
     coefficients=[]
     for name in sensitivity.scenario:coefficients.append(load_scenario(DATA_ROOT/"scenarios"/f"{name}.json").priority_coefficient)
@@ -116,7 +157,8 @@ def make_analysis():
     report={"created_at":utc_now(),"selected":selection,"runs":len(df),"summaries":summaries,
             "figures":figure_records,"maps":map_records,"results_sha256":hashlib.sha256((OUTPUT_ROOT/"experiments"/"results.csv").read_bytes()).hexdigest(),
             "weekly_distance_km":float(weekly.distance.sum()/1000),"weekly_deliveries":sum(load_solution(OUTPUT_ROOT/"experiments"/"runs"/f"sp_day_{i}"/f"genetic_{selection}_42.json").metrics.deliveries_served for i in range(1,8)),
-            "termination_counts":df[df.algorithm=="genetic"].termination.value_counts().to_dict()}
+            "termination_counts":df[df.algorithm=="genetic"].termination.value_counts().to_dict(),
+            "convergence_runs":convergence_runs}
     write_json(OUTPUT_ROOT/"analysis"/"summary.json",report)
     pd.DataFrame(summaries).to_csv(OUTPUT_ROOT/"analysis"/"summary.csv",index=False,encoding="utf-8")
     return report
