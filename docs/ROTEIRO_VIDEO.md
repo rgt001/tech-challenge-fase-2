@@ -9,7 +9,7 @@ antes de gravar e usar as soluções salvas para evitar espera durante o vídeo.
 | 00:00–01:00 | Lucas | Problema, entregas fictícias, ruas reais e objetivo do projeto |
 | 01:00–03:00 | Lucas | Contrato, capacidade, autonomia com retorno e prioridades; caso conhecido J=3,6 |
 | 03:00–05:00 | Eduardo | Evolução FIAP, IDs/separadores, OX, torneio, mutação, elitismo e reparação |
-| 05:00–07:30 | Eduardo | Três configurações, dez sementes, dados separados e resultados favoráveis/desfavoráveis |
+| 05:00–07:30 | Eduardo | Definir Guloso, OR-Tools e GA selecionado; três configurações, dez sementes e resultados favoráveis/desfavoráveis |
 | 07:30–09:00 | Renan | Mapas de 12/30/60, ruas direcionadas, retorno e utilização da frota |
 | 09:00–11:00 | Renan | API no Swagger, otimização, recuperação e rejeição de entrada inválida |
 | 11:00–13:00 | Renan | Exemplo real do Luna: instruções, relatório semanal e pergunta sem suporte |
@@ -51,7 +51,25 @@ Na pergunta, usar “Qual é a distância total planejada?” e depois
 insuficientes. O relatório semanal pode usar as sete soluções salvas na evidência
 da avaliação. Evitar repetir chamadas reais desnecessariamente; o teto é acumulado.
 
-## Fala sobre os resultados
+## Fala sobre os métodos e os resultados
+
+No bloco de 05:00–07:30, reservar os primeiros 45 segundos para explicar os
+métodos, antes de mostrar os gráficos. Usar os 105 segundos restantes para a
+seleção da configuração e os principais resultados; a duração total permanece
+em 14:30.
+
+“Guloso constrói as rotas escolhendo, a cada passo, uma inserção de menor custo.
+Testamos ordens por prioridade, carga e proximidade. OR-Tools é a biblioteca de
+otimização do Google; usamos seu solucionador de rotas com cinco segundos de
+busca. GA significa algoritmo genético: várias soluções evoluem por seleção,
+cruzamento e mutação. GA selecionado é a configuração escolhida no ajuste:
+80 indivíduos e 10% de probabilidade de mutação por descendente. Selecionado
+indica a escolha entre configurações do genético, sem garantir que ele vença
+os outros métodos.”
+
+Ao apontar a tabela, esclarecer que a escolha usou somente os cenários de
+desenvolvimento, com três sementes por configuração. Na avaliação final,
+cada configuração foi executada com dez sementes em dados separados.
 
 “Conferimos todas as restrições antes de apresentar rotas. Comparamos as três
 configurações e mantivemos também os resultados em que o genético não melhorou

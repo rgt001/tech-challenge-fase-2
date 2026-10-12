@@ -14,4 +14,4 @@ tests/test_core.py::test_solvers_match_small_optimum[solve_ortools]
   <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-53 passed, 4 warnings in 1.87s
+53 passed, 4 warnings in 2.13s

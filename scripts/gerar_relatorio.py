@@ -152,6 +152,10 @@ table(["Aspecto","Base original","Projeto atual"],[
 p("O crossover original distingue valores de coordenadas, mas não identifica pedidos. Seu teste de pertencimento pode perder a multiplicidade de entregas no mesmo endereço. O novo OX atua sobre genes únicos e conserva todos os pedidos e separadores.")
 p("A representação permite rotas vazias quando um veículo não é usado. A reparação determinística procura realocações e trocas que reduzam violações. Ela preserva as visitas, mas não garante encontrar uma solução para todo problema viável. O código separa avaliação da busca e verificação da solução publicada.")
 p("A reprodução da referência remove apenas a dependência gráfica e mantém seus operadores, probabilidade de mutação 0,50, um elite e crossover com o mesmo pai. Essa comparação é restrita ao TSP de 15 pontos compatível com a fonte.")
+h("Significado dos métodos nos resultados")
+p("Guloso é uma heurística que insere cada entrega na posição de menor custo imediato, considerando primeiro as restrições. Comparamos três construções, ordenadas por prioridade, carga ou proximidade, e aplicamos reparação. É a referência simples de construção de rotas.")
+p("OR-Tools é a biblioteca de otimização do Google. Seu solucionador de roteamento constrói uma solução inicial e procura melhorias por busca local guiada, respeitando capacidade e autonomia. Usamos cinco segundos por execução como referência de comparação.")
+p("GA é a sigla de Genetic Algorithm, ou algoritmo genético: uma população de soluções evolui por seleção, cruzamento e mutação. O rótulo GA selecionado identifica a configuração escolhida nos cenários de desenvolvimento: 80 indivíduos e probabilidade de mutação de 10% por descendente. A escolha antecede a avaliação final e não significa superioridade sobre os comparadores.")
 
 page("4 Dados e preparação geográfica")
 p("Obtivemos uma malha de ruas direcionadas do OpenStreetMap com OSMnx 2.1.1. O recorte vai de -46,69 a -46,61 de longitude e de -23,59 a -23,52 de latitude. Retivemos a maior componente fortemente conexa, com 7.029 nós e 14.036 arestas, permitindo ida e retorno entre os pontos escolhidos.")
