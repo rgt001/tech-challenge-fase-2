@@ -309,11 +309,4 @@ acceptance_path=ROOT / "outputs/validation/acceptance.json"
 if acceptance_path.exists():
     print("Consultar o aceite atualizado em outputs/validation/acceptance.json e executar tc2 validar --perfil entrega.")
 '''),
-md("""## 8. Limitações e apresentação
-
-A distribuição é fictícia; os tempos ignoram trânsito, restrições de conversão e mudanças temporárias das vias. Os pesos de prioridade são premissas, não recomendações clínicas. O GA pode terminar sem melhorar a construção inicial, mesmo quando essa solução já é válida. Como explicado no notebook de otimização, reparar é ajustar um candidato; não significa executar mais gerações. O teto de avaliações inclui esse trabalho e pode limitar a evolução. As sugestões da LLM não demonstram que uma nova rota seria melhor: uma alteração operacional precisa de nova simulação e certificação.
-
-O roteiro em `docs/ROTEIRO_VIDEO.md` organiza a apresentação em até 14 minutos e 30 segundos. Gravação, publicação e submissão ficam com a equipe. O projeto só recebe aprovação integral quando `tc2 validar --perfil entrega` não retorna falhas nem pendências.
-
-Fontes: [Responses API](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses), [gpt-6-luna](https://developers.openai.com/api/docs/models/gpt-6-luna), [contagem de tokens](https://developers.openai.com/api/docs/guides/token-counting), [OpenStreetMap](https://www.openstreetmap.org/copyright).""")
 ])

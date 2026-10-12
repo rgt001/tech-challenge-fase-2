@@ -11,13 +11,13 @@
     },
     {
       "path": "notebooks/02_aplicacao_hospitalar_llm.ipynb",
-      "sha256": "e15c417191a6c16e3db08083844006b8ca663fb0e2f8b4166a03074b1324b79b",
+      "sha256": "9ba9650efd8c9b435dc791d326cab9f63504bf09aa0b3208eb81a563825dcaa4",
       "code_cells": 8,
       "all_executed": true,
       "error_count": 0
     }
   ],
   "kernel": "fresh python3 per notebook",
-  "updated_at": "2026-10-12T21:05:55.723953+00:00",
-  "post_execution_edit": "Esclarecimento editorial sobre NaN e zero no desvio; código e saídas da execução mantidos."
+  "updated_at": "2026-10-12T21:25:04.326864+00:00",
+  "post_execution_edit": "Esclarecimento editorial sobre desvio e remoção da seção 8 do notebook 2; código e saídas da execução mantidos."
 }
