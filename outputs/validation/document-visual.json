@@ -1,6 +1,6 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-12T20:00:07.846724+00:00",
+  "created_at": "2026-10-12T20:47:28.532212+00:00",
   "pages": 19,
   "reviewer": "Codex: todas as 19 paginas da versao atual inspecionadas individualmente em resolucao original",
   "new_pages_inspected": [
@@ -31,16 +31,17 @@
     "cabecalhos e rodapes",
     "quebras de pagina",
     "titulo preto sem borda decorativa",
-    "observacoes de convergencia e marcadores sobrepostos legiveis na pagina 8"
+    "observacoes de convergencia e marcadores sobrepostos legiveis na pagina 8",
+    "traducao de greedy para guloso na tabela da pagina 11"
   ],
   "artifacts": [
     {
       "path": "Tech_Challenge_Fase2_Entrega.docx",
-      "sha256": "91e755dcb19402b5d3b67c4669a8b97693c4b68cc78a4f667dd9625528fce51d"
+      "sha256": "32a9b8b048be29055dd9448d6738887bd8c72a14e1fbd1f0e4807cfe9a419d7b"
     },
     {
       "path": "outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf",
-      "sha256": "823718be3d52d3ce0131dd0c40517131205152017df98513d542f21c5194aa1d"
+      "sha256": "063c76df3d40e30c2fa597b935799709eeb209888b234ec530bcec9a5921a866"
     }
   ]
 }

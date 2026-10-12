@@ -1,6 +1,6 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-12T20:00:14.919100+00:00",
+  "created_at": "2026-10-12T20:45:54.455793+00:00",
   "checks": [
     {
       "name": "table_hash",
@@ -42,7 +42,7 @@
   "artifacts": [
     {
       "path": "Tech_Challenge_Fase2_Entrega.docx",
-      "sha256": "91e755dcb19402b5d3b67c4669a8b97693c4b68cc78a4f667dd9625528fce51d"
+      "sha256": "32a9b8b048be29055dd9448d6738887bd8c72a14e1fbd1f0e4807cfe9a419d7b"
     },
     {
       "path": "README.md",

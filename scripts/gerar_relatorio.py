@@ -223,7 +223,7 @@ rows=[]
 for name,label in [("sp_stress_capacity","Capacidade 82%"),("sp_stress_range","Autonomia 25 km")]:
     for algo in ("greedy","ortools","genetic"):
         r=result(name,algo,selected if algo=="genetic" else None)
-        rows.append([label,algo,fmt(r["objective_mean"]),f"{r['feasible']}/{r['runs']}"])
+        rows.append([label,"guloso" if algo=="greedy" else algo,fmt(r["objective_mean"]),f"{r['feasible']}/{r['runs']}"])
 table(["Variação","Método","J","Viáveis"],rows,[2.2,1.65,1.3,1.35])
 p("Na variação de autonomia, OR-Tools não encontrou solução com a estratégia configurada, embora o guloso e o GA tenham encontrado rotas viáveis. Essa falha de busca não prova impossibilidade do problema. O resultado foi mantido, com diagnóstico e sem publicar uma rota inválida.")
 
