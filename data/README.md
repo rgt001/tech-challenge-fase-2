@@ -61,7 +61,7 @@ apresentou certificado TLS expirado na obtenção. A transferência usou o
 registrados no manifesto; a verificação TLS permaneceu ativa. A URL original e a
 URL efetivamente usada estão registradas para cada arquivo.
 
-A base FIAP é preservada no commit indicado em `docs/EVOLUCAO_FIAP.md`.
+As adaptações do código-base FIAP estão descritas em `docs/EVOLUCAO_FIAP.md`.
 Os scripts `baixar_fontes.py` e `preparar_dados.py` permitem refazer a preparação.
 Uma nova obtenção do OSM pode refletir mudanças da fonte; os experimentos desta
 entrega usam o snapshot salvo e seu hash.

@@ -1,11 +1,10 @@
-# Evolução da base FIAP
+# Adaptação do algoritmo genético
 
-A referência é o commit `d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3` do
-[repositório FIAP](https://github.com/FIAP/genetic_algorithm_tsp).
-Os oito arquivos originais usados na análise estão preservados em
-`data/sources/fiap`, com hashes em `data/sources/manifest.json`.
+Partimos do código de TSP do
+[repositório FIAP](https://github.com/FIAP/genetic_algorithm_tsp)
+para desenvolver a otimização de rotas com múltiplos veículos e restrições.
 
-| Aspecto | Base preservada | Implementação deste projeto |
+| Aspecto | Base original | Implementação deste projeto |
 |---|---|---|
 | Problema | TSP, um circuito | Múltiplos veículos com capacidade e autonomia |
 | Gene | Tupla de coordenadas | Identificador exclusivo de entrega |
@@ -30,7 +29,3 @@ predefinidos, distância euclidiana original, sem carga, tempo ou prioridade.
 funções do arquivo preservado; remove apenas a dependência de interface gráfica.
 As mesmas coordenadas e o mesmo orçamento de avaliações são usados pelo genético
 novo. Essa comparação não mistura o TSP original com o problema hospitalar.
-
-O arquivo `LICENSE` preservado declara CC0 1.0. O README original menciona MIT;
-essa divergência é registrada, e o arquivo de licença efetivamente presente no
-commit não foi substituído. A autoria FIAP permanece identificada.

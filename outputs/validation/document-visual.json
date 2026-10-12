@@ -1,8 +1,8 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-12T18:12:52.850019+00:00",
+  "created_at": "2026-10-12T18:44:37.920422+00:00",
   "pages": 19,
-  "reviewer": "Codex: todas as 19 paginas da versao publicada inspecionadas individualmente em resolucao original",
+  "reviewer": "Codex: todas as 19 paginas da versao atual inspecionadas individualmente em resolucao original",
   "new_pages_inspected": [
     1,
     2,
@@ -35,11 +35,11 @@
   "artifacts": [
     {
       "path": "Tech_Challenge_Fase2_Entrega.docx",
-      "sha256": "dde57df97b3fbdea913c0e38429ea8e15a30aa562d90b47120748c0e32d28ee5"
+      "sha256": "ecc5dbae4d69a99513ebaebdb884dfa9de3284d3a8b7c77e9c29e41aae71b779"
     },
     {
       "path": "outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf",
-      "sha256": "b59e405776a4689a38a003c0d949288481734ce1fa76a2886b09526d64060919"
+      "sha256": "c01b4360cfad95d50ca8f6e16ecbbf0c594081ec02f05f2ed1cb088d0303c704"
     }
   ]
 }

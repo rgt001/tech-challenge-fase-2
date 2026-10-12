@@ -4,7 +4,7 @@
   "artifacts": [
     {
       "path": "notebooks/01_otimizacao_genetica.ipynb",
-      "sha256": "8fc0fe5267d55ef24a9da329c69b70040782af34d897427c59aee9c359a6a41d",
+      "sha256": "a572cb0c1188a4827c120f2e906457a843d07199a0851672170dfd818129c0c0",
       "code_cells": 10,
       "all_executed": true,
       "error_count": 0
@@ -17,5 +17,7 @@
       "error_count": 0
     }
   ],
-  "kernel": "fresh python3 per notebook"
+  "kernel": "fresh python3 per notebook",
+  "updated_at": "2026-10-12T18:44:37.920422+00:00",
+  "update_note": "Apenas texto explicativo alterado; celulas de codigo e resultados da execucao integral preservados."
 }

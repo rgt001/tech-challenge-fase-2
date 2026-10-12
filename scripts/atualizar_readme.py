@@ -171,9 +171,9 @@ apresentação automaticamente.
 ## Estrutura e referência
 
 Arquitetura: [docs/ARQUITETURA.md](docs/ARQUITETURA.md). Aceite: [docs/CRITERIOS_DE_ACEITE.md](docs/CRITERIOS_DE_ACEITE.md).
-Evolução da fonte: [docs/EVOLUCAO_FIAP.md](docs/EVOLUCAO_FIAP.md).
-O snapshot FIAP e as fontes CVRPLIB conservam hashes e commits. Os resultados da
-contagem inicial incompleta foram invalidados e não integram a comparação final.
+Adaptação do algoritmo: [docs/EVOLUCAO_FIAP.md](docs/EVOLUCAO_FIAP.md).
+Os resultados da contagem inicial incompleta foram invalidados e não integram a
+comparação final.
 O repositório contém dados, código e evidências da entrega final. Rodadas reprovadas
 dos prompts permanecem documentadas pelos resumos, com seus custos incluídos no ledger.
 

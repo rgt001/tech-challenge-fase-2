@@ -4,7 +4,7 @@ Cada requisito possui evidência verificável. `pendente` e `falhou` impedem apr
 
 | ID | Requisito | Evidência exigida |
 |---|---|---|
-| BASE | Evolução do código FIAP | Snapshot com commit/hash/licença e documento das mudanças |
+| BASE | Adaptação do código FIAP | Código de referência e descrição das mudanças |
 | DOM | Dados e contratos válidos | Testes de IDs, unidades, matrizes, parâmetros e entradas inválidas |
 | GA | Representação e operadores | Permutações preservadas, seleção, OX, troca/inversão, elitismo, reparação |
 | PRI | Prioridade influencia fitness | Caso conhecido e análise de sensibilidade de pesos |

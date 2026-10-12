@@ -1,6 +1,6 @@
 {
   "status": "aprovado",
-  "created_at": "2026-10-12T18:12:53.371388+00:00",
+  "created_at": "2026-10-12T18:43:02.230817+00:00",
   "checks": [
     {
       "name": "table_hash",
@@ -42,11 +42,11 @@
   "artifacts": [
     {
       "path": "Tech_Challenge_Fase2_Entrega.docx",
-      "sha256": "dde57df97b3fbdea913c0e38429ea8e15a30aa562d90b47120748c0e32d28ee5"
+      "sha256": "ecc5dbae4d69a99513ebaebdb884dfa9de3284d3a8b7c77e9c29e41aae71b779"
     },
     {
       "path": "README.md",
-      "sha256": "8fe9515c794da30def275178c05c1a6d1a3602268d4e8e5241327d45b26dd730"
+      "sha256": "578cbf2d106712ab25428cc0bb113b726bcc79bc219d8bd07d7ece16093fcddf"
     },
     {
       "path": "outputs/analysis/summary.json",
@@ -54,7 +54,7 @@
     },
     {
       "path": "notebooks/01_otimizacao_genetica.ipynb",
-      "sha256": "8fc0fe5267d55ef24a9da329c69b70040782af34d897427c59aee9c359a6a41d"
+      "sha256": "a572cb0c1188a4827c120f2e906457a843d07199a0851672170dfd818129c0c0"
     },
     {
       "path": "notebooks/02_aplicacao_hospitalar_llm.ipynb",

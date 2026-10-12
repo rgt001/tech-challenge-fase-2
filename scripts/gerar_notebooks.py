@@ -63,9 +63,9 @@ oracle = exact_small(tiny)
 display(oracle)
 assert abs(oracle["objective"]-3.6)<1e-9
 '''),
-md("""## 3. Representação e evolução da base FIAP
+md("""## 3. Representação e adaptação do algoritmo genético
 
-A cópia original está preservada no commit `d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3`. A base usa coordenadas como genes e chama OX com o mesmo pai; isso reduz a recombinação e não conserva a identidade de pedidos em coordenadas repetidas. A nova representação usa identificadores únicos, convertidos em índices internos positivos, com separadores negativos para dividir a frota.
+A base usa coordenadas como genes e chama OX com o mesmo pai; isso reduz a recombinação e não conserva a identidade de pedidos em coordenadas repetidas. A nova representação usa identificadores únicos, convertidos em índices internos positivos, com separadores negativos para dividir a frota.
 
 A seleção usa torneio de três indivíduos, crossover OX com probabilidade 0,90, mutação por troca ou inversão e dois elites. A reparação determinística realoca ou troca entregas para reduzir violações. Primeiro se comparam as restrições; só depois, o objetivo. Um candidato curto e inválido não supera uma solução viável."""),
 code('''

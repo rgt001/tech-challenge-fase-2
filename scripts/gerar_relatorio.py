@@ -139,8 +139,7 @@ p("J = distância total em quilômetros + α × soma dos minutos de chegada pond
 table(["Prioridade","Peso inicial"],[["Regular","1"],["Urgente","3"],["Crítica","10"]],[4.5,2])
 p("A avaliação compara primeiro erros estruturais, depois violações de capacidade e autonomia, e só então J. Um percurso inválido não vence por ser mais curto. Nos benchmarks CVRPLIB e no TSP FIAP, usamos exclusivamente a distância original, sem misturar unidades ou prioridades médicas.")
 
-page("3 Evolução da base FIAP")
-p("Preservamos a base FIAP no commit d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3. Os arquivos originais e seus hashes permitem conferir a origem. O arquivo LICENSE declara CC0 1.0, embora o README mencione MIT; registramos essa divergência sem substituir a licença presente no commit.")
+page("3 Adaptação do algoritmo genético")
 table(["Aspecto","Base original","Projeto atual"],[
     ["Problema","TSP com um circuito","Múltiplos veículos e restrições"],
     ["Genes","Coordenadas","IDs exclusivos e separadores"],
