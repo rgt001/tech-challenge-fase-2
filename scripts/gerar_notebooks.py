@@ -23,7 +23,12 @@ from rotas_medicas.verification import verify_solution
 results = pd.read_csv(ROOT / "outputs/experiments/results.csv")
 analysis = json.loads((ROOT / "outputs/analysis/summary.json").read_text(encoding="utf-8"))
 selected = analysis["selected"]
-print("Configuração escolhida apenas no desenvolvimento:", selected)
+METHOD_LABELS = {"greedy":"Guloso", "ortools":"OR-Tools", "genetic":"Algoritmo genético", "fiap_original":"Referência FIAP"}
+CONFIGURATION_LABELS = {"pop80_mut10":"80 / 0,10", "pop160_mut20":"160 / 0,20", "pop240_mut30":"240 / 0,30", "baseline":"Comparador", "reference":"Referência original"}
+TERMINATION_LABELS = {"evaluation_budget":"Limite de avaliações de fitness", "candidate_attempt_budget":"Limite de tentativas de candidatos", "time_limit":"Limite de tempo"}
+presentation = results.assign(método=results.algorithm.replace(METHOD_LABELS),
+    configuração=results.configuration.replace(CONFIGURATION_LABELS)).rename(columns={"scenario":"cenário"})
+print("Configuração escolhida apenas no desenvolvimento (população / mutação):", CONFIGURATION_LABELS[selected])
 print("Execuções tabuladas:", len(results))
 print("SHA-256 da tabela:", analysis["results_sha256"])
 '''
@@ -67,7 +72,13 @@ md("""## 3. Representação e adaptação do algoritmo genético
 
 A base usa coordenadas como genes e chama OX com o mesmo pai; isso reduz a recombinação e não conserva a identidade de pedidos em coordenadas repetidas. A nova representação usa identificadores únicos, convertidos em índices internos positivos, com separadores negativos para dividir a frota.
 
-A seleção usa torneio de três indivíduos, crossover OX com probabilidade 0,90, mutação por troca ou inversão e dois elites. A reparação determinística realoca ou troca entregas para reduzir violações. Primeiro se comparam as restrições; só depois, o objetivo. Um candidato curto e inválido não supera uma solução viável."""),
+A seleção usa torneio de três indivíduos, crossover OX com probabilidade 0,90, mutação por troca ou inversão e dois elites. Primeiro se comparam as restrições; só depois, o objetivo. Um candidato curto e inválido não supera uma solução viável.
+
+**Reparação não significa executar mais gerações.** A função examina uma solução candidata e testa transferir entregas de uma rota que viola capacidade ou autonomia para posições nas rotas de outros veículos. Quando necessário, testa trocas entre veículos. Ela prefere reduzir o total de violações; em caso de empate, compara J. Todas as entregas são preservadas.
+
+Por exemplo, dois veículos com capacidade de 10 kg recebem 12 kg e 6 kg. Transferir uma entrega de 3 kg deixa ambos com 9 kg, mas ainda é necessário conferir a distância completa e a autonomia. A função para quando a solução fica válida, não encontra uma mudança melhor ou atinge seu limite. Ela pode terminar sem corrigir todas as violações.
+
+Nos candidatos do GA que recebem reparação, cada chamada permite até duas mudanças aceitas. A construção gulosa pode usar até 12. Para escolher uma mudança, o código pode avaliar muitas alternativas; duas mudanças não significam apenas duas avaliações. A reparação ocorre na inicialização e também em parte dos descendentes durante a evolução."""),
 code('''
 import random
 from rotas_medicas.genetic import encode,decode,order_crossover,mutate,solve_genetic
@@ -88,7 +99,7 @@ demo = solve_genetic(small,GAConfig(population_size=80,mutation_probability=.10,
 certificate = verify_solution(small,demo)
 assert demo.status=="feasible" and certificate.valid
 display(demo.metrics.model_dump())
-print("Fitness:",demo.metadata["evaluations"],"Tentativas:",demo.metadata["candidate_attempts"],"Término:",demo.metadata["termination"])
+print("Avaliações de fitness:",demo.metadata["evaluations"],"Tentativas:",demo.metadata["candidate_attempts"],"Término:",TERMINATION_LABELS[demo.metadata["termination"]])
 saved = load_solution(ROOT / "outputs/experiments/runs/sp_evaluation_12" / "genetic_pop80_mut10_42.json")
 assert abs(saved.metrics.objective-demo.metrics.objective)<1e-9
 adulterated = demo.model_copy(deep=True)
@@ -97,39 +108,68 @@ print("Adulteração rejeitada:",not verify_solution(small,adulterated).valid)
 '''),
 md("""## 5. Desenho experimental
 
-Três configurações combinam populações 80/160/240 com mutações 0,10/0,20/0,30. Cada configuração é avaliada com dez sementes nos cenários finais. O ajuste usa apenas três cenários de desenvolvimento, com três sementes por configuração. O resultado da seleção é salvo antes da avaliação final.
+Três configurações combinam populações 80/160/240 com mutações 0,10/0,20/0,30. Variamos os dois parâmetros juntos; esta comparação não isola o efeito da população nem da mutação. Cada configuração é avaliada com dez sementes nos cenários finais. O ajuste usa apenas três cenários de desenvolvimento, com três sementes por configuração. O resultado da seleção é salvo antes da avaliação final.
 
-O guloso escolhe a melhor construção entre prioridade/proximidade, carga decrescente e proximidade. OR-Tools utiliza cinco segundos e as mesmas restrições. O GA usa limites de avaliações, tentativas e tempo. Esses orçamentos não são equivalentes: registramos os tempos e evitamos atribuir toda diferença ao algoritmo. Há atividades locais em paralelo durante a execução; os tempos não são um benchmark de hardware isolado."""),
+**Guloso** insere cada entrega considerando primeiro as violações e depois o aumento imediato de J. Escolhe a melhor entre três construções com ordens por prioridade/proximidade, carga decrescente e proximidade, seguidas de reparação. **OR-Tools** é a biblioteca de otimização do Google; usamos seu solucionador de roteamento com cinco segundos de busca e as mesmas restrições. **GA** significa algoritmo genético. **GA selecionado** identifica a configuração escolhida no desenvolvimento, 80 indivíduos e 10% de probabilidade de mutação por descendente; esse rótulo não significa que ele supera os demais métodos.
+
+O GA usa limites de avaliações, tentativas e tempo. Esses orçamentos não são equivalentes: registramos os tempos e evitamos atribuir toda diferença ao algoritmo. Há atividades locais em paralelo durante a execução; os tempos não são um benchmark de hardware isolado. Nas tabelas, traduzimos os nomes dos métodos. Identificadores de cenários e valores do contrato da API são mantidos para localizar os registros originais."""),
 code('''
 development = json.loads((ROOT / "outputs/experiments/selection.json").read_text(encoding="utf-8"))
-display(pd.DataFrame.from_dict(development["mean_ratios"],orient="index",columns=["razão média GA/guloso em desenvolvimento"]))
-medical = results[results.scenario.isin(["sp_evaluation_12","sp_evaluation_30","sp_evaluation_60"])]
-display(medical.groupby(["scenario","algorithm","configuration"]).agg(execuções=("status","size"),J_médio=("objective","mean"),J_desvio=("objective","std"),J_mínimo=("objective","min"),J_máximo=("objective","max"),tempo_médio_s=("elapsed_s","mean")))
+display(pd.DataFrame.from_dict(development["mean_ratios"],orient="index",columns=["razão média GA/guloso em desenvolvimento"]).rename(index=CONFIGURATION_LABELS))
+medical = presentation[presentation["cenário"].isin(["sp_evaluation_12","sp_evaluation_30","sp_evaluation_60"])]
+display(medical.groupby(["cenário","método","configuração"]).agg(execuções=("status","size"),J_médio=("objective","mean"),J_desvio=("objective","std"),J_mínimo=("objective","min"),J_máximo=("objective","max"),tempo_médio_s=("elapsed_s","mean")))
 '''),
 code('display(Image(filename=str(ROOT / "outputs/figures/medical_objective.png")))'),
-md("""Os pontos mantêm a dispersão entre sementes. A comparação de J considera simultaneamente distância e chegada ponderada. Mesmo quando duas soluções têm quilômetros próximos, uma pode chegar mais cedo às entregas prioritárias. O gráfico preserva situações em que o GA não melhora o guloso ou fica atrás de OR-Tools."""),
+md("""Os pontos mantêm a dispersão entre sementes. A comparação de J considera simultaneamente distância e chegada ponderada. Mesmo quando duas soluções têm quilômetros próximos, uma pode chegar mais cedo às entregas prioritárias. O gráfico preserva situações em que o GA não melhora o guloso ou fica atrás de OR-Tools. Nas tabelas, o desvio amostral aparece como `NaN` para comparadores com uma única execução: não existe amostra suficiente para estimá-lo. O gerador do relatório preenche esse campo com zero nesses casos, por convenção de apresentação. Esse zero não é uma estimativa de variabilidade nem comprova estabilidade entre execuções. O `NaN` do notebook não representa falha de execução."""),
 code('display(Image(filename=str(ROOT / "outputs/figures/runtime_critical.png")))'),
 md("""## 6. Benchmarks e referência original
 
 Na CVRPLIB, mantemos as capacidades, a frota e o arredondamento EUC_2D original: `floor(distância + 0,5)`. Os custos de referência são 784, 1167 e 1763. Nessas instâncias, o objetivo é somente a distância original; não adicionamos tempo ou prioridade. O gap é 100 × (custo / ótimo publicado − 1).
 
-A base FIAP é comparada apenas no TSP compatível de 15 pontos. Sua reprodução conserva o crossover com o mesmo pai e um elite. Não comparamos sua distância de tela diretamente com quilômetros das rotas hospitalares."""),
+A base FIAP é comparada apenas no TSP compatível de 15 pontos. Sua reprodução conserva o crossover com o mesmo pai e um elite. Não comparamos sua distância de tela diretamente com quilômetros das rotas hospitalares.
+
+Nesse TSP, o novo GA coincide com o resultado do guloso. A diferença em relação à reprodução FIAP não isola o efeito da correção do crossover: mudaram também a inicialização, a seleção, a mutação e o elitismo. O resultado não permite atribuir a melhora exclusivamente à evolução genética."""),
 code('''
-bench = results[results.scenario.str.startswith("A-n")]
-display(bench.groupby(["scenario","algorithm","configuration"]).agg(gap_médio_pct=("gap_percent","mean"),gap_mínimo_pct=("gap_percent","min"),gap_máximo_pct=("gap_percent","max"),viáveis=("status",lambda s:(s=="feasible").sum())))
+bench = presentation[presentation["cenário"].str.startswith("A-n")]
+display(bench.groupby(["cenário","método","configuração"]).agg(gap_médio_pct=("gap_percent","mean"),gap_mínimo_pct=("gap_percent","min"),gap_máximo_pct=("gap_percent","max"),viáveis=("status",lambda s:(s=="feasible").sum())))
 display(Image(filename=str(ROOT / "outputs/figures/benchmark_gap.png")))
 display(Image(filename=str(ROOT / "outputs/figures/fiap_tsp.png")))
 '''),
 md("""## 7. Convergência, sensibilidade e limitações
 
-A reparação tenta reduzir violações de capacidade e autonomia por realocação ou troca de entregas. Seu custo integra o teto de avaliações e pode interromper a inicialização. Na semente 42 com 30 entregas, 80/10% registra 38 gerações; 160/20% não completa uma geração seguinte; 240/30% não conclui a inicialização. Com 60 entregas, as três interrompem essa etapa. Linhas representam evolução registrada; marcadores distinguem observações inicial/final e resultados sobrepostos. Esses resultados não demonstram otimização eficaz nas configurações sem evolução suficiente. A dificuldade sugere reparação e inicialização mais eficientes.
+A figura mostra o melhor J de uma solução válida já observado. Nos seis registros da semente 42 apresentados abaixo, a solução inicial do guloso já respeitava as restrições. Candidatos inválidos podem existir na população, mas não são os valores mostrados nessa curva.
+
+Com 30 entregas, 80/10% registra 38 gerações e reduz J de 181,929 para 180,967, aproximadamente 0,53%. A configuração 160/20% avalia a população inicial, mas não completa uma geração seguinte; 240/30% não conclui a inicialização. As duas retornam a solução inicial válida. Com 60 entregas, as três interrompem a inicialização e também conservam uma solução válida. Zero gerações completas não significa que o programa não executou ou que nenhuma tentativa parcial ocorreu.
+
+Linhas representam evolução registrada; marcadores distinguem observações inicial/final e resultados sobrepostos. O teto de 20 mil avaliações foi atingido nas seis execuções. Os tempos salvos são inferiores a um segundo, com limite de 120 segundos: o término ocorreu por avaliações, não por falta de capacidade da máquina. Um computador mais rápido não altera o número permitido de avaliações.
+
+A inicialização e a reparação consomem parte do orçamento da busca como um todo. Esses resultados não demonstram otimização eficaz nas configurações sem evolução suficiente. Tornar essas etapas mais eficientes ou ampliar o orçamento exige novos experimentos; não há garantia de melhora. Uma redução de J também não implica necessariamente redução de quilômetros, pois J inclui a chegada ponderada por prioridade.
 
 A análise de prioridade varia o coeficiente em um cenário de 30 entregas e uma semente. É uma exploração da premissa, sem alegação causal nem definição de pesos clínicos. A autonomia corresponde a distância, sem modelo de combustível ou bateria dependente da carga."""),
 code('''
+convergence_rows=[]
+for delivery_count in (30,60):
+    current_scenario=load_scenario(ROOT / f"data/scenarios/sp_evaluation_{delivery_count}.json")
+    for configuration in ("pop80_mut10","pop160_mut20","pop240_mut30"):
+        current_solution=load_solution(ROOT / f"outputs/experiments/runs/sp_evaluation_{delivery_count}" / f"genetic_{configuration}_42.json")
+        assert current_solution.status=="feasible" and verify_solution(current_scenario,current_solution).valid
+        metadata=current_solution.metadata
+        assert metadata["termination"]=="evaluation_budget"
+        initial_objective=metadata["initial_greedy_objective"]
+        assert initial_objective is not None
+        stage="Evolução registrada" if metadata["generations"] else ("População inicial avaliada" if metadata["history"] else "Inicialização incompleta")
+        convergence_rows.append({"Entregas":delivery_count,"População / mutação":CONFIGURATION_LABELS[configuration],
+            "Etapa ao parar":stage,"Gerações completas":metadata["generations"],"J inicial (guloso)":initial_objective,
+            "J final":current_solution.metrics.objective,"Melhora de J (%)":100*(initial_objective-current_solution.metrics.objective)/initial_objective})
+display(pd.DataFrame(convergence_rows).round(3))
 display(Image(filename=str(ROOT / "outputs/figures/convergence.png")))
 display(Image(filename=str(ROOT / "outputs/figures/priority_sensitivity.png")))
-display(results[results.scenario.str.startswith("sp_sensitivity_")][["scenario","distance","critical_arrival_mean_s","objective","termination"]])
-print("Términos do GA:",analysis["termination_counts"])
+sensitivity=results[results.scenario.str.startswith("sp_sensitivity_")].copy()
+sensitivity["Distância (km)"]=sensitivity.distance/1000
+sensitivity["Chegada média das críticas (min)"]=sensitivity.critical_arrival_mean_s/60
+sensitivity["Condição de término"]=sensitivity.termination.replace(TERMINATION_LABELS)
+display(sensitivity.rename(columns={"scenario":"Cenário","objective":"J"})[["Cenário","Distância (km)","Chegada média das críticas (min)","J","Condição de término"]])
+print("Términos do GA:",{TERMINATION_LABELS.get(key,key):value for key,value in analysis["termination_counts"].items()})
 '''),
 md("""## 8. Reprodução e conclusão
 
@@ -177,7 +217,9 @@ md("""## 3. API e persistência
 
 O teste abaixo exercita a aplicação em memória para ser executável sem iniciar outro processo. A evidência separada em `outputs/validation/http.json` registra a execução com Uvicorn e HTTP real. O Swagger fica em `/docs` após `tc2 api`.
 
-A API salva cenários por hash e soluções por identificador. Uma consulta faz nova conferência da solução persistida. IDs inexistentes e pedidos inválidos têm respostas específicas. Os endpoints de linguagem usam a mesma certificação e o mesmo orçamento do pacote."""),
+A API salva cenários por hash e soluções por identificador. Uma consulta faz nova conferência da solução persistida. IDs inexistentes e pedidos inválidos têm respostas específicas. Os endpoints de linguagem usam a mesma certificação e o mesmo orçamento do pacote.
+
+No JSON, `algorithm: "greedy"` é o identificador exigido pela API para o método **Guloso**. Traduzimos o nome na apresentação, mas preservamos o valor do contrato na requisição."""),
 code('''
 import tempfile,warnings
 from starlette.exceptions import StarletteDeprecationWarning
@@ -269,7 +311,7 @@ if acceptance_path.exists():
 '''),
 md("""## 8. Limitações e apresentação
 
-A distribuição é fictícia; os tempos ignoram trânsito, restrições de conversão e mudanças temporárias das vias. Os pesos de prioridade são premissas, não recomendações clínicas. O GA pode terminar sem melhorar a construção inicial. As sugestões da LLM não demonstram que uma nova rota seria melhor: uma alteração operacional precisa de nova simulação e certificação.
+A distribuição é fictícia; os tempos ignoram trânsito, restrições de conversão e mudanças temporárias das vias. Os pesos de prioridade são premissas, não recomendações clínicas. O GA pode terminar sem melhorar a construção inicial, mesmo quando essa solução já é válida. Como explicado no notebook de otimização, reparar é ajustar um candidato; não significa executar mais gerações. O teto de avaliações inclui esse trabalho e pode limitar a evolução. As sugestões da LLM não demonstram que uma nova rota seria melhor: uma alteração operacional precisa de nova simulação e certificação.
 
 O roteiro em `docs/ROTEIRO_VIDEO.md` organiza a apresentação em até 14 minutos e 30 segundos. Gravação, publicação e submissão ficam com a equipe. O projeto só recebe aprovação integral quando `tc2 validar --perfil entrega` não retorna falhas nem pendências.
 

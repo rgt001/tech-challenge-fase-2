@@ -51,6 +51,24 @@ Na pergunta, usar “Qual é a distância total planejada?” e depois
 insuficientes. O relatório semanal pode usar as sete soluções salvas na evidência
 da avaliação. Evitar repetir chamadas reais desnecessariamente; o teto é acumulado.
 
+## Fala sobre a representação e a reparação
+
+No bloco de 03:00–05:00, explicar os identificadores, os separadores e os
+operadores. Reservar aproximadamente 45 segundos para o exemplo de reparação:
+
+“Reparar é ajustar uma solução candidata que ultrapassou capacidade ou autonomia.
+O código testa transferir uma entrega para outro veículo e, quando necessário,
+trocar entregas. Dois veículos com capacidade de dez quilos receberam doze e seis.
+Transferir uma entrega de três quilos deixa ambos com nove, mas ainda precisamos
+conferir a distância e o retorno. O reparador pode falhar. Nos candidatos do GA,
+cada chamada aceita até duas mudanças, mas pode avaliar muitas alternativas
+para escolhê-las. Esse trabalho já pode ocorrer antes da primeira geração.”
+
+Ao citar a correção do crossover, dizer que OX agora pode combinar pais distintos.
+A comparação com o TSP FIAP avalia a implementação completa: outras etapas também
+mudaram, e o novo GA coincide com a construção gulosa nesse caso. Não atribuir a
+diferença observada exclusivamente ao crossover ou à evolução genética.
+
 ## Fala sobre os métodos e os resultados
 
 No bloco de 05:00–07:30, reservar os primeiros 45 segundos para explicar os
@@ -58,7 +76,8 @@ métodos, antes de mostrar os gráficos. Usar os 105 segundos restantes para a
 seleção da configuração e os principais resultados; a duração total permanece
 em 14:30.
 
-“Guloso constrói as rotas escolhendo, a cada passo, uma inserção de menor custo.
+“Guloso constrói as rotas considerando primeiro as restrições e depois o aumento
+imediato do custo J em cada inserção.
 Testamos ordens por prioridade, carga e proximidade. OR-Tools é a biblioteca de
 otimização do Google; usamos seu solucionador de rotas com cinco segundos de
 busca. GA significa algoritmo genético: várias soluções evoluem por seleção,
@@ -70,19 +89,41 @@ os outros métodos.”
 Ao apontar a tabela, esclarecer que a escolha usou somente os cenários de
 desenvolvimento, com três sementes por configuração. Na avaliação final,
 cada configuração foi executada com dez sementes em dados separados.
+População e mutação variam juntas; a comparação não isola o efeito de cada uma.
 
 “Conferimos todas as restrições antes de apresentar rotas. Comparamos as três
 configurações e mantivemos também os resultados em que o genético não melhorou
 a construção gulosa ou ficou atrás de OR-Tools. A reparação consome parte do
 orçamento e pode limitar a evolução nos problemas maiores.”
 
-Ao mostrar a figura de evolução, apontar a linha azul de 30 entregas e os
-marcadores laranja de 160/20%, sem completar uma geração seguinte nessa semente.
-Explicar que reparar significa realocar ou trocar entregas para tentar respeitar
-capacidade e autonomia. A configuração 240/30% e as três de 60 entregas executaram,
-mas interromperam a inicialização. Isso evidencia um gargalo; não comprova
-eficácia da evolução dessas configurações. Círculo, quadrado e cruz distinguem
-os resultados que ocupam a mesma coordenada.
+Ao mostrar a figura de evolução, apontar os registros da **semente 42**, sem
+apresentar essa execução como a média das dez sementes:
+
+“A linha azul parte de uma rota já válida e reduz J de 181,929 para 180,967,
+aproximadamente 0,53%. J combina distância e chegada ponderada; a queda não
+significa necessariamente menos quilômetros. O 80/10% completou 38 gerações.
+O 160/20% avaliou a população inicial, mas não completou a geração seguinte.
+O 240/30% e as três configurações com sessenta entregas interromperam a
+inicialização e devolveram rotas iniciais válidas. Acabaram as vinte mil
+avaliações permitidas; não foi o limite de tempo nem falta de capacidade da
+máquina. Mais velocidade de processamento não aumenta esse teto.”
+
+Círculo, quadrado e cruz distinguem resultados na mesma coordenada. Reforçar que
+zero gerações completas não significa ausência de execução e que testes dos
+operadores aprovados não comprovam eficácia da busca nas configurações sem
+evolução suficiente. Para melhorar essa busca, seria necessário alterar a
+inicialização ou a reparação, ou ampliar o orçamento, e repetir os experimentos.
+
+Na tabela do notebook, o desvio `NaN` nos comparadores com uma única execução
+significa que não há amostra suficiente para estimar dispersão; não é falha.
+O relatório preenche esse campo com zero por convenção de apresentação.
+Não apresentar esse zero como uma estimativa de variabilidade ou prova de
+estabilidade entre execuções.
+
+Manter as falas sobre dados e LLM abaixo nos seus blocos de mapa e integração,
+respectivamente. Ensaiar o bloco de resultados em 02:30, priorizando a figura
+médica e a curva de evolução; os detalhes dos benchmarks ficam disponíveis no
+notebook e no relatório.
 
 “Os dados hospitalares são fictícios. A malha de ruas é real, mas os tempos não
 consideram trânsito em tempo real. Os pesos de prioridade são premissas do
