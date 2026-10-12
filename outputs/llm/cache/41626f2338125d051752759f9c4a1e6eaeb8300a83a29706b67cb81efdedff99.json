@@ -1,0 +1,101 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "overview",
+        "fact_ids": [
+          "period.deliveries",
+          "period.distance",
+          "period.vehicles"
+        ]
+      },
+      {
+        "heading": "routes",
+        "fact_ids": [
+          "s0.r0.sequence",
+          "s0.r1.sequence",
+          "s1.r0.sequence",
+          "s1.r1.sequence",
+          "s2.r0.sequence",
+          "s2.r1.sequence",
+          "s3.r0.sequence",
+          "s3.r1.sequence",
+          "s4.r0.sequence",
+          "s4.r1.sequence",
+          "s5.r0.sequence",
+          "s5.r1.sequence",
+          "s6.r0.sequence",
+          "s6.r1.sequence"
+        ]
+      },
+      {
+        "heading": "performance",
+        "fact_ids": [
+          "s0.distance",
+          "s0.deliveries",
+          "s0.vehicles",
+          "s1.distance",
+          "s1.deliveries",
+          "s1.vehicles",
+          "s2.distance",
+          "s2.deliveries",
+          "s2.vehicles",
+          "s3.distance",
+          "s3.deliveries",
+          "s3.vehicles",
+          "s4.distance",
+          "s4.deliveries",
+          "s4.vehicles",
+          "s5.distance",
+          "s5.deliveries",
+          "s5.vehicles",
+          "s6.distance",
+          "s6.deliveries",
+          "s6.vehicles"
+        ]
+      },
+      {
+        "heading": "priorities",
+        "fact_ids": [
+          "s0.critical_arrival",
+          "s1.critical_arrival",
+          "s2.critical_arrival",
+          "s3.critical_arrival",
+          "s4.critical_arrival",
+          "s5.critical_arrival",
+          "s6.critical_arrival"
+        ]
+      },
+      {
+        "heading": "limitations",
+        "fact_ids": [
+          "s0.time_basis",
+          "s1.time_basis",
+          "s2.time_basis",
+          "s3.time_basis",
+          "s4.time_basis",
+          "s5.time_basis",
+          "s6.time_basis"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v2",
+    "context_hash": "a3d8dfc1456e1a44db6ad6ed5e3ed0fb77f9fb4cbff16333424c37d2109403a2",
+    "contract_hash": "e76c26191128c9f08043efb89c594e019f0190aeaaf0b920c92f3899e57db17a",
+    "response_id": "resp_0ee0a285af6ccfdb016ac96c46ab1487d1a066b04e530af505",
+    "reservation_id": "16b4b0d425b34ac7970449a367d8e58e",
+    "created_at": "2026-10-09T22:35:55.876787+00:00",
+    "input_tokens": 13915,
+    "output_tokens": 355,
+    "cached_tokens": 0
+  }
+}

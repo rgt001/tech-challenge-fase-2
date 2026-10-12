@@ -1,0 +1,17 @@
+{
+  "origin": "api",
+  "requested_model": "gpt-6-luna",
+  "response_model": "gpt-6-luna",
+  "response_id": "resp_04ba6f0a24864d0e016ac96c52f0fc87d1aa3f88967bd46e1d",
+  "reservation_id": "4e214f9c1c644064a560935223042ef9",
+  "status": "completed",
+  "service_tier": "default",
+  "context_hash": "92c2bb23c8b391dcdfad75fa22976eaabe008157405644005b2443fc0a886927",
+  "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+  "prompt_version": "v2",
+  "created_at": "2026-10-09T22:36:05.628102+00:00",
+  "input_tokens": 2766,
+  "output_tokens": 41,
+  "cached_tokens": 0,
+  "output_text": "{\"status\":\"answered\",\"reason\":\"none\",\"sections\":[{\"heading\":\"answer\",\"fact_ids\":[\"s0.distance\"]}],\"instructions\":[],\"suggestions\":[]}"
+}

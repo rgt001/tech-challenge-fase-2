@@ -1,0 +1,30 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "answer",
+        "fact_ids": [
+          "s0.r0.load"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v2",
+    "context_hash": "7ba75c938ad78d19a5acf3021b1d7ba9903f661ed9a29c0ed4c7b74684bb1e54",
+    "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+    "response_id": "resp_0df922bfb915e4c3016ac96c63861887d1b71350dd0eaa26c3",
+    "reservation_id": "3ff6578d83d449c586cca6c43eced960",
+    "created_at": "2026-10-09T22:36:22.021108+00:00",
+    "input_tokens": 2768,
+    "output_tokens": 43,
+    "cached_tokens": 0
+  }
+}

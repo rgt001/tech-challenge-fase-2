@@ -1,0 +1,55 @@
+{
+  "case_id": "c26",
+  "prompt_version": "v1",
+  "context_hash": "4c8adf6dd4a127d16b21bff472ad19359d1d24bff004c6dab15e00cd0cc1b72c",
+  "case_hash": "75e4ee32d76a6365017d74367e587a2022d2816704f987d1193dbc18709ebef2",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "insufficient",
+  "created_at": "2026-10-09T22:35:27.585101+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "insufficient_data",
+    "reason": "A informação solicitada não está disponível nos dados certificados.",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.distance",
+            "value": 40.45915593520023,
+            "text": "Distância total: 40.459 km."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "4c8adf6dd4a127d16b21bff472ad19359d1d24bff004c6dab15e00cd0cc1b72c",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_0fa77f811c120381016ac96c2f5f0887d2be874b1410227ae1",
+      "reservation_id": "6c12b72def254a1992408afe4d126bb3",
+      "created_at": "2026-10-09T22:35:30.279552+00:00",
+      "input_tokens": 2330,
+      "output_tokens": 49,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

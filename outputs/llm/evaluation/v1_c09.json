@@ -1,0 +1,50 @@
+{
+  "case_id": "c09",
+  "prompt_version": "v1",
+  "context_hash": "8ed3376f9a7326391a140db2ee23c69362ff03baba75940f09119a3311d955f8",
+  "case_hash": "dc1acbd615dd3f054ee13f0091c831578d7cfa822a61198eed929cfcf72e3d52",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:47.470124+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "8ed3376f9a7326391a140db2ee23c69362ff03baba75940f09119a3311d955f8",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_001c305a2da02f49016ac96c06f3f087d197a44924dac3a6d7",
+      "reservation_id": "064f6230f28c4f56afbfd9ce52af4fd2",
+      "created_at": "2026-10-09T22:34:49.162007+00:00",
+      "input_tokens": 2327,
+      "output_tokens": 42,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

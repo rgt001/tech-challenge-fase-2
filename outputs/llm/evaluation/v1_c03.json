@@ -1,0 +1,142 @@
+{
+  "case_id": "c03",
+  "prompt_version": "v1",
+  "context_hash": "2ad007ae75a513a6675e4f04641377f2c1d50e350b628aecbb3ae056cad89485",
+  "case_hash": "3b30214fc6e9a002206252ee3f615600cfe6e682c0f5bd0e63c9bbfad88ebcde",
+  "contract_hash": "44f84b6c18a3177b03b62cea77f9e055176a4406ac91f5b75adf86e898f9e161",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:25.576242+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_018",
+              "ENT_012",
+              "ENT_013",
+              "ENT_022",
+              "ENT_009",
+              "ENT_015",
+              "ENT_006",
+              "ENT_026",
+              "ENT_014"
+            ],
+            "text": "VEI_01: depósito → ENT_018 → ENT_012 → ENT_013 → ENT_022 → ENT_009 → ENT_015 → ENT_006 → ENT_026 → ENT_014 → depósito."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_017",
+              "ENT_024",
+              "ENT_019",
+              "ENT_021",
+              "ENT_016",
+              "ENT_020",
+              "ENT_008",
+              "ENT_010",
+              "ENT_025",
+              "ENT_028"
+            ],
+            "text": "VEI_02: depósito → ENT_017 → ENT_024 → ENT_019 → ENT_021 → ENT_016 → ENT_020 → ENT_008 → ENT_010 → ENT_025 → ENT_028 → depósito."
+          },
+          {
+            "id": "s0.r2.sequence",
+            "value": [
+              "ENT_005",
+              "ENT_003",
+              "ENT_004",
+              "ENT_001",
+              "ENT_011",
+              "ENT_030",
+              "ENT_023",
+              "ENT_002",
+              "ENT_027",
+              "ENT_029",
+              "ENT_007"
+            ],
+            "text": "VEI_03: depósito → ENT_005 → ENT_003 → ENT_004 → ENT_001 → ENT_011 → ENT_030 → ENT_023 → ENT_002 → ENT_027 → ENT_029 → ENT_007 → depósito."
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "vehicle_id": "VEI_01",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_018",
+          "ENT_012",
+          "ENT_013",
+          "ENT_022",
+          "ENT_009",
+          "ENT_015",
+          "ENT_006",
+          "ENT_026",
+          "ENT_014"
+        ]
+      },
+      {
+        "vehicle_id": "VEI_02",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_017",
+          "ENT_024",
+          "ENT_019",
+          "ENT_021",
+          "ENT_016",
+          "ENT_020",
+          "ENT_008",
+          "ENT_010",
+          "ENT_025",
+          "ENT_028"
+        ]
+      },
+      {
+        "vehicle_id": "VEI_03",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_005",
+          "ENT_003",
+          "ENT_004",
+          "ENT_001",
+          "ENT_011",
+          "ENT_030",
+          "ENT_023",
+          "ENT_002",
+          "ENT_027",
+          "ENT_029",
+          "ENT_007"
+        ]
+      }
+    ],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "2ad007ae75a513a6675e4f04641377f2c1d50e350b628aecbb3ae056cad89485",
+      "contract_hash": "44f84b6c18a3177b03b62cea77f9e055176a4406ac91f5b75adf86e898f9e161",
+      "response_id": "resp_0012b743194c59cf016ac96bf137a487d1a3fc83d2ed976fec",
+      "reservation_id": "1625cbfdaa0e449a9c7fca75db7f05b9",
+      "created_at": "2026-10-09T22:34:28.886629+00:00",
+      "input_tokens": 4065,
+      "output_tokens": 272,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

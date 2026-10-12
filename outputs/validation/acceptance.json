@@ -1,0 +1,226 @@
+{
+  "status": "aprovado",
+  "profile": "entrega",
+  "created_at": "2026-10-12T18:13:49.598141+00:00",
+  "gates": [
+    {
+      "id": "DOM",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "GA",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "ORACLE",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "ADV",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "TAMPER",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "FAIL",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml",
+        "outputs/validation/pytest.log"
+      ],
+      "detail": "53 testes; grupos obrigatórios presentes: True"
+    },
+    {
+      "id": "BASE",
+      "status": "aprovado",
+      "evidence": [
+        "data/sources/manifest.json",
+        "docs/EVOLUCAO_FIAP.md"
+      ],
+      "detail": "14 fontes; divergências: []"
+    },
+    {
+      "id": "CVRP",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/pytest.xml"
+      ],
+      "detail": "Soluções publicadas conferidas com distância e capacidade originais"
+    },
+    {
+      "id": "GEO",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/geography.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "SCEN",
+      "status": "aprovado",
+      "evidence": [
+        "data/README.md"
+      ],
+      "detail": "Cenários ausentes: []"
+    },
+    {
+      "id": "EXP",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/experiments/manifest.json",
+        "outputs/validation/solutions.json"
+      ],
+      "detail": "278 execuções tabuladas; todos os grupos 3 × 10 conferidos: True"
+    },
+    {
+      "id": "VALID",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/solutions.json"
+      ],
+      "detail": "281 soluções conferidas; divergências: 0"
+    },
+    {
+      "id": "BASELINE",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/experiments/results.csv"
+      ],
+      "detail": "Comparadores por cenário e referência FIAP no TSP"
+    },
+    {
+      "id": "PRI",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/experiments/results.csv",
+        "outputs/validation/pytest.xml"
+      ],
+      "detail": "Caso conhecido e quatro coeficientes de sensibilidade"
+    },
+    {
+      "id": "API",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/http.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "API_LLM",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/http-llm.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "MAP",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/maps-browser.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "EVAL",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/llm/evaluation/summary.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "LLM",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/llm/evaluation/summary.json"
+      ],
+      "detail": "57 respostas reais aceitas e recertificadas"
+    },
+    {
+      "id": "COST",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/llm/budget-summary.json"
+      ],
+      "detail": "Compromisso conservador acumulado: US$ 0.085726"
+    },
+    {
+      "id": "NB",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/notebooks.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "DOC",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/document-visual.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "REPRO",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/portability.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "CONSIST",
+      "status": "aprovado",
+      "evidence": [
+        "outputs/validation/consistency.json"
+      ],
+      "detail": "Evidência conferida"
+    },
+    {
+      "id": "VIDEO",
+      "status": "aprovado",
+      "evidence": [
+        "docs/ROTEIRO_VIDEO.md"
+      ],
+      "detail": "Roteiro cronometrado em até 15 minutos"
+    },
+    {
+      "id": "SECRET",
+      "status": "aprovado",
+      "evidence": [
+        ".gitignore"
+      ],
+      "detail": "Chave fora dos artefatos; arquivos suspeitos: []"
+    }
+  ],
+  "pending": [],
+  "failed": []
+}

@@ -1,0 +1,30 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "answer",
+        "fact_ids": [
+          "period.deliveries"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v1",
+    "context_hash": "7a9c386a4b552c816302026b19a95fe590090c831966ade1abf26967acfa8bd8",
+    "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+    "response_id": "resp_055d57ead2dfac88016ac96c1e684887d1a64443769bb56dc7",
+    "reservation_id": "1453bc05eea2422a885370b98e5031d6",
+    "created_at": "2026-10-09T22:35:12.955464+00:00",
+    "input_tokens": 13487,
+    "output_tokens": 42,
+    "cached_tokens": 1818
+  }
+}

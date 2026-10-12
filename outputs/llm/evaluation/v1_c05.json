@@ -1,0 +1,158 @@
+{
+  "case_id": "c05",
+  "prompt_version": "v1",
+  "context_hash": "1294f1a5c51f42aa99c75a8cc018611953ab770f7bc0ab2f58f4024eb176e38e",
+  "case_hash": "0909d3f91e7dbcaad2301cb514e4615f298a87ebd45ec53cc248bf44c5f9fffd",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:36.473048+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resumo",
+        "facts": [
+          {
+            "id": "s0.scenario",
+            "value": "sp_evaluation_12",
+            "text": "Cenário: sp_evaluation_12."
+          },
+          {
+            "id": "s0.status",
+            "value": "feasible",
+            "text": "Solução viável certificada."
+          },
+          {
+            "id": "s0.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          }
+        ]
+      },
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_003",
+              "ENT_005",
+              "ENT_009",
+              "ENT_010",
+              "ENT_008"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_003 → ENT_005 → ENT_009 → ENT_010 → ENT_008 → depósito."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_012",
+              "ENT_011",
+              "ENT_002",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001"
+            ],
+            "text": "VEI_02: depósito → ENT_012 → ENT_011 → ENT_002 → ENT_006 → ENT_007 → ENT_001 → depósito."
+          }
+        ]
+      },
+      {
+        "heading": "Desempenho",
+        "facts": [
+          {
+            "id": "s0.distance",
+            "value": 40.45915593520023,
+            "text": "Distância total: 40.459 km."
+          },
+          {
+            "id": "s0.objective",
+            "value": 60.07910501285667,
+            "text": "Valor do objetivo: 60.0791."
+          },
+          {
+            "id": "s0.critical_arrival",
+            "value": 6.826648197747157,
+            "text": "Chegada média das entregas críticas: 6.83 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Prioridades",
+        "facts": [
+          {
+            "id": "s0.r0.p0.arrival",
+            "value": 6.826648197747157,
+            "text": "VEI_01, parada 1: ENT_004 (Unidade simulada 004), prioridade critica; chegada estimada 6.83 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p0.arrival",
+            "value": 1.944523241651205,
+            "text": "VEI_02, parada 1: ENT_012 (Unidade simulada 012), prioridade urgente; chegada estimada 1.94 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p1.arrival",
+            "value": 10.047817856268788,
+            "text": "VEI_02, parada 2: ENT_011 (Unidade simulada 011), prioridade urgente; chegada estimada 10.05 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Premissas e limites",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      },
+      {
+        "heading": "Resposta",
+        "facts": []
+      }
+    ],
+    "instructions": [],
+    "suggestions": [
+      "Conferir as condições de trânsito antes da saída: os tempos usados são estimativas sem trânsito em tempo real.",
+      "Revisar com a equipe a ordem das entregas críticas antes de executar o planejamento.",
+      "Conferir a carga física dos veículos antes da saída.",
+      "Simular alterações de frota ou demanda antes de decidir mudanças operacionais."
+    ],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "1294f1a5c51f42aa99c75a8cc018611953ab770f7bc0ab2f58f4024eb176e38e",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_0d27b844d68ebef0016ac96bfc258087d1a73e99f4a13143e1",
+      "reservation_id": "52d5fa13cfd143beafb0cc6959be9af0",
+      "created_at": "2026-10-09T22:34:39.483650+00:00",
+      "input_tokens": 2323,
+      "output_tokens": 181,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 4,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

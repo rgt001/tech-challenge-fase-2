@@ -1,0 +1,40 @@
+{
+  "executed_at": "2026-10-09T19:57:49.303943+00:00",
+  "profile": "full",
+  "runs": 278,
+  "seeds": [
+    42,
+    73,
+    101,
+    127,
+    151,
+    181,
+    211,
+    241,
+    271,
+    307
+  ],
+  "configurations": [
+    [
+      "pop80_mut10",
+      80,
+      0.1
+    ],
+    [
+      "pop160_mut20",
+      160,
+      0.2
+    ],
+    [
+      "pop240_mut30",
+      240,
+      0.3
+    ]
+  ],
+  "evaluations_budget": 20000,
+  "ortools_time_budget_s": 5,
+  "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+  "results_sha256": "914e8a0d045451af9f39f01570c367764deabd5c646c298940b3d7c1622852cf",
+  "selected_configuration": "pop80_mut10",
+  "comparison_caveat": "GA fixed candidate-evaluation budget; OR-Tools fixed time budget; times reported separately"
+}

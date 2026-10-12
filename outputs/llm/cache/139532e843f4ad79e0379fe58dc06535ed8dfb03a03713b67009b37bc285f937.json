@@ -1,0 +1,30 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "answer",
+        "fact_ids": [
+          "period.distance"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v1",
+    "context_hash": "6ac280ae0f9f7e55ce265947238e151d37c159880bb1b2a4fbe488893baab6d9",
+    "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+    "response_id": "resp_053e5fe4d78e2aae016ac96c1b839487d1b17e6410b8d6cae7",
+    "reservation_id": "d29546537471449fa55f0992ba5a0da6",
+    "created_at": "2026-10-09T22:35:10.061953+00:00",
+    "input_tokens": 13484,
+    "output_tokens": 40,
+    "cached_tokens": 1818
+  }
+}

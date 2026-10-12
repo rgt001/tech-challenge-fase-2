@@ -1,0 +1,45 @@
+{
+  "status": "aprovado",
+  "created_at": "2026-10-12T18:12:52.850019+00:00",
+  "pages": 19,
+  "reviewer": "Codex: todas as 19 paginas da versao publicada inspecionadas individualmente em resolucao original",
+  "new_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "checks": [
+    "texto legivel",
+    "tabelas sem corte",
+    "figuras e legendas legiveis",
+    "cabecalhos e rodapes",
+    "quebras de pagina",
+    "titulo preto sem borda decorativa"
+  ],
+  "artifacts": [
+    {
+      "path": "Tech_Challenge_Fase2_Entrega.docx",
+      "sha256": "dde57df97b3fbdea913c0e38429ea8e15a30aa562d90b47120748c0e32d28ee5"
+    },
+    {
+      "path": "outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf",
+      "sha256": "b59e405776a4689a38a003c0d949288481734ce1fa76a2886b09526d64060919"
+    }
+  ]
+}

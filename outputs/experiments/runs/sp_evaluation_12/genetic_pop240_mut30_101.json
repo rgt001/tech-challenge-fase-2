@@ -1,0 +1,834 @@
+{
+  "schema_version": "1.0",
+  "id": "eb47b4be94dd483aa81321145efb1085",
+  "scenario_id": "sp_evaluation_12",
+  "scenario_hash": "1a3957a627b7b424a713e510959c2ae3e8a60f521478a67399fbcf06b9521fc2",
+  "algorithm": "genetic",
+  "seed": 101,
+  "status": "feasible",
+  "routes": [
+    {
+      "vehicle_id": "VEI_01",
+      "stops": [
+        {
+          "delivery_id": "ENT_004",
+          "order": 1,
+          "arrival_s": 409.5988918648294,
+          "departure_s": 589.5988918648294,
+          "load": 7.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_003",
+          "order": 2,
+          "arrival_s": 819.7350897216719,
+          "departure_s": 1119.735089721672,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_005",
+          "order": 3,
+          "arrival_s": 1231.3916219489145,
+          "departure_s": 1531.3916219489145,
+          "load": 3.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_009",
+          "order": 4,
+          "arrival_s": 1697.7800639669258,
+          "departure_s": 1877.7800639669258,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_010",
+          "order": 5,
+          "arrival_s": 2222.736219461343,
+          "departure_s": 2522.736219461343,
+          "load": 8.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_008",
+          "order": 6,
+          "arrival_s": 2634.2301009204107,
+          "departure_s": 2934.2301009204107,
+          "load": 3.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 22291.654554198547,
+      "duration_s": 3303.9762860172586,
+      "initial_load": 32.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "VEI_02",
+      "stops": [
+        {
+          "delivery_id": "ENT_012",
+          "order": 1,
+          "arrival_s": 116.6713944990723,
+          "departure_s": 536.6713944990723,
+          "load": 2.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_011",
+          "order": 2,
+          "arrival_s": 602.8690713761273,
+          "departure_s": 1022.8690713761273,
+          "load": 8.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_002",
+          "order": 3,
+          "arrival_s": 1412.929946848752,
+          "departure_s": 1592.929946848752,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_006",
+          "order": 4,
+          "arrival_s": 1892.5616503068636,
+          "departure_s": 2312.5616503068636,
+          "load": 4.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_007",
+          "order": 5,
+          "arrival_s": 2496.7402175602565,
+          "departure_s": 2796.7402175602565,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_001",
+          "order": 6,
+          "arrival_s": 2881.2236661787065,
+          "departure_s": 3181.2236661787065,
+          "load": 3.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 18167.501381001683,
+      "duration_s": 3464.4902244370073,
+      "initial_load": 25.0,
+      "return_to_depot": true
+    }
+  ],
+  "metrics": {
+    "total_distance": 40459.15593520023,
+    "total_duration_s": 6768.4665104542655,
+    "weighted_arrival_s": 23543.938893187737,
+    "critical_arrival_mean_s": 409.5988918648294,
+    "vehicles_used": 2,
+    "deliveries_served": 12,
+    "objective": 60.07910501285667
+  },
+  "verification": {
+    "valid": true,
+    "errors": [],
+    "checked_deliveries": 12,
+    "recomputed": {
+      "total_distance": 40459.15593520023,
+      "total_duration_s": 6768.4665104542655,
+      "weighted_arrival_s": 23543.938893187737,
+      "critical_arrival_mean_s": 409.5988918648294,
+      "vehicles_used": 2,
+      "deliveries_served": 12,
+      "objective": 60.07910501285667
+    }
+  },
+  "diagnostics": [],
+  "metadata": {
+    "elapsed_s": 0.4774720999994315,
+    "evaluations": 20000,
+    "candidate_attempts": 17280,
+    "route_cost_calls": 41632,
+    "unique_fitness_evaluations": 14708,
+    "generations": 71,
+    "termination": "evaluation_budget",
+    "configuration": {
+      "population_size": 240,
+      "mutation_probability": 0.3,
+      "crossover_probability": 0.9,
+      "tournament_size": 3,
+      "elites": 2,
+      "max_evaluations": 20000,
+      "max_seconds": 120,
+      "repair_probability": 0.15,
+      "seed": 101
+    },
+    "history": [
+      {
+        "generation": 0,
+        "evaluations": 2619,
+        "candidate_attempts": 240,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.6916666666666667,
+        "unique_fraction": 0.9833333333333333
+      },
+      {
+        "generation": 1,
+        "evaluations": 3314,
+        "candidate_attempts": 480,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8208333333333333,
+        "unique_fraction": 0.9333333333333333
+      },
+      {
+        "generation": 2,
+        "evaluations": 3630,
+        "candidate_attempts": 720,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8333333333333334,
+        "unique_fraction": 0.925
+      },
+      {
+        "generation": 3,
+        "evaluations": 3995,
+        "candidate_attempts": 960,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9,
+        "unique_fraction": 0.9166666666666666
+      },
+      {
+        "generation": 4,
+        "evaluations": 4408,
+        "candidate_attempts": 1200,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8625,
+        "unique_fraction": 0.9125
+      },
+      {
+        "generation": 5,
+        "evaluations": 4814,
+        "candidate_attempts": 1440,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8791666666666667,
+        "unique_fraction": 0.8916666666666667
+      },
+      {
+        "generation": 6,
+        "evaluations": 5317,
+        "candidate_attempts": 1680,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8541666666666666,
+        "unique_fraction": 0.8541666666666666
+      },
+      {
+        "generation": 7,
+        "evaluations": 5571,
+        "candidate_attempts": 1920,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.825,
+        "unique_fraction": 0.8291666666666667
+      },
+      {
+        "generation": 8,
+        "evaluations": 5902,
+        "candidate_attempts": 2160,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.7708333333333334
+      },
+      {
+        "generation": 9,
+        "evaluations": 6098,
+        "candidate_attempts": 2400,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.7416666666666667
+      },
+      {
+        "generation": 10,
+        "evaluations": 6433,
+        "candidate_attempts": 2640,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.6541666666666667
+      },
+      {
+        "generation": 11,
+        "evaluations": 6666,
+        "candidate_attempts": 2880,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.6208333333333333
+      },
+      {
+        "generation": 12,
+        "evaluations": 6920,
+        "candidate_attempts": 3120,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9583333333333334,
+        "unique_fraction": 0.5958333333333333
+      },
+      {
+        "generation": 13,
+        "evaluations": 7151,
+        "candidate_attempts": 3360,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 14,
+        "evaluations": 7358,
+        "candidate_attempts": 3600,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9083333333333333,
+        "unique_fraction": 0.49166666666666664
+      },
+      {
+        "generation": 15,
+        "evaluations": 7463,
+        "candidate_attempts": 3840,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.4791666666666667
+      },
+      {
+        "generation": 16,
+        "evaluations": 7746,
+        "candidate_attempts": 4080,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 17,
+        "evaluations": 8048,
+        "candidate_attempts": 4320,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.5625
+      },
+      {
+        "generation": 18,
+        "evaluations": 8343,
+        "candidate_attempts": 4560,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.5666666666666667
+      },
+      {
+        "generation": 19,
+        "evaluations": 8481,
+        "candidate_attempts": 4800,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.4875
+      },
+      {
+        "generation": 20,
+        "evaluations": 8830,
+        "candidate_attempts": 5040,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5041666666666667
+      },
+      {
+        "generation": 21,
+        "evaluations": 8998,
+        "candidate_attempts": 5280,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5
+      },
+      {
+        "generation": 22,
+        "evaluations": 9171,
+        "candidate_attempts": 5520,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9458333333333333,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 23,
+        "evaluations": 9505,
+        "candidate_attempts": 5760,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9458333333333333,
+        "unique_fraction": 0.45416666666666666
+      },
+      {
+        "generation": 24,
+        "evaluations": 9778,
+        "candidate_attempts": 6000,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.5208333333333334
+      },
+      {
+        "generation": 25,
+        "evaluations": 9904,
+        "candidate_attempts": 6240,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.49166666666666664
+      },
+      {
+        "generation": 26,
+        "evaluations": 10067,
+        "candidate_attempts": 6480,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9458333333333333,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 27,
+        "evaluations": 10327,
+        "candidate_attempts": 6720,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 28,
+        "evaluations": 10571,
+        "candidate_attempts": 6960,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.5291666666666667
+      },
+      {
+        "generation": 29,
+        "evaluations": 10749,
+        "candidate_attempts": 7200,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9166666666666666,
+        "unique_fraction": 0.5541666666666667
+      },
+      {
+        "generation": 30,
+        "evaluations": 10993,
+        "candidate_attempts": 7440,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.55
+      },
+      {
+        "generation": 31,
+        "evaluations": 11196,
+        "candidate_attempts": 7680,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.44166666666666665
+      },
+      {
+        "generation": 32,
+        "evaluations": 11419,
+        "candidate_attempts": 7920,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9166666666666666,
+        "unique_fraction": 0.5208333333333334
+      },
+      {
+        "generation": 33,
+        "evaluations": 11648,
+        "candidate_attempts": 8160,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5041666666666667
+      },
+      {
+        "generation": 34,
+        "evaluations": 11906,
+        "candidate_attempts": 8400,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.5625
+      },
+      {
+        "generation": 35,
+        "evaluations": 12000,
+        "candidate_attempts": 8640,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9583333333333334,
+        "unique_fraction": 0.55
+      },
+      {
+        "generation": 36,
+        "evaluations": 12285,
+        "candidate_attempts": 8880,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9583333333333334,
+        "unique_fraction": 0.5416666666666666
+      },
+      {
+        "generation": 37,
+        "evaluations": 12684,
+        "candidate_attempts": 9120,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.5041666666666667
+      },
+      {
+        "generation": 38,
+        "evaluations": 12843,
+        "candidate_attempts": 9360,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 39,
+        "evaluations": 13015,
+        "candidate_attempts": 9600,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9083333333333333,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 40,
+        "evaluations": 13280,
+        "candidate_attempts": 9840,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.5333333333333333
+      },
+      {
+        "generation": 41,
+        "evaluations": 13500,
+        "candidate_attempts": 10080,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.5291666666666667
+      },
+      {
+        "generation": 42,
+        "evaluations": 13804,
+        "candidate_attempts": 10320,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.5458333333333333
+      },
+      {
+        "generation": 43,
+        "evaluations": 14068,
+        "candidate_attempts": 10560,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.5833333333333334
+      },
+      {
+        "generation": 44,
+        "evaluations": 14233,
+        "candidate_attempts": 10800,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.6
+      },
+      {
+        "generation": 45,
+        "evaluations": 14492,
+        "candidate_attempts": 11040,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9333333333333333,
+        "unique_fraction": 0.5958333333333333
+      },
+      {
+        "generation": 46,
+        "evaluations": 14809,
+        "candidate_attempts": 11280,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9583333333333334,
+        "unique_fraction": 0.5875
+      },
+      {
+        "generation": 47,
+        "evaluations": 14980,
+        "candidate_attempts": 11520,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 48,
+        "evaluations": 15163,
+        "candidate_attempts": 11760,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 49,
+        "evaluations": 15352,
+        "candidate_attempts": 12000,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.525
+      },
+      {
+        "generation": 50,
+        "evaluations": 15519,
+        "candidate_attempts": 12240,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.5083333333333333
+      },
+      {
+        "generation": 51,
+        "evaluations": 15721,
+        "candidate_attempts": 12480,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 52,
+        "evaluations": 15919,
+        "candidate_attempts": 12720,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.575
+      },
+      {
+        "generation": 53,
+        "evaluations": 16046,
+        "candidate_attempts": 12960,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.575
+      },
+      {
+        "generation": 54,
+        "evaluations": 16278,
+        "candidate_attempts": 13200,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5875
+      },
+      {
+        "generation": 55,
+        "evaluations": 16549,
+        "candidate_attempts": 13440,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9583333333333334,
+        "unique_fraction": 0.5625
+      },
+      {
+        "generation": 56,
+        "evaluations": 16674,
+        "candidate_attempts": 13680,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.5458333333333333
+      },
+      {
+        "generation": 57,
+        "evaluations": 16752,
+        "candidate_attempts": 13920,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5458333333333333
+      },
+      {
+        "generation": 58,
+        "evaluations": 17124,
+        "candidate_attempts": 14160,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 59,
+        "evaluations": 17245,
+        "candidate_attempts": 14400,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9458333333333333,
+        "unique_fraction": 0.5166666666666667
+      },
+      {
+        "generation": 60,
+        "evaluations": 17555,
+        "candidate_attempts": 14640,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.525
+      },
+      {
+        "generation": 61,
+        "evaluations": 17868,
+        "candidate_attempts": 14880,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.5208333333333334
+      },
+      {
+        "generation": 62,
+        "evaluations": 18105,
+        "candidate_attempts": 15120,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9041666666666667,
+        "unique_fraction": 0.5625
+      },
+      {
+        "generation": 63,
+        "evaluations": 18217,
+        "candidate_attempts": 15360,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.5375
+      },
+      {
+        "generation": 64,
+        "evaluations": 18364,
+        "candidate_attempts": 15600,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.575
+      },
+      {
+        "generation": 65,
+        "evaluations": 18603,
+        "candidate_attempts": 15840,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9208333333333333,
+        "unique_fraction": 0.625
+      },
+      {
+        "generation": 66,
+        "evaluations": 18830,
+        "candidate_attempts": 16080,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9416666666666667,
+        "unique_fraction": 0.6458333333333334
+      },
+      {
+        "generation": 67,
+        "evaluations": 19027,
+        "candidate_attempts": 16320,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.6041666666666666
+      },
+      {
+        "generation": 68,
+        "evaluations": 19312,
+        "candidate_attempts": 16560,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.6083333333333333
+      },
+      {
+        "generation": 69,
+        "evaluations": 19451,
+        "candidate_attempts": 16800,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9458333333333333,
+        "unique_fraction": 0.5875
+      },
+      {
+        "generation": 70,
+        "evaluations": 19568,
+        "candidate_attempts": 17040,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9125,
+        "unique_fraction": 0.55
+      },
+      {
+        "generation": 71,
+        "evaluations": 19717,
+        "candidate_attempts": 17280,
+        "best_objective": 60.07910501285667,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9291666666666667,
+        "unique_fraction": 0.5708333333333333
+      }
+    ],
+    "initial_greedy_objective": 60.85681002250918,
+    "budget_scope": "all full fitness calls including greedy initialization and repair; route insertion costs counted separately",
+    "fitness_order": "structural_errors, normalized_hard_violation, distance_plus_weighted_arrival",
+    "experiment_fingerprint": {
+      "scenario_hash": "1a3957a627b7b424a713e510959c2ae3e8a60f521478a67399fbcf06b9521fc2",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "genetic",
+      "configuration": "pop240_mut30",
+      "seed": 101,
+      "population": 240,
+      "mutation": 0.3,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:53:56.403374+00:00"
+  }
+}

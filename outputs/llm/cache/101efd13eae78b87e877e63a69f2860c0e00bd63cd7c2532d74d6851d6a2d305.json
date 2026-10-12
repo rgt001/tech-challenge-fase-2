@@ -1,0 +1,31 @@
+{
+  "selection": {
+    "status": "insufficient_data",
+    "reason": "unsupported_data",
+    "sections": [
+      {
+        "heading": "answer",
+        "fact_ids": [
+          "s0.distance",
+          "s0.vehicles"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v1",
+    "context_hash": "4c8adf6dd4a127d16b21bff472ad19359d1d24bff004c6dab15e00cd0cc1b72c",
+    "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+    "response_id": "resp_0fa77f811c120381016ac96c2f5f0887d2be874b1410227ae1",
+    "reservation_id": "6c12b72def254a1992408afe4d126bb3",
+    "created_at": "2026-10-09T22:35:30.279552+00:00",
+    "input_tokens": 2330,
+    "output_tokens": 49,
+    "cached_tokens": 0
+  }
+}

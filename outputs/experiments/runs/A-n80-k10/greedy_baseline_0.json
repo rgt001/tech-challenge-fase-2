@@ -1,0 +1,774 @@
+{
+  "schema_version": "1.0",
+  "id": "77037df22e214032a6f0c7840ed039d8",
+  "scenario_id": "A-n80-k10",
+  "scenario_hash": "85fa70b92f8e36f1ffe35febd941ce5ef3189138f2d7f44adcd1bc9928b9b4bd",
+  "algorithm": "greedy",
+  "seed": null,
+  "status": "feasible",
+  "routes": [
+    {
+      "vehicle_id": "V1",
+      "stops": [
+        {
+          "delivery_id": "node_41",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_22",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_14",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_43",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_37",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_74",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_50",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 112.0,
+      "duration_s": 0.0,
+      "initial_load": 98.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V2",
+      "stops": [
+        {
+          "delivery_id": "node_68",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_67",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 11.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_71",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_54",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_78",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_52",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 3.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_28",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 4.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_53",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_8",
+          "order": 9,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 26.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_2",
+          "order": 10,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 24.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 224.0,
+      "duration_s": 0.0,
+      "initial_load": 99.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V3",
+      "stops": [
+        {
+          "delivery_id": "node_39",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_59",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_4",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_75",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 19.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_63",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 18.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_11",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 199.0,
+      "duration_s": 0.0,
+      "initial_load": 99.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V4",
+      "stops": [
+        {
+          "delivery_id": "node_40",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 21.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_61",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_30",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 10.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_45",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_13",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 16.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_64",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 22.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_72",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 174.0,
+      "duration_s": 0.0,
+      "initial_load": 100.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V5",
+      "stops": [
+        {
+          "delivery_id": "node_51",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 10.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_77",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 14.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_73",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_65",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_32",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_18",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 20.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_6",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 11.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_24",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 17.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_12",
+          "order": 9,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 14.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_15",
+          "order": 10,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 245.0,
+      "duration_s": 0.0,
+      "initial_load": 98.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V6",
+      "stops": [
+        {
+          "delivery_id": "node_29",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 20.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_35",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_25",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_7",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_31",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_79",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_60",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 22.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_16",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_33",
+          "order": 9,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 291.0,
+      "duration_s": 0.0,
+      "initial_load": 96.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V7",
+      "stops": [
+        {
+          "delivery_id": "node_80",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 24.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_47",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 11.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_42",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 13.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_34",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_55",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_23",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 26.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_46",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 279.0,
+      "duration_s": 0.0,
+      "initial_load": 100.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V8",
+      "stops": [
+        {
+          "delivery_id": "node_49",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_19",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 26.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_3",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 22.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_38",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 14.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_21",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 15.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_26",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 258.0,
+      "duration_s": 0.0,
+      "initial_load": 96.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V9",
+      "stops": [
+        {
+          "delivery_id": "node_5",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_10",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 23.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_56",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 14.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_20",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 12.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_76",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_62",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 22.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_69",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_9",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 318.0,
+      "duration_s": 0.0,
+      "initial_load": 100.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "V10",
+      "stops": [
+        {
+          "delivery_id": "node_17",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_44",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 3.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_58",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 21.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_27",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 4.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_36",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_66",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_48",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_70",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "node_57",
+          "order": 9,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 7.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 298.0,
+      "duration_s": 0.0,
+      "initial_load": 56.0,
+      "return_to_depot": true
+    }
+  ],
+  "metrics": {
+    "total_distance": 2398.0,
+    "total_duration_s": 0.0,
+    "weighted_arrival_s": 0.0,
+    "critical_arrival_mean_s": null,
+    "vehicles_used": 10,
+    "deliveries_served": 79,
+    "objective": 2398.0
+  },
+  "verification": {
+    "valid": true,
+    "errors": [],
+    "checked_deliveries": 79,
+    "recomputed": {
+      "total_distance": 2398.0,
+      "total_duration_s": 0.0,
+      "weighted_arrival_s": 0.0,
+      "critical_arrival_mean_s": null,
+      "vehicles_used": 10,
+      "deliveries_served": 79,
+      "objective": 2398.0
+    }
+  },
+  "diagnostics": [],
+  "metadata": {
+    "elapsed_s": 0.04914999999891734,
+    "construction": "best_of_priority_proximity_and_descending_load_insertions",
+    "repair_max_moves": 12,
+    "experiment_fingerprint": {
+      "scenario_hash": "85fa70b92f8e36f1ffe35febd941ce5ef3189138f2d7f44adcd1bc9928b9b4bd",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "greedy",
+      "configuration": "baseline",
+      "seed": 0,
+      "population": 160,
+      "mutation": 0.2,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:56:34.702727+00:00"
+  }
+}

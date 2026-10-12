@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-09T19:21:30.941762+00:00",
+  "bbox": [
+    -46.69,
+    -23.59,
+    -46.61,
+    -23.52
+  ],
+  "network_type": "drive",
+  "original_nodes": 7219,
+  "retained_nodes": 7029,
+  "edges": 14036,
+  "component": "largest_strongly_connected",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "graph_sha256": "1f64f043f10479d7f1cf9be8c50388be6cb7e8183bcfeb2eba75c3c3bccf4596",
+  "speed_model": "OSM maxspeed or mean by highway type; fallback 30 km/h",
+  "travel_time": "free_flow_estimate_not_live_traffic",
+  "path_weight": "travel_time",
+  "url": "https://www.openstreetmap.org/",
+  "prepared_with_osmnx": "2.1.1",
+  "limitations": [
+    "Trânsito, restrições de conversão e horários de operação não são modelados"
+  ]
+}

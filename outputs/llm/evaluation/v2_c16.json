@@ -1,0 +1,50 @@
+{
+  "case_id": "c16",
+  "prompt_version": "v2",
+  "context_hash": "1f8acd61b41e6399e0e1fc2ca4c70168b8a3dd103bd9e10e2464e9d84423c11c",
+  "case_hash": "6483338cdb28bc7b6b37fc5196ed8c1e03fbc0d5b602f8940ce207a1138d6529",
+  "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:36:25.601953+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.r0.p0.arrival",
+            "value": 6.826648197747157,
+            "text": "VEI_01, parada 1: ENT_004 (Unidade simulada 004), prioridade critica; chegada estimada 6.83 minutos após a saída."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "1f8acd61b41e6399e0e1fc2ca4c70168b8a3dd103bd9e10e2464e9d84423c11c",
+      "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+      "response_id": "resp_01c53c837297ad77016ac96c69f0a487d18ce3e9cbaf69b5a9",
+      "reservation_id": "efec416ad2ec4522964e3980611e0459",
+      "created_at": "2026-10-09T22:36:28.481161+00:00",
+      "input_tokens": 2767,
+      "output_tokens": 46,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

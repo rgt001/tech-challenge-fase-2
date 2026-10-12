@@ -1,0 +1,50 @@
+{
+  "case_id": "c20",
+  "prompt_version": "v2",
+  "context_hash": "e699a5b679ca270826a3f1aba1596eded222af0226efd71d14a4331a61d22ca6",
+  "case_hash": "374b350f77a8b83fca6c55d17910b9074b8f085942c6e4fcf8b29d101ba44708",
+  "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:36:37.540116+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "e699a5b679ca270826a3f1aba1596eded222af0226efd71d14a4331a61d22ca6",
+      "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+      "response_id": "resp_02aa08f8a48a6dff016ac96c75302c87d1b4e1c8cc2c6b0450",
+      "reservation_id": "e29f287e61384d5a88f155f0e2669fdc",
+      "created_at": "2026-10-09T22:36:39.771245+00:00",
+      "input_tokens": 2767,
+      "output_tokens": 42,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

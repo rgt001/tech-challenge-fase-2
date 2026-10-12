@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "id": "605ae1caa2aa47859e3cbc8155701a69",
+  "scenario_id": "sp_stress_range",
+  "scenario_hash": "49f4b7594c39c3d5785b97fd013c6e7fb69b8fac10785b991d63c8b8b3e124e0",
+  "algorithm": "ortools",
+  "seed": null,
+  "status": "no_feasible_solution",
+  "routes": [],
+  "metrics": null,
+  "verification": null,
+  "diagnostics": [
+    "Busca não encontrou solução viável no orçamento"
+  ],
+  "metadata": {
+    "elapsed_s": 0.007820399994670879,
+    "time_budget_s": 5,
+    "routing_status": 3,
+    "distance_precision": 0.001,
+    "load_precision": 0.001,
+    "time_precision_s": 0.001,
+    "priority_penalty_rounding": "integer penalty per millisecond",
+    "experiment_fingerprint": {
+      "scenario_hash": "49f4b7594c39c3d5785b97fd013c6e7fb69b8fac10785b991d63c8b8b3e124e0",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "ortools",
+      "configuration": "baseline",
+      "seed": 42,
+      "population": 80,
+      "mutation": 0.1,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:57:44.646208+00:00"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "c12",
+  "prompt_version": "v2",
+  "context_hash": "cbc835551de76727da871cf4cb744c5586c82d9c3f921c804f7fdfa175c39517",
+  "case_hash": "3b75303a61b2fe6762dc6ce2b3fb4a204ecae0d8c29c2f9976cc71238c30baca",
+  "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:36:15.117122+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.algorithm",
+            "value": "genetic",
+            "text": "Método usado: genetic."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "cbc835551de76727da871cf4cb744c5586c82d9c3f921c804f7fdfa175c39517",
+      "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+      "response_id": "resp_042a03a31cee637f016ac96c5ea43087d1b75404c22f5b201c",
+      "reservation_id": "7329321ae60641cbafcf8fdc511e3c08",
+      "created_at": "2026-10-09T22:36:17.476218+00:00",
+      "input_tokens": 2765,
+      "output_tokens": 41,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "id": "a0a8f8a22acc48fb91efe4595ef18b74",
+  "scenario_id": "fiap_tsp_15",
+  "scenario_hash": "72cd8bb40382545d457a87d25a3f945108aae2eab72511a12b46de53633b5c0d",
+  "algorithm": "fiap_original",
+  "seed": 307,
+  "status": "feasible",
+  "routes": [
+    {
+      "vehicle_id": "V1",
+      "stops": [
+        {
+          "delivery_id": "city_10",
+          "order": 1,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_11",
+          "order": 2,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_3",
+          "order": 3,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_1",
+          "order": 4,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_5",
+          "order": 5,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_2",
+          "order": 6,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_13",
+          "order": 7,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_7",
+          "order": 8,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_4",
+          "order": 9,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_8",
+          "order": 10,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_6",
+          "order": 11,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_14",
+          "order": 12,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_9",
+          "order": 13,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "city_12",
+          "order": 14,
+          "arrival_s": 0.0,
+          "departure_s": 0.0,
+          "load": 1.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 1732.9175096273088,
+      "duration_s": 0.0,
+      "initial_load": 14.0,
+      "return_to_depot": true
+    }
+  ],
+  "metrics": {
+    "total_distance": 1732.9175096273088,
+    "total_duration_s": 0.0,
+    "weighted_arrival_s": 0.0,
+    "critical_arrival_mean_s": null,
+    "vehicles_used": 1,
+    "deliveries_served": 14,
+    "objective": 1732.9175096273088
+  },
+  "verification": {
+    "valid": true,
+    "errors": [],
+    "checked_deliveries": 14,
+    "recomputed": {
+      "total_distance": 1732.9175096273088,
+      "total_duration_s": 0.0,
+      "weighted_arrival_s": 0.0,
+      "critical_arrival_mean_s": null,
+      "vehicles_used": 1,
+      "deliveries_served": 14,
+      "objective": 1732.9175096273088
+    }
+  },
+  "diagnostics": [],
+  "metadata": {
+    "elapsed_s": 0.7010164000021177,
+    "evaluations": 20000,
+    "population_size": 100,
+    "mutation_probability": 0.5,
+    "same_parent_crossover_preserved": true,
+    "source_commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3",
+    "source_sha256": "1307d82e1907bb31e90e8abae838fa05e70cfcfc29e85711bdfb5be8f8ecb526",
+    "experiment_fingerprint": {
+      "scenario_hash": "72cd8bb40382545d457a87d25a3f945108aae2eab72511a12b46de53633b5c0d",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "fiap_original",
+      "configuration": "reference",
+      "seed": 307,
+      "population": 160,
+      "mutation": 0.2,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:57:16.048648+00:00"
+  }
+}

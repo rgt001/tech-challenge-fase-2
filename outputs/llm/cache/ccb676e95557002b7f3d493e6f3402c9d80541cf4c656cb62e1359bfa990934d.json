@@ -1,0 +1,81 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "routes",
+        "fact_ids": [
+          "s0.r0.sequence",
+          "s0.r1.sequence",
+          "s0.r2.sequence"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "vehicle_id": "VEI_01",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_018",
+          "ENT_012",
+          "ENT_013",
+          "ENT_022",
+          "ENT_009",
+          "ENT_015",
+          "ENT_006",
+          "ENT_026",
+          "ENT_014"
+        ]
+      },
+      {
+        "vehicle_id": "VEI_02",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_017",
+          "ENT_024",
+          "ENT_019",
+          "ENT_021",
+          "ENT_016",
+          "ENT_020",
+          "ENT_008",
+          "ENT_010",
+          "ENT_025",
+          "ENT_028"
+        ]
+      },
+      {
+        "vehicle_id": "VEI_03",
+        "solution_id": "d5414bb402ac43ccb93ff1d76140965c",
+        "delivery_ids": [
+          "ENT_005",
+          "ENT_003",
+          "ENT_004",
+          "ENT_001",
+          "ENT_011",
+          "ENT_030",
+          "ENT_023",
+          "ENT_002",
+          "ENT_027",
+          "ENT_029",
+          "ENT_007"
+        ]
+      }
+    ],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v2",
+    "context_hash": "2ad007ae75a513a6675e4f04641377f2c1d50e350b628aecbb3ae056cad89485",
+    "contract_hash": "7bf700e9a2804e1618661f9404db00d307384167a21bdd1d56dbb625d6d0c412",
+    "response_id": "resp_0ad298f193875717016ac96c428dec87d1a6cf02adcdbda7b6",
+    "reservation_id": "6c492ceb1dc14be38c603f774e9d219d",
+    "created_at": "2026-10-09T22:35:50.539928+00:00",
+    "input_tokens": 4502,
+    "output_tokens": 272,
+    "cached_tokens": 0
+  }
+}

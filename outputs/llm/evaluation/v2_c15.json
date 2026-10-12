@@ -1,0 +1,60 @@
+{
+  "case_id": "c15",
+  "prompt_version": "v2",
+  "context_hash": "df2cba47d3e4899ccc7ba7e03631d2aa0e3d73a6119607f48c4c006a42a836ca",
+  "case_hash": "c7d9b96e3f954eec034a54f19b35ae23db0c0768eefb83b494c85e9f086c9760",
+  "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:36:22.088939+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.r0.return",
+            "value": 55.066271433620976,
+            "text": "Retorno de VEI_01: 55.07 minutos após a saída."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          },
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "df2cba47d3e4899ccc7ba7e03631d2aa0e3d73a6119607f48c4c006a42a836ca",
+      "contract_hash": "b05f7bb7602b730b04dc6865c734e5f84d0a7db2c6d02e89ac9dc92c41f5566b",
+      "response_id": "resp_03f4f3c5b27b2887016ac96c66594087d1be505fef4f80badd",
+      "reservation_id": "4d9df2c7578b4d96b29c49701c769c52",
+      "created_at": "2026-10-09T22:36:25.539806+00:00",
+      "input_tokens": 2769,
+      "output_tokens": 52,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

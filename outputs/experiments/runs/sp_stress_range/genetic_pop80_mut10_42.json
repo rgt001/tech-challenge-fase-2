@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "id": "70cb1f9288d649a88c0bbb6d4ac0260e",
+  "scenario_id": "sp_stress_range",
+  "scenario_hash": "49f4b7594c39c3d5785b97fd013c6e7fb69b8fac10785b991d63c8b8b3e124e0",
+  "algorithm": "genetic",
+  "seed": 42,
+  "status": "feasible",
+  "routes": [
+    {
+      "vehicle_id": "VEI_01",
+      "stops": [
+        {
+          "delivery_id": "ENT_005",
+          "order": 1,
+          "arrival_s": 133.1314667201587,
+          "departure_s": 553.1314667201586,
+          "load": 2.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_018",
+          "order": 2,
+          "arrival_s": 873.3356826891803,
+          "departure_s": 1053.3356826891804,
+          "load": 8.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_012",
+          "order": 3,
+          "arrival_s": 1194.808345123019,
+          "departure_s": 1494.808345123019,
+          "load": 2.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_013",
+          "order": 4,
+          "arrival_s": 1668.548527420067,
+          "departure_s": 1968.548527420067,
+          "load": 5.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_022",
+          "order": 5,
+          "arrival_s": 2030.0174946509346,
+          "departure_s": 2330.0174946509346,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_009",
+          "order": 6,
+          "arrival_s": 2486.80311555493,
+          "departure_s": 2906.80311555493,
+          "load": 4.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_015",
+          "order": 7,
+          "arrival_s": 3124.267739056083,
+          "departure_s": 3544.267739056083,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_006",
+          "order": 8,
+          "arrival_s": 3695.156558179642,
+          "departure_s": 3875.156558179642,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_026",
+          "order": 9,
+          "arrival_s": 3905.174132123992,
+          "departure_s": 4325.1741321239915,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_014",
+          "order": 10,
+          "arrival_s": 4535.873075551264,
+          "departure_s": 4835.873075551264,
+          "load": 3.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_007",
+          "order": 11,
+          "arrival_s": 5061.174391021768,
+          "departure_s": 5361.174391021768,
+          "load": 10.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 23463.145223720407,
+      "duration_s": 5447.156398843768,
+      "initial_load": 57.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "VEI_02",
+      "stops": [
+        {
+          "delivery_id": "ENT_017",
+          "order": 1,
+          "arrival_s": 232.6412671298268,
+          "departure_s": 652.6412671298268,
+          "load": 6.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_024",
+          "order": 2,
+          "arrival_s": 910.3394832382787,
+          "departure_s": 1090.3394832382787,
+          "load": 9.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_019",
+          "order": 3,
+          "arrival_s": 1228.4471523334353,
+          "departure_s": 1408.4471523334353,
+          "load": 4.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_021",
+          "order": 4,
+          "arrival_s": 1489.6671664396688,
+          "departure_s": 1789.6671664396688,
+          "load": 3.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_016",
+          "order": 5,
+          "arrival_s": 1997.4455786857684,
+          "departure_s": 2417.4455786857684,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_020",
+          "order": 6,
+          "arrival_s": 2506.8321281096582,
+          "departure_s": 2926.8321281096582,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_008",
+          "order": 7,
+          "arrival_s": 3134.768912711388,
+          "departure_s": 3314.768912711388,
+          "load": 3.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_010",
+          "order": 8,
+          "arrival_s": 3505.8200904331593,
+          "departure_s": 3685.8200904331593,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_025",
+          "order": 9,
+          "arrival_s": 3877.488325715062,
+          "departure_s": 4057.488325715062,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_028",
+          "order": 10,
+          "arrival_s": 4188.129032008952,
+          "departure_s": 4608.129032008952,
+          "load": 6.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 22754.493853661836,
+      "duration_s": 4787.822678570493,
+      "initial_load": 51.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "VEI_03",
+      "stops": [
+        {
+          "delivery_id": "ENT_003",
+          "order": 1,
+          "arrival_s": 315.8909272577143,
+          "departure_s": 495.8909272577143,
+          "load": 5.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_004",
+          "order": 2,
+          "arrival_s": 685.020736534969,
+          "departure_s": 985.020736534969,
+          "load": 5.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_001",
+          "order": 3,
+          "arrival_s": 1147.437424286119,
+          "departure_s": 1447.437424286119,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_011",
+          "order": 4,
+          "arrival_s": 1773.146686079844,
+          "departure_s": 1953.146686079844,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_023",
+          "order": 5,
+          "arrival_s": 2180.968284532402,
+          "departure_s": 2600.968284532402,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_002",
+          "order": 6,
+          "arrival_s": 2638.791670828101,
+          "departure_s": 2818.791670828101,
+          "load": 8.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_030",
+          "order": 7,
+          "arrival_s": 3026.025442595456,
+          "departure_s": 3446.025442595456,
+          "load": 6.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_027",
+          "order": 8,
+          "arrival_s": 3549.6908704929538,
+          "departure_s": 3729.6908704929538,
+          "load": 4.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_029",
+          "order": 9,
+          "arrival_s": 3883.0659703674382,
+          "departure_s": 4063.0659703674382,
+          "load": 5.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 23146.031644735933,
+      "duration_s": 4191.45968402629,
+      "initial_load": 55.0,
+      "return_to_depot": true
+    }
+  ],
+  "metrics": {
+    "total_distance": 69363.67072211817,
+    "total_duration_s": 14426.43876144055,
+    "weighted_arrival_s": 134397.47431062732,
+    "critical_arrival_mean_s": 615.6309965614323,
+    "vehicles_used": 3,
+    "deliveries_served": 30,
+    "objective": 181.36156598097426
+  },
+  "verification": {
+    "valid": true,
+    "errors": [],
+    "checked_deliveries": 30,
+    "recomputed": {
+      "total_distance": 69363.67072211817,
+      "total_duration_s": 14426.438761440551,
+      "weighted_arrival_s": 134397.47431062732,
+      "critical_arrival_mean_s": 615.6309965614323,
+      "vehicles_used": 3,
+      "deliveries_served": 30,
+      "objective": 181.36156598097426
+    }
+  },
+  "diagnostics": [],
+  "metadata": {
+    "elapsed_s": 0.4197903000022052,
+    "evaluations": 20000,
+    "candidate_attempts": 0,
+    "route_cost_calls": 64856,
+    "unique_fitness_evaluations": 19711,
+    "generations": 0,
+    "termination": "evaluation_budget",
+    "configuration": {
+      "population_size": 80,
+      "mutation_probability": 0.1,
+      "crossover_probability": 0.9,
+      "tournament_size": 3,
+      "elites": 2,
+      "max_evaluations": 20000,
+      "max_seconds": 120,
+      "repair_probability": 0.15,
+      "seed": 42
+    },
+    "history": [],
+    "initial_greedy_objective": 181.6462357341912,
+    "budget_scope": "all full fitness calls including greedy initialization and repair; route insertion costs counted separately",
+    "fitness_order": "structural_errors, normalized_hard_violation, distance_plus_weighted_arrival",
+    "experiment_fingerprint": {
+      "scenario_hash": "49f4b7594c39c3d5785b97fd013c6e7fb69b8fac10785b991d63c8b8b3e124e0",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "genetic",
+      "configuration": "pop80_mut10",
+      "seed": 42,
+      "population": 80,
+      "mutation": 0.1,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:57:45.587210+00:00"
+  }
+}

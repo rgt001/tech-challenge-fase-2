@@ -1,0 +1,50 @@
+{
+  "case_id": "c18",
+  "prompt_version": "v1",
+  "context_hash": "6ac280ae0f9f7e55ce265947238e151d37c159880bb1b2a4fbe488893baab6d9",
+  "case_hash": "3c4421980fb6814bd7261522552481fd4a7b88c002e2e1725a5c369e26eae8ca",
+  "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:07.693223+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "period.distance",
+            "value": 313.0879282592782,
+            "text": "Distância acumulada: 313.088 km."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "6ac280ae0f9f7e55ce265947238e151d37c159880bb1b2a4fbe488893baab6d9",
+      "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+      "response_id": "resp_053e5fe4d78e2aae016ac96c1b839487d1b17e6410b8d6cae7",
+      "reservation_id": "d29546537471449fa55f0992ba5a0da6",
+      "created_at": "2026-10-09T22:35:10.061953+00:00",
+      "input_tokens": 13484,
+      "output_tokens": 40,
+      "cached_tokens": 1818
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

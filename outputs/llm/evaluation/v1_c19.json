@@ -1,0 +1,50 @@
+{
+  "case_id": "c19",
+  "prompt_version": "v1",
+  "context_hash": "7a9c386a4b552c816302026b19a95fe590090c831966ade1abf26967acfa8bd8",
+  "case_hash": "debff40e26cb94997873edc562939f14d908060c41983ebfacce05ca1ebff8ba",
+  "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:10.358430+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "period.deliveries",
+            "value": 84,
+            "text": "Entregas atendidas no período: 84."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "7a9c386a4b552c816302026b19a95fe590090c831966ade1abf26967acfa8bd8",
+      "contract_hash": "72e2247c311cae5530e195e027e03ae59f544024a60a74f183f997149054492c",
+      "response_id": "resp_055d57ead2dfac88016ac96c1e684887d1a64443769bb56dc7",
+      "reservation_id": "1453bc05eea2422a885370b98e5031d6",
+      "created_at": "2026-10-09T22:35:12.955464+00:00",
+      "input_tokens": 13487,
+      "output_tokens": 42,
+      "cached_tokens": 1818
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

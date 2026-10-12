@@ -1,0 +1,35 @@
+{
+  "status": "falhou",
+  "prompts": {
+    "v1": {
+      "cases": 30,
+      "accepted": 25,
+      "factual_consistency": true,
+      "answerable_useful_fraction": 0.8181818181818182,
+      "insufficient_correct": 6,
+      "mean_clarity": 4.96
+    },
+    "v2": {
+      "cases": 30,
+      "accepted": 23,
+      "factual_consistency": true,
+      "answerable_useful_fraction": 0.6818181818181818,
+      "insufficient_correct": 6,
+      "mean_clarity": 4.913043478260869
+    }
+  },
+  "selected": "v1",
+  "cases_sha256": "c512405dd50e912c70edb2feb00f52d40a978fb2dc8ab46f9ca554825142b05c",
+  "completed": 60,
+  "created_at": "2026-10-09T22:28:56.024519+00:00",
+  "budget": {
+    "limit_usd": 1.0,
+    "committed_upper_usd": 0.027862,
+    "remaining_usd": 0.972138,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "pricing_checked": "2026-10-09",
+    "accounting": "conservative_upper_bound",
+    "calls_count": 60
+  },
+  "limitation": "Rubrica automática avalia seleção e apresentação de fatos controlados; não mede empatia ou compreensão clínica."
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "c27",
+  "prompt_version": "v1",
+  "context_hash": "6d54a359dce40de7b09624287bfccd449e36e041f68b3f22a13d70a78ad8d09b",
+  "case_hash": "8e5a0460d4c48cd7d63fbf7c316535b71f7a0e9d065d2527d4f74cb16a7ca62c",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "insufficient",
+  "created_at": "2026-10-09T22:35:30.329523+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "insufficient_data",
+    "reason": "A informação solicitada não está disponível nos dados certificados.",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": []
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "6d54a359dce40de7b09624287bfccd449e36e041f68b3f22a13d70a78ad8d09b",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_0d11397d79633d5b016ac96c31dd0c87d1b0ec7785e2239cc8",
+      "reservation_id": "85e8ccf6d7784c8a9f0dff0db7ec8017",
+      "created_at": "2026-10-09T22:35:32.381778+00:00",
+      "input_tokens": 2330,
+      "output_tokens": 40,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

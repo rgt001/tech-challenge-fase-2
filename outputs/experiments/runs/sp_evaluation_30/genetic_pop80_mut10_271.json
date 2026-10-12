@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.0",
+  "id": "1bb08965152f469e9a5d46914e853c45",
+  "scenario_id": "sp_evaluation_30",
+  "scenario_hash": "2bde729348473a7410919f10d166a3a17acb9f35cf46a391bdbd972795958de9",
+  "algorithm": "genetic",
+  "seed": 271,
+  "status": "feasible",
+  "routes": [
+    {
+      "vehicle_id": "VEI_01",
+      "stops": [
+        {
+          "delivery_id": "ENT_018",
+          "order": 1,
+          "arrival_s": 340.514803382488,
+          "departure_s": 520.514803382488,
+          "load": 8.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_012",
+          "order": 2,
+          "arrival_s": 661.9874658163266,
+          "departure_s": 961.9874658163266,
+          "load": 2.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_013",
+          "order": 3,
+          "arrival_s": 1135.7276481133745,
+          "departure_s": 1435.7276481133745,
+          "load": 5.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_022",
+          "order": 4,
+          "arrival_s": 1497.196615344242,
+          "departure_s": 1797.196615344242,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_009",
+          "order": 5,
+          "arrival_s": 1953.9822362482373,
+          "departure_s": 2373.9822362482373,
+          "load": 4.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_015",
+          "order": 6,
+          "arrival_s": 2591.44685974939,
+          "departure_s": 3011.44685974939,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_006",
+          "order": 7,
+          "arrival_s": 3162.3356788729493,
+          "departure_s": 3342.3356788729493,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_026",
+          "order": 8,
+          "arrival_s": 3372.353252817299,
+          "departure_s": 3792.353252817299,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_014",
+          "order": 9,
+          "arrival_s": 4003.052196244572,
+          "departure_s": 4303.052196244572,
+          "load": 3.0,
+          "priority": "urgente"
+        }
+      ],
+      "distance": 22271.669941965378,
+      "duration_s": 4592.131968295689,
+      "initial_load": 45.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "VEI_02",
+      "stops": [
+        {
+          "delivery_id": "ENT_017",
+          "order": 1,
+          "arrival_s": 232.6412671298268,
+          "departure_s": 652.6412671298268,
+          "load": 6.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_024",
+          "order": 2,
+          "arrival_s": 910.3394832382787,
+          "departure_s": 1090.3394832382787,
+          "load": 9.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_019",
+          "order": 3,
+          "arrival_s": 1228.4471523334353,
+          "departure_s": 1408.4471523334353,
+          "load": 4.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_021",
+          "order": 4,
+          "arrival_s": 1489.6671664396688,
+          "departure_s": 1789.6671664396688,
+          "load": 3.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_016",
+          "order": 5,
+          "arrival_s": 1997.4455786857684,
+          "departure_s": 2417.4455786857684,
+          "load": 2.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_020",
+          "order": 6,
+          "arrival_s": 2506.8321281096582,
+          "departure_s": 2926.8321281096582,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_008",
+          "order": 7,
+          "arrival_s": 3134.768912711388,
+          "departure_s": 3314.768912711388,
+          "load": 3.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_010",
+          "order": 8,
+          "arrival_s": 3505.8200904331593,
+          "departure_s": 3685.8200904331593,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_025",
+          "order": 9,
+          "arrival_s": 3877.488325715062,
+          "departure_s": 4057.488325715062,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_028",
+          "order": 10,
+          "arrival_s": 4188.129032008952,
+          "departure_s": 4608.129032008952,
+          "load": 6.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 22754.493853661836,
+      "duration_s": 4787.822678570493,
+      "initial_load": 51.0,
+      "return_to_depot": true
+    },
+    {
+      "vehicle_id": "VEI_03",
+      "stops": [
+        {
+          "delivery_id": "ENT_005",
+          "order": 1,
+          "arrival_s": 133.1314667201587,
+          "departure_s": 553.1314667201586,
+          "load": 2.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_003",
+          "order": 2,
+          "arrival_s": 853.1881163520345,
+          "departure_s": 1033.1881163520345,
+          "load": 5.0,
+          "priority": "critica"
+        },
+        {
+          "delivery_id": "ENT_004",
+          "order": 3,
+          "arrival_s": 1222.3179256292892,
+          "departure_s": 1522.3179256292892,
+          "load": 5.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_001",
+          "order": 4,
+          "arrival_s": 1684.7346133804394,
+          "departure_s": 1984.7346133804394,
+          "load": 6.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_011",
+          "order": 5,
+          "arrival_s": 2310.443875174164,
+          "departure_s": 2490.443875174164,
+          "load": 7.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_002",
+          "order": 6,
+          "arrival_s": 2727.7538265202834,
+          "departure_s": 2907.7538265202834,
+          "load": 8.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_023",
+          "order": 7,
+          "arrival_s": 2993.0491161886252,
+          "departure_s": 3413.0491161886252,
+          "load": 9.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_030",
+          "order": 8,
+          "arrival_s": 3572.35670096947,
+          "departure_s": 3992.35670096947,
+          "load": 6.0,
+          "priority": "urgente"
+        },
+        {
+          "delivery_id": "ENT_027",
+          "order": 9,
+          "arrival_s": 4096.022128866968,
+          "departure_s": 4276.022128866968,
+          "load": 4.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_029",
+          "order": 10,
+          "arrival_s": 4429.397228741453,
+          "departure_s": 4609.397228741453,
+          "load": 5.0,
+          "priority": "regular"
+        },
+        {
+          "delivery_id": "ENT_007",
+          "order": 11,
+          "arrival_s": 4721.115581966122,
+          "departure_s": 5021.115581966122,
+          "load": 10.0,
+          "priority": "regular"
+        }
+      ],
+      "distance": 25744.15258681254,
+      "duration_s": 5107.097589788122,
+      "initial_load": 67.0,
+      "return_to_depot": true
+    }
+  ],
+  "metrics": {
+    "total_distance": 70770.31638243975,
+    "total_duration_s": 14487.052236654305,
+    "weighted_arrival_s": 131896.22975523098,
+    "critical_arrival_mean_s": 616.3770481927037,
+    "vehicles_used": 3,
+    "deliveries_served": 30,
+    "objective": 180.68384117846557
+  },
+  "verification": {
+    "valid": true,
+    "errors": [],
+    "checked_deliveries": 30,
+    "recomputed": {
+      "total_distance": 70770.31638243975,
+      "total_duration_s": 14487.052236654305,
+      "weighted_arrival_s": 131896.22975523095,
+      "critical_arrival_mean_s": 616.3770481927037,
+      "vehicles_used": 3,
+      "deliveries_served": 30,
+      "objective": 180.68384117846554
+    }
+  },
+  "diagnostics": [],
+  "metadata": {
+    "elapsed_s": 0.40966300000582123,
+    "evaluations": 20000,
+    "candidate_attempts": 4640,
+    "route_cost_calls": 64941,
+    "unique_fitness_evaluations": 19224,
+    "generations": 57,
+    "termination": "evaluation_budget",
+    "configuration": {
+      "population_size": 80,
+      "mutation_probability": 0.1,
+      "crossover_probability": 0.9,
+      "tournament_size": 3,
+      "elites": 2,
+      "max_evaluations": 20000,
+      "max_seconds": 120,
+      "repair_probability": 0.15,
+      "seed": 271
+    },
+    "history": [
+      {
+        "generation": 0,
+        "evaluations": 6555,
+        "candidate_attempts": 80,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.5,
+        "unique_fraction": 0.9875
+      },
+      {
+        "generation": 1,
+        "evaluations": 7339,
+        "candidate_attempts": 160,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.7125,
+        "unique_fraction": 0.9
+      },
+      {
+        "generation": 2,
+        "evaluations": 7658,
+        "candidate_attempts": 240,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.7375,
+        "unique_fraction": 0.8625
+      },
+      {
+        "generation": 3,
+        "evaluations": 7711,
+        "candidate_attempts": 320,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.8125,
+        "unique_fraction": 0.8
+      },
+      {
+        "generation": 4,
+        "evaluations": 8016,
+        "candidate_attempts": 400,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9125,
+        "unique_fraction": 0.6875
+      },
+      {
+        "generation": 5,
+        "evaluations": 8062,
+        "candidate_attempts": 480,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9125,
+        "unique_fraction": 0.625
+      },
+      {
+        "generation": 6,
+        "evaluations": 8097,
+        "candidate_attempts": 560,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.525
+      },
+      {
+        "generation": 7,
+        "evaluations": 8389,
+        "candidate_attempts": 640,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.5
+      },
+      {
+        "generation": 8,
+        "evaluations": 8924,
+        "candidate_attempts": 720,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9,
+        "unique_fraction": 0.4875
+      },
+      {
+        "generation": 9,
+        "evaluations": 8955,
+        "candidate_attempts": 800,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.4875
+      },
+      {
+        "generation": 10,
+        "evaluations": 8994,
+        "candidate_attempts": 880,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 11,
+        "evaluations": 9030,
+        "candidate_attempts": 960,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.45
+      },
+      {
+        "generation": 12,
+        "evaluations": 9575,
+        "candidate_attempts": 1040,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 13,
+        "evaluations": 10121,
+        "candidate_attempts": 1120,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.375
+      },
+      {
+        "generation": 14,
+        "evaluations": 10637,
+        "candidate_attempts": 1200,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.375
+      },
+      {
+        "generation": 15,
+        "evaluations": 10672,
+        "candidate_attempts": 1280,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 16,
+        "evaluations": 10701,
+        "candidate_attempts": 1360,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.3625
+      },
+      {
+        "generation": 17,
+        "evaluations": 10727,
+        "candidate_attempts": 1440,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.3625
+      },
+      {
+        "generation": 18,
+        "evaluations": 10752,
+        "candidate_attempts": 1520,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.3625
+      },
+      {
+        "generation": 19,
+        "evaluations": 10774,
+        "candidate_attempts": 1600,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 1.0,
+        "unique_fraction": 0.35
+      },
+      {
+        "generation": 20,
+        "evaluations": 11267,
+        "candidate_attempts": 1680,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.3
+      },
+      {
+        "generation": 21,
+        "evaluations": 11290,
+        "candidate_attempts": 1760,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.35
+      },
+      {
+        "generation": 22,
+        "evaluations": 11321,
+        "candidate_attempts": 1840,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.45
+      },
+      {
+        "generation": 23,
+        "evaluations": 11349,
+        "candidate_attempts": 1920,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 24,
+        "evaluations": 11376,
+        "candidate_attempts": 2000,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 1.0,
+        "unique_fraction": 0.4625
+      },
+      {
+        "generation": 25,
+        "evaluations": 12161,
+        "candidate_attempts": 2080,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.5
+      },
+      {
+        "generation": 26,
+        "evaluations": 12187,
+        "candidate_attempts": 2160,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.3375
+      },
+      {
+        "generation": 27,
+        "evaluations": 13198,
+        "candidate_attempts": 2240,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.375
+      },
+      {
+        "generation": 28,
+        "evaluations": 13227,
+        "candidate_attempts": 2320,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.3875
+      },
+      {
+        "generation": 29,
+        "evaluations": 13258,
+        "candidate_attempts": 2400,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 30,
+        "evaluations": 13288,
+        "candidate_attempts": 2480,
+        "best_objective": 181.92943121195242,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 31,
+        "evaluations": 13318,
+        "candidate_attempts": 2560,
+        "best_objective": 181.74353824190487,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.4375
+      },
+      {
+        "generation": 32,
+        "evaluations": 13345,
+        "candidate_attempts": 2640,
+        "best_objective": 181.74353824190487,
+        "best_violation": 0.0,
+        "feasible_fraction": 1.0,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 33,
+        "evaluations": 13372,
+        "candidate_attempts": 2720,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.3875
+      },
+      {
+        "generation": 34,
+        "evaluations": 13405,
+        "candidate_attempts": 2800,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.3875
+      },
+      {
+        "generation": 35,
+        "evaluations": 13940,
+        "candidate_attempts": 2880,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.3
+      },
+      {
+        "generation": 36,
+        "evaluations": 13976,
+        "candidate_attempts": 2960,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.4
+      },
+      {
+        "generation": 37,
+        "evaluations": 14010,
+        "candidate_attempts": 3040,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.4
+      },
+      {
+        "generation": 38,
+        "evaluations": 14546,
+        "candidate_attempts": 3120,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.925,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 39,
+        "evaluations": 14583,
+        "candidate_attempts": 3200,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.4375
+      },
+      {
+        "generation": 40,
+        "evaluations": 14622,
+        "candidate_attempts": 3280,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 41,
+        "evaluations": 14656,
+        "candidate_attempts": 3360,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 42,
+        "evaluations": 15457,
+        "candidate_attempts": 3440,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.5
+      },
+      {
+        "generation": 43,
+        "evaluations": 16002,
+        "candidate_attempts": 3520,
+        "best_objective": 181.6464847758723,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.3375
+      },
+      {
+        "generation": 44,
+        "evaluations": 16036,
+        "candidate_attempts": 3600,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.3875
+      },
+      {
+        "generation": 45,
+        "evaluations": 16580,
+        "candidate_attempts": 3680,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.3625
+      },
+      {
+        "generation": 46,
+        "evaluations": 16608,
+        "candidate_attempts": 3760,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.35
+      },
+      {
+        "generation": 47,
+        "evaluations": 16630,
+        "candidate_attempts": 3840,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 1.0,
+        "unique_fraction": 0.275
+      },
+      {
+        "generation": 48,
+        "evaluations": 16909,
+        "candidate_attempts": 3920,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.275
+      },
+      {
+        "generation": 49,
+        "evaluations": 16938,
+        "candidate_attempts": 4000,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 1.0,
+        "unique_fraction": 0.3
+      },
+      {
+        "generation": 50,
+        "evaluations": 17232,
+        "candidate_attempts": 4080,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.375
+      },
+      {
+        "generation": 51,
+        "evaluations": 17271,
+        "candidate_attempts": 4160,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.975,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 52,
+        "evaluations": 17308,
+        "candidate_attempts": 4240,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9375,
+        "unique_fraction": 0.4125
+      },
+      {
+        "generation": 53,
+        "evaluations": 18605,
+        "candidate_attempts": 4320,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.4
+      },
+      {
+        "generation": 54,
+        "evaluations": 18906,
+        "candidate_attempts": 4400,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.5125
+      },
+      {
+        "generation": 55,
+        "evaluations": 19421,
+        "candidate_attempts": 4480,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.95,
+        "unique_fraction": 0.475
+      },
+      {
+        "generation": 56,
+        "evaluations": 19455,
+        "candidate_attempts": 4560,
+        "best_objective": 181.5739083230002,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9625,
+        "unique_fraction": 0.45
+      },
+      {
+        "generation": 57,
+        "evaluations": 19998,
+        "candidate_attempts": 4640,
+        "best_objective": 180.68384117846557,
+        "best_violation": 0.0,
+        "feasible_fraction": 0.9875,
+        "unique_fraction": 0.35
+      }
+    ],
+    "initial_greedy_objective": 181.92943121195242,
+    "budget_scope": "all full fitness calls including greedy initialization and repair; route insertion costs counted separately",
+    "fitness_order": "structural_errors, normalized_hard_violation, distance_plus_weighted_arrival",
+    "experiment_fingerprint": {
+      "scenario_hash": "2bde729348473a7410919f10d166a3a17acb9f35cf46a391bdbd972795958de9",
+      "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3",
+      "algorithm": "genetic",
+      "configuration": "pop80_mut10",
+      "seed": 271,
+      "population": 80,
+      "mutation": 0.1,
+      "evaluations": 20000,
+      "ortools_seconds": 5
+    },
+    "executed_at": "2026-10-09T19:54:15.439511+00:00"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "origin": "api",
+  "requested_model": "gpt-6-luna",
+  "response_model": "gpt-6-luna",
+  "response_id": "resp_0dc8ada7a33cefee016ac96c3c21d087d19f881bd3bb7ba854",
+  "reservation_id": "5022e5046f594723858454c28850f70c",
+  "status": "completed",
+  "service_tier": "default",
+  "context_hash": "216d94aa95914332befdc0171ab6faea676ca20db70bb9b7570241ba2560d3ef",
+  "contract_hash": "af0c1b58cde3442c1e0bf11f48057e90518f8384c6e339d2b064fc98efad1785",
+  "prompt_version": "v2",
+  "created_at": "2026-10-09T22:35:43.237442+00:00",
+  "input_tokens": 2759,
+  "output_tokens": 164,
+  "cached_tokens": 0,
+  "output_text": "{\"status\":\"answered\",\"reason\":\"none\",\"sections\":[{\"heading\":\"routes\",\"fact_ids\":[\"s0.r0.sequence\",\"s0.r1.sequence\"]}],\"instructions\":[{\"vehicle_id\":\"VEI_01\",\"solution_id\":\"c1268284db41478ead6530cf62f8cfd5\",\"delivery_ids\":[\"ENT_004\",\"ENT_003\",\"ENT_005\",\"ENT_009\",\"ENT_010\",\"ENT_008\"]},{\"vehicle_id\":\"VEI_02\",\"solution_id\":\"c1268284db41478ead6530cf62f8cfd5\",\"delivery_ids\":[\"ENT_012\",\"ENT_011\",\"ENT_002\",\"ENT_006\",\"ENT_007\",\"ENT_001\"]}],\"suggestions\":[]}"
+}

@@ -1,0 +1,30 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "answer",
+        "fact_ids": [
+          "s0.distance"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v1",
+    "context_hash": "92c2bb23c8b391dcdfad75fa22976eaabe008157405644005b2443fc0a886927",
+    "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+    "response_id": "resp_07715b697c1a7f12016ac96c03627887d1a918057b85362e21",
+    "reservation_id": "51829402c1e742729b94479ff41af913",
+    "created_at": "2026-10-09T22:34:45.714518+00:00",
+    "input_tokens": 2329,
+    "output_tokens": 41,
+    "cached_tokens": 0
+  }
+}

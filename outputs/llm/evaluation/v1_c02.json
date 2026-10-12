@@ -1,0 +1,229 @@
+{
+  "case_id": "c02",
+  "prompt_version": "v1",
+  "context_hash": "0568de493c0cb36eedc12dd4921d784f46f6af65490221694af34687e18c0412",
+  "case_hash": "c94e64cc9039120836d8ab629a75f60c76fb419f28dd83d2a2e885c90cd0bc22",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:21.794534+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resumo",
+        "facts": [
+          {
+            "id": "s0.scenario",
+            "value": "sp_evaluation_12",
+            "text": "Cenário: sp_evaluation_12."
+          },
+          {
+            "id": "s0.status",
+            "value": "feasible",
+            "text": "Solução viável certificada."
+          },
+          {
+            "id": "s0.day",
+            "value": null,
+            "text": "O cenário não informa uma data de operação."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          },
+          {
+            "id": "s0.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s0.distance",
+            "value": 40.45915593520023,
+            "text": "Distância total: 40.459 km."
+          },
+          {
+            "id": "s0.objective",
+            "value": 60.07910501285667,
+            "text": "Valor do objetivo: 60.0791."
+          },
+          {
+            "id": "s0.algorithm",
+            "value": "genetic",
+            "text": "Método usado: genetic."
+          }
+        ]
+      },
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_003",
+              "ENT_005",
+              "ENT_009",
+              "ENT_010",
+              "ENT_008"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_003 → ENT_005 → ENT_009 → ENT_010 → ENT_008 → depósito."
+          },
+          {
+            "id": "s0.r0.load",
+            "value": 32.0,
+            "text": "Carga inicial de VEI_01: 32 kg; capacidade 39."
+          },
+          {
+            "id": "s0.r0.distance",
+            "value": 22.291654554198548,
+            "text": "Distância de VEI_01, com retorno: 22.292 km."
+          },
+          {
+            "id": "s0.r0.return",
+            "value": 55.066271433620976,
+            "text": "Retorno de VEI_01: 55.07 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p0.arrival",
+            "value": 6.826648197747157,
+            "text": "VEI_01, parada 1: ENT_004 (Unidade simulada 004), prioridade critica; chegada estimada 6.83 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p1.arrival",
+            "value": 13.662251495361199,
+            "text": "VEI_01, parada 2: ENT_003 (Unidade simulada 003), prioridade regular; chegada estimada 13.66 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p2.arrival",
+            "value": 20.523193699148575,
+            "text": "VEI_01, parada 3: ENT_005 (Unidade simulada 005), prioridade regular; chegada estimada 20.52 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p3.arrival",
+            "value": 28.296334399448764,
+            "text": "VEI_01, parada 4: ENT_009 (Unidade simulada 009), prioridade regular; chegada estimada 28.30 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p4.arrival",
+            "value": 37.04560365768905,
+            "text": "VEI_01, parada 5: ENT_010 (Unidade simulada 010), prioridade regular; chegada estimada 37.05 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p5.arrival",
+            "value": 43.90383501534018,
+            "text": "VEI_01, parada 6: ENT_008 (Unidade simulada 008), prioridade regular; chegada estimada 43.90 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_012",
+              "ENT_011",
+              "ENT_002",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001"
+            ],
+            "text": "VEI_02: depósito → ENT_012 → ENT_011 → ENT_002 → ENT_006 → ENT_007 → ENT_001 → depósito."
+          },
+          {
+            "id": "s0.r1.load",
+            "value": 25.0,
+            "text": "Carga inicial de VEI_02: 25 kg; capacidade 39."
+          },
+          {
+            "id": "s0.r1.distance",
+            "value": 18.16750138100168,
+            "text": "Distância de VEI_02, com retorno: 18.168 km."
+          },
+          {
+            "id": "s0.r1.return",
+            "value": 57.741503740616785,
+            "text": "Retorno de VEI_02: 57.74 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p0.arrival",
+            "value": 1.944523241651205,
+            "text": "VEI_02, parada 1: ENT_012 (Unidade simulada 012), prioridade urgente; chegada estimada 1.94 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p1.arrival",
+            "value": 10.047817856268788,
+            "text": "VEI_02, parada 2: ENT_011 (Unidade simulada 011), prioridade urgente; chegada estimada 10.05 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p2.arrival",
+            "value": 23.5488324474792,
+            "text": "VEI_02, parada 3: ENT_002 (Unidade simulada 002), prioridade regular; chegada estimada 23.55 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p3.arrival",
+            "value": 31.54269417178106,
+            "text": "VEI_02, parada 4: ENT_006 (Unidade simulada 006), prioridade regular; chegada estimada 31.54 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p4.arrival",
+            "value": 41.61233695933761,
+            "text": "VEI_02, parada 5: ENT_007 (Unidade simulada 007), prioridade regular; chegada estimada 41.61 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p5.arrival",
+            "value": 48.020394436311776,
+            "text": "VEI_02, parada 6: ENT_001 (Unidade simulada 001), prioridade regular; chegada estimada 48.02 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Desempenho",
+        "facts": [
+          {
+            "id": "s0.critical_arrival",
+            "value": 6.826648197747157,
+            "text": "Chegada média das entregas críticas: 6.83 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Premissas e limites",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "0568de493c0cb36eedc12dd4921d784f46f6af65490221694af34687e18c0412",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_01b846ff9e706689016ac96bed63dc87d1bd698e9336881b41",
+      "reservation_id": "ad7c083c9803469a95989fb431d4ad2f",
+      "created_at": "2026-10-09T22:34:25.355417+00:00",
+      "input_tokens": 2323,
+      "output_tokens": 273,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

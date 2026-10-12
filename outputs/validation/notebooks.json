@@ -1,0 +1,21 @@
+{
+  "status": "aprovado",
+  "created_at": "2026-10-12T18:06:11.958228+00:00",
+  "artifacts": [
+    {
+      "path": "notebooks/01_otimizacao_genetica.ipynb",
+      "sha256": "8fc0fe5267d55ef24a9da329c69b70040782af34d897427c59aee9c359a6a41d",
+      "code_cells": 10,
+      "all_executed": true,
+      "error_count": 0
+    },
+    {
+      "path": "notebooks/02_aplicacao_hospitalar_llm.ipynb",
+      "sha256": "66ae824c0077fc7befd9ae8a295db38c716fff1454e1071ac4d0bb9de9058664",
+      "code_cells": 8,
+      "all_executed": true,
+      "error_count": 0
+    }
+  ],
+  "kernel": "fresh python3 per notebook"
+}

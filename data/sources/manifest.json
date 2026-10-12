@@ -1,0 +1,92 @@
+{
+  "retrieved_at": "2026-10-09T19:21:07.321177+00:00",
+  "files": [
+    {
+      "path": "data/sources/fiap/LICENSE",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/README.md",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/README.md",
+      "sha256": "22f252efd5fbccaca36cfbee3a9d260b3b99b59c209cac1389d0f24d689afeea",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/genetic_algorithm.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/genetic_algorithm.py",
+      "sha256": "1307d82e1907bb31e90e8abae838fa05e70cfcfc29e85711bdfb5be8f8ecb526",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/tsp.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/tsp.py",
+      "sha256": "f87ddeb953173c097cec9c109cf768bc7b31cd91e8da7778eb6e381e43bf4b09",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/benchmark_att48.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/benchmark_att48.py",
+      "sha256": "bee5387930fe624d2df9d61494178a849b4bfc5aa53177022c2f050854edd4dc",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/draw_functions.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/draw_functions.py",
+      "sha256": "b923f2bf9283519a847749c440f8a73d1fd22c31b4172eb5bc7476e8eee5ce18",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/demo_crossover.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/demo_crossover.py",
+      "sha256": "52a9dcfbd31a5d37b81e1fe300119787e25c6eeb05adc84b2e5fc42e79fca910",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/fiap/demo_mutation.py",
+      "url": "https://raw.githubusercontent.com/FIAP/genetic_algorithm_tsp/d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3/demo_mutation.py",
+      "sha256": "7a9d3f964c9ff5b603a93c3534ecf7fc3de2cf2ba49ab5eda21238af842a508c",
+      "commit": "d236a2ae6a08fefdb8ee9f1ca3f8201223a92da3"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n32-k5.vrp",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/4",
+      "retrieval_url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Instances/A-n32-k5.vrp",
+      "sha256": "2ebedd0631c4c56c08ba3b1476ac874a7d54cc448bd3795de534f43b2c099ce2",
+      "known_optimum": 784,
+      "optimum_source": "https://galgos.inf.puc-rio.br/cvrplib/en/instances"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n32-k5.sol",
+      "url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Solutions/A-n32-k5.sol",
+      "sha256": "a23da588e19d97533c94fb574ed42edfade007465d7448e4840885b0888404ca"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n54-k7.vrp",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/21",
+      "retrieval_url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Instances/A-n54-k7.vrp",
+      "sha256": "a85afa8f15544b168ce3413d759a5c4f5fbfef5e1f7ea0972839c2761c958438",
+      "known_optimum": 1167,
+      "optimum_source": "https://galgos.inf.puc-rio.br/cvrplib/en/instances"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n54-k7.sol",
+      "url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Solutions/A-n54-k7.sol",
+      "sha256": "014e861aaca7fc1637856da3dd68b86782865d23599ad437377bd6ae043fd371"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n80-k10.vrp",
+      "url": "https://galgos.inf.puc-rio.br/cvrplib/en/download/instance/31",
+      "retrieval_url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Instances/A-n80-k10.vrp",
+      "sha256": "f74d5d9f8e24245d94cad53ac20892a70b554aa7559f9dfcd962c8f83a68a410",
+      "known_optimum": 1763,
+      "optimum_source": "https://galgos.inf.puc-rio.br/cvrplib/en/instances"
+    },
+    {
+      "path": "data/sources/cvrplib/A-n80-k10.sol",
+      "url": "https://raw.githubusercontent.com/vidalt/CVRPLIB/34985dd200238b69b8eb18abb8e4b0f6fd8b9257/A/Solutions/A-n80-k10.sol",
+      "sha256": "eb6f41c97e197918753b50b3bd8283bc91a5261486e12c8eb9e0fd87acf498d2"
+    }
+  ]
+}

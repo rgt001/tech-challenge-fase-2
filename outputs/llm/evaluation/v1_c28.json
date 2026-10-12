@@ -1,0 +1,12 @@
+{
+  "case_id": "c28",
+  "prompt_version": "v1",
+  "context_hash": "94c1c3ace1ddb51924d36e2e36150f4bff4de0bb61db108a12c136f48de7c75e",
+  "case_hash": "cd6f7f4670b9763e7b97b809819a2171ce6cfed9c1191ace2b0cc5a6a4feda26",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "insufficient",
+  "created_at": "2026-10-09T22:35:32.733841+00:00",
+  "accepted": false,
+  "error_reason": "inconsistent_response",
+  "error": "Resposta de dados insuficientes inconsistente"
+}

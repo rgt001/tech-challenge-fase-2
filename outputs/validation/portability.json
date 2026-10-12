@@ -1,0 +1,224 @@
+{
+  "status": "aprovado",
+  "created_at": "2026-10-09T22:42:40.463783+00:00",
+  "checks": [
+    {
+      "name": "locked_install",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "editable_install_in_new_folder",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "pip_check",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "test_suite_in_copy",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "cli_outside_root",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "copied_data_solution",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/acceptance.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/analysis.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/api.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/baselines.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/budget.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/cli.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/config.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/datasets.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/domain.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/experiments.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/fiap_reference.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/genetic.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/geography.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/llm.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/llm_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/maps.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/oracle.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/storage.py",
+      "passed": true
+    },
+    {
+      "name": "src/rotas_medicas/verification.py",
+      "passed": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "18bce2238196953518e6c0d43f70c85dfaa6b483ad766501d1fd368c4757616a"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "31f5030ef6f5d38b2958b16a6e22f9a82122e163b0a20384e20b14f7baa60322"
+    },
+    {
+      "path": "src/rotas_medicas/__init__.py",
+      "sha256": "1d9339df394fa34ee632a7ea0df10ac13acbc43cea85711dfe9abdd103dee843"
+    },
+    {
+      "path": "src/rotas_medicas/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "src/rotas_medicas/acceptance.py",
+      "sha256": "d56fcffe7721639a635351cd93e7cbc88f472c688b8e266d5cefbb85178e2ccb"
+    },
+    {
+      "path": "src/rotas_medicas/analysis.py",
+      "sha256": "2cf6910e27040afb91433da172de98049a73b91ff51a204ddc89346e1065a822"
+    },
+    {
+      "path": "src/rotas_medicas/api.py",
+      "sha256": "6f373ea9c960f8442b41257323a8120b66ed3772131cf68e8f4d1831800988b2"
+    },
+    {
+      "path": "src/rotas_medicas/baselines.py",
+      "sha256": "70a63af63ac1f0608e60e125b13b6b92176a6b7353148c2188e3f48bc25bd609"
+    },
+    {
+      "path": "src/rotas_medicas/budget.py",
+      "sha256": "687501a64f70aa6d9284d22e4b4c89e7c92d211cf5146f0f8f9765cdc7d9fad6"
+    },
+    {
+      "path": "src/rotas_medicas/cli.py",
+      "sha256": "ce30205dd768d02632dbf96697ab52560f596fa3ed9af51636efd9294dd96245"
+    },
+    {
+      "path": "src/rotas_medicas/config.py",
+      "sha256": "2e1539623cebcda71434d6b0e2d29755ca7ecbe334c2d64ed8b48f4badc44514"
+    },
+    {
+      "path": "src/rotas_medicas/datasets.py",
+      "sha256": "2ecfb7d1402764a2c3bdc84604defc0ce23ff9e3392d34e63304144f5c87d414"
+    },
+    {
+      "path": "src/rotas_medicas/domain.py",
+      "sha256": "8b86ea41aa3eaae7a9e8a58659a871cac3fca58d1a042fc5102965cce7225968"
+    },
+    {
+      "path": "src/rotas_medicas/evaluation.py",
+      "sha256": "e3bde5668b63474da1b400cd441a30c23bdebb1a26cd5f8953f0ff37574bb189"
+    },
+    {
+      "path": "src/rotas_medicas/experiments.py",
+      "sha256": "9c3621f24740fcf7a46af47a9259bcc80437080e3a1b8d524c714473fdf2d786"
+    },
+    {
+      "path": "src/rotas_medicas/fiap_reference.py",
+      "sha256": "c910dfbaed585164ca9aff15053cb9e457ebdbd193f48403ebff5948254019ad"
+    },
+    {
+      "path": "src/rotas_medicas/genetic.py",
+      "sha256": "919ed9cb617ae68d2645fd775f842d3d7275c50764ce01fd0807c3c0a92558c4"
+    },
+    {
+      "path": "src/rotas_medicas/geography.py",
+      "sha256": "42f1069ecb766c43b78d43bd546232fc833c90111b0b48dd196da24b2f0b77ef"
+    },
+    {
+      "path": "src/rotas_medicas/llm.py",
+      "sha256": "edd1c0b8b4f2fe6411a8d2a3d7d9c455699050ca64e22056ebdaf8ffb80d559c"
+    },
+    {
+      "path": "src/rotas_medicas/llm_evaluation.py",
+      "sha256": "d520b28b1419b817b34e125d9d812d3a2e270761f9d59cf56376e735369ea68c"
+    },
+    {
+      "path": "src/rotas_medicas/maps.py",
+      "sha256": "98e3aa32f6ec304d34c7bd8f562732cf20eb819af9c2eac21a2152b8c576b703"
+    },
+    {
+      "path": "src/rotas_medicas/oracle.py",
+      "sha256": "a7599237780c4fabf177ec2b8484717140bc22fb13eef70396ff13a510654878"
+    },
+    {
+      "path": "src/rotas_medicas/storage.py",
+      "sha256": "21c7c1f11d340df2268eec9710787c29707942ac7ee1142da7c42560c659e7e4"
+    },
+    {
+      "path": "src/rotas_medicas/verification.py",
+      "sha256": "21ee1328bb5b70ce209c45ee4346d06b66329f48a35e643fcf190453d7b5598a"
+    }
+  ],
+  "method": "new virtual environment, locked dependencies, copied source/data, tests and CLI launched outside repository root",
+  "platform": "Windows CPU Python 3.13",
+  "temporary": "ignored .tools workspace"
+}

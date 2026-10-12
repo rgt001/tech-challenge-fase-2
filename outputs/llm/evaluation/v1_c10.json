@@ -1,0 +1,55 @@
+{
+  "case_id": "c10",
+  "prompt_version": "v1",
+  "context_hash": "7b2d8b0d52ab0d43aa69053db45b468e85325a611bd8f7414a4fb8d277c20255",
+  "case_hash": "20f5b3dd1390e077f4d068763cf82793a491cae8ccf779b052681dabbf6bef70",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:49.211094+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.critical_arrival",
+            "value": 6.826648197747157,
+            "text": "Chegada média das entregas críticas: 6.83 minutos após a saída."
+          },
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "7b2d8b0d52ab0d43aa69053db45b468e85325a611bd8f7414a4fb8d277c20255",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_03f37519f4839c04016ac96c08e21487d1a233abf3086d0a38",
+      "reservation_id": "c1bda58aba4d4404bb31a7db44acd2bf",
+      "created_at": "2026-10-09T22:34:51.089698+00:00",
+      "input_tokens": 2331,
+      "output_tokens": 49,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "case_id": "c01",
+  "prompt_version": "v1",
+  "context_hash": "216d94aa95914332befdc0171ab6faea676ca20db70bb9b7570241ba2560d3ef",
+  "case_hash": "4cbf526ae1d97dbd870eaaa4567db8e9dc07d473177839748ee43eb5db6b3a7d",
+  "contract_hash": "d935e5ea5dc955a155529337b57ba92a519c43bf1395fba1c583811e4262a78a",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:16.000076+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_003",
+              "ENT_005",
+              "ENT_009",
+              "ENT_010",
+              "ENT_008"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_003 → ENT_005 → ENT_009 → ENT_010 → ENT_008 → depósito."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_012",
+              "ENT_011",
+              "ENT_002",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001"
+            ],
+            "text": "VEI_02: depósito → ENT_012 → ENT_011 → ENT_002 → ENT_006 → ENT_007 → ENT_001 → depósito."
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "vehicle_id": "VEI_01",
+        "solution_id": "c1268284db41478ead6530cf62f8cfd5",
+        "delivery_ids": [
+          "ENT_004",
+          "ENT_003",
+          "ENT_005",
+          "ENT_009",
+          "ENT_010",
+          "ENT_008"
+        ]
+      },
+      {
+        "vehicle_id": "VEI_02",
+        "solution_id": "c1268284db41478ead6530cf62f8cfd5",
+        "delivery_ids": [
+          "ENT_012",
+          "ENT_011",
+          "ENT_002",
+          "ENT_006",
+          "ENT_007",
+          "ENT_001"
+        ]
+      }
+    ],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "216d94aa95914332befdc0171ab6faea676ca20db70bb9b7570241ba2560d3ef",
+      "contract_hash": "d935e5ea5dc955a155529337b57ba92a519c43bf1395fba1c583811e4262a78a",
+      "response_id": "resp_027a4e72a6eca200016ac96bea92e087d1826aecab705b3f1d",
+      "reservation_id": "16b88fe26d49447990d5ea9d83f3675e",
+      "created_at": "2026-10-09T22:34:21.746854+00:00",
+      "input_tokens": 2322,
+      "output_tokens": 164,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

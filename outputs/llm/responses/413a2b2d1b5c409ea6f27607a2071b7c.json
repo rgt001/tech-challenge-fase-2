@@ -1,0 +1,17 @@
+{
+  "origin": "api",
+  "requested_model": "gpt-6-luna",
+  "response_model": "gpt-6-luna",
+  "response_id": "resp_01c4db2b14d4fe30016ac96c0cabe487d1af5297aed7eddb4d",
+  "reservation_id": "413a2b2d1b5c409ea6f27607a2071b7c",
+  "status": "completed",
+  "service_tier": "default",
+  "context_hash": "cbc835551de76727da871cf4cb744c5586c82d9c3f921c804f7fdfa175c39517",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "prompt_version": "v1",
+  "created_at": "2026-10-09T22:34:55.358135+00:00",
+  "input_tokens": 2328,
+  "output_tokens": 41,
+  "cached_tokens": 0,
+  "output_text": "{\"status\":\"answered\",\"reason\":\"none\",\"sections\":[{\"heading\":\"answer\",\"fact_ids\":[\"s0.algorithm\"]}],\"instructions\":[],\"suggestions\":[]}"
+}

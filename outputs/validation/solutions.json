@@ -1,0 +1,1976 @@
+{
+  "status": "aprovado",
+  "checked": 281,
+  "solutions": [
+    {
+      "id": "31e242cc87ab490b82efc12b8051b2dc",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "864a99438b7b47bea29cdb5f86d590bf",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "e1c1f5d8e68648c98409188e561d72c9",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "915a57c34a674be79fb036e77ccdb1ab",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "591eba5d237445489c352c286b3d4eb2",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ac7c68af7d0c4d05b2359d2c60066b2e",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ff5ff2a61995410ba08925b0b7bbc27d",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ddeea286a8c749e5837434ed78c63508",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "41fe8c1d6cd24b328903db5433e52573",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "2bc3d9b76e7a447d8535d7bf7626f937",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "f326f9375e9b4ad5ba6a3b13c93f2688",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "63fd2e0b905040bfb3be9cc84d6b339c",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "08c6b3c93c034ccca6690cbc61068b0a",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "26c76725282e4d1489c382372c2bc8c2",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0ff064f279524fb39ca39ba38ef24dc3",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0439d702a01a4fc5aa61568dc45d4579",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "02f3409e1a8c489d84b7d3f26b994d2f",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "85e431666af54abcbf2f5cb1d24de5ab",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "a2808818d5fb4d93b0bd75405383f576",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7bba157f52264e479ac4bd0ed314a043",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "f4593fa15d3d41e2a5df434da347a1e0",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "9257e651df5b4830b15f574374b7b7d6",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "918d9ebdcc96459b9d94396560cfa5df",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "062b8bc3dff24deeb6c43bb12209d9e4",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0d22c7ff233a4503aa09cf0407f70fcf",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "dfa673a6a60b42dfa6873511193b9fb8",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "37fab044e78646669e09aa59b3d74bb1",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "e4a638148c0b4e12b78130ca12e993e1",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1620fb88eedf4711a9dc16f65bb6f72b",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "723990482424420886d695006a153729",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c918f29f6a594c489f8ead6e2ae9ff45",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "fa2aa6c991834970a10a12658ed8579f",
+      "scenario": "A-n32-k5",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "a6cbfa125de04c91ab3aae072c2375ae",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "9559d7e7b13849c08b320467a49c4295",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "16464478b6844e57a3602ffd915f898d",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b6dc33216cdc48dab18c510dd2c52e55",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "cc08b50a498047aea295081b60144dc8",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4d29387fb5534b42a979620b0b716bc0",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8c7eebc4a91146fc8ef7b927485ca750",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "23b9d2ef62744f92a310047ce46c46e7",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "bc760b286952446493477d72ad84b969",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "248d69da8a8547e787b865071ed3cb9a",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b4d74ac1f6dc4bb39629c0ac59fa3fa7",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c984916a80a3419c8c711a98a2d8d2e2",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ce8629e522264ec98af30389bb40222d",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "5e5216dd00fc4075b29f3b8c81863866",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b83c327e5e6e4012881f439053510afe",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1d2757925ee9488f846162eea62eb8e3",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1498c594a35f44ba95c89fb207497b1d",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "562629e284e44348afdb930535bcb646",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "975b5769c7b34b2b854c15a4adfe792a",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8f1403a87aeb4400abcab082bb422630",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "59964b786a184487a469683626aee658",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "6c528d85a72d49e1977f77f5b67bce32",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d0cc4698961145ddace7f7c5ccd0c6b0",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ef1aeee7f8f8433dadf468a8abc0a7e3",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "19168eb7b0b04181817e39f06eef8bab",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8ef5a0821f7940d2a86f894d7fed21fa",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "cac3e17e8e9d463ea8cd1e35f52d4333",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "825871f433644c7890a29f459361a0f9",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "5432dc1236f843b38fbf90d5a860d71f",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "774b196f22404ab1a7d2a3196892393f",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0746420284e64a1da3f732c8a585f6bd",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "041f173468524d8faff65154c081007b",
+      "scenario": "A-n54-k7",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "87cf3366f672405f8752d3049e341f5f",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "2f050067c3db41cc83bbe9e12322c593",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b64a3549b399424fb935a16e10f32572",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "915bd1853934429abf97b4c40fe6989c",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1859759687464a05926daf0a371fc390",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8baabe1a7cf9455db8d4df94e43f6295",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "6c93d2b673994a1b8324a4a463c9accb",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "e2ad734ef2f649f689640f3e6d39078b",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "287cf070c1d54d20bc9c621143ede46c",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d0926793688c4c2bb5f5382758bafa39",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "016032027b50439ebd7d967811d92157",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7629e95dc29942a9a2169a6dc68520c7",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "977e590672294f26a3ecb9914ebec81a",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "009ff3d68e9c48feb4a7115e42303798",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "de90870ee00c4f619d7ce1ea87830250",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "28334489a6364ab1947b5528764cf49b",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1c4ab74f55a2474bba3e34c3f0c28e90",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "cc9fd58bef76437c9103cd2958daf0d1",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7961cebfa82a40fcb8bb336731524eea",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4649964617794228841daf1b39c8358e",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "60d779f48884428c865ae700da4309b5",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "18e02e8a960146c5827bcc0061869632",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "30133826d9224c13ad5bee0a23d4fce7",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "626e2ac3d5ac4e1b8dff907eaea10a4f",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4cbab6ad098c46ba8eb31e1b336b1dca",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b935cbd0f7e448aa91bffc97dd270cc7",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "68db907872594f9f96474e0abda186a5",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "024963bb2e6643608cc6a09c05547d85",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "a92b9102f0494ea48266929e4297d405",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8051d1ceab0544f18386938d23e7ef1f",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "77037df22e214032a6f0c7840ed039d8",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "444b2032a0124502a0642b0ff8a6a542",
+      "scenario": "A-n80-k10",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "147dfb65d89243298b0a48f4e3377997",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "d243023cad7d47d1add17bb814cc6121",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "bae20f25af854ac69b8f4e56f0c68f61",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "507d188df7e24efbb5422d48e4f987ed",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "b1199cfc286547ff9c598c7c3c888275",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "955ce33b571f46cb881fe64a65378c25",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "eaf68ee89ff741abafa7ea72f03841a5",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "a0a8f8a22acc48fb91efe4595ef18b74",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "3c5c951236ab4f18b0451757f561ddec",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "a331ed8726b14c8ebdc779ddaf2900df",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": null
+    },
+    {
+      "id": "65fce8d014bb49028ce34f41c3ae289d",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 8736,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "b2d561c26a134c95a22ab59659d333ac",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 7131,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "af8f9e33af104f4da89628ada94fe975",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 7017,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a455d38593ce45c9a8a2ce16803af304",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 7085,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "cbabde11138740679804e65675a550dc",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 8365,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "24741d6395024f049cb854d9c363d3b5",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 6783,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "926ee53d32d34b518eab49549ced187a",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 6959,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "92aed02c3d99459f90cd7fa20c133faf",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 8346,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "27b55e194c6f421d9889fcdc5494e858",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 8375,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "d3aea68cf6df403b8c3725dae72ced6a",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 8598,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "81535db4da4842e7935f5b0ce2f2b83d",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10334,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "eb291cf5f6fd4a8b8d2b10daced86b79",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 11027,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "00f0f8a6788f48e7ab5422b1705b9326",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10415,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "24a79188d3584ce99f679325d9ec84fa",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 11647,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "d04a41202093495fadf6d06cbb8837c6",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10878,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "db545c0642fd4be1aa7d1f255fcd015a",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 9044,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "3fecf31cce7348d08527e43bb567fb79",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10557,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "39bf32e72d5446ffbb9d9ebbd95b776e",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10390,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "7cae159a1dd44b509792094b969727c4",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 10833,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a0597fbe322e48b4ae5a899d45a8f6d7",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 12923,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "196907b86de54454959df57f36948a72",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 6633,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "6668593c2ae945308d6726e43ede8700",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5316,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "d845515102da45428b96c6b9567faf7f",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5749,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "d17e5287166c46acb085716eefa00ae5",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5570,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "4475664d12d0415393ee95cd9024230d",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 6609,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "3d5921ceffac4d8cb6606d2f60881bbe",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5482,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "9b6fb25fc05340b2b2b31fc9e9067d32",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5681,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "dcb449cca54d421e8ee2cf16aedf3524",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5653,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "06af9eb2dace438a97ed6b874a03d107",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5520,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "e0cc75348f5d4b87a0d1b9cdd72edf9f",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": 5728,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "051ef844f3c2460995532cc8e906e111",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "f15336ae522c476f82572c24fc65c2ca",
+      "scenario": "fiap_tsp_15",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "ab85595c5b434930a41dfb2dd3af4e54",
+      "scenario": "sp_day_1",
+      "status": "feasible",
+      "evaluations": 11483,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "76cd180aba5b4f4eb4fef2b2bbb57b43",
+      "scenario": "sp_day_2",
+      "status": "feasible",
+      "evaluations": 12079,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "ebfb607f86a342df88da657b5b612e93",
+      "scenario": "sp_day_3",
+      "status": "feasible",
+      "evaluations": 12598,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "0de85ed92ee24523a556fbe563dc1451",
+      "scenario": "sp_day_4",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1daf534469a145aba784d648ac7c8a6d",
+      "scenario": "sp_day_5",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4b61db9a83484d6890fe29d2d8db1c55",
+      "scenario": "sp_day_6",
+      "status": "feasible",
+      "evaluations": 10713,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a80ee22450324037b213d94832593ff6",
+      "scenario": "sp_day_7",
+      "status": "feasible",
+      "evaluations": 11753,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a50271de32f04f3bbfeb84551e6209e0",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8ca2c75cb31d4f4b9123ff90ee00f4b6",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b0e72c66bcb14677a34a69aefb3ed9d9",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "37069a5532c14ddcb145b9118e6568fb",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0b6966b431334e649900ea35c1fe437c",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7c5ca32a90d54c52b4799a4c28bf3bed",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0aa2f4a06b4f4ca8a9f28c42892e3453",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "b6b22d0a6ed2461a81003d986d96b5e5",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 13853,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "1a399c34bbdb4115a58cc5d4c5a8a8cd",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": 13271,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a29ad1e040c94f3c886edc4f8fa516b8",
+      "scenario": "sp_development_12",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "7ec5b800e51d4ef987359f520f76ff2e",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "2e21cfe68be44fe0a1799361f491ca06",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8ba3864829c34664a9e624e6c4cef33b",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ae419724e2014f4c990f3b7b938d3269",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d7d3a9f0037947298b7dcb956014c5cb",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "44fac8e13cf7401b87feb9004882675e",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0bd47cf1f7144e20b5a6c6b898c19906",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "74641b92aa574b4d9f6e97db7ba30979",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "796c46fb215e478f9ab0eb7fcafaf3d4",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "940ec69447d3463fbd0ec967273ca40b",
+      "scenario": "sp_development_30",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "52547dc5cf5c49d3bc382f166cd6fd0a",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d8562f2711bb46cd9431c06160c4102a",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d74585038e7f41c396c0bb0a1e5e5679",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "10ef75c0916c4318ad443663236a82f1",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "10151e3d78f943a993c585d1f3ca5ace",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "eae6e3f27e9245c1a923b59067b2cdee",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4a75235baaa7414e95aebec8f328eed6",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d79a9c2924df4816a18febd99fd1e8ee",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7b4287094ac841ca89ba3891cc6cf370",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8943357479c44a28aa8f5d9fdfb04ce2",
+      "scenario": "sp_development_60",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "313353fc15494a33a180fe1097b0820b",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 16962,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "89ac077c024a40b587bd09a668e6d33f",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 14582,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "7d05396c8b21421785ac136770e9be2f",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 16156,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "94bb5aeccec24bc5984d9108e64aab2c",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 16600,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "c35e6a749e6841d3abc91f2d5bf3d421",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 16213,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "3672ec1066584ad59a5435d7c4417abf",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 14206,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "5494e2797ce54b58ae18cc2e9cac3212",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 15431,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "c1525bccfa734a9792e3682a5822b672",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 15104,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "9c35cc2b3249494ea25bc2db967fe06c",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 15908,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "70f7576623d0470eaf7d7cd8fd91b0b3",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 15271,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "eb47b4be94dd483aa81321145efb1085",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "94decf519b0a47fdb1b2b5fb9938a766",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1fea0583c87f4e2ea31a8e145acf141a",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 19937,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "f8df1e5d79f941e6863d2b247920b60a",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "45c87ba6b6ea483bb03070c1b71ae30a",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "204892edb0b0487485935b64eee1f393",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 19712,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "27ab55c50b6f4a5699b326083ba3ede4",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "3e081b6762a044a88e92deddea2377ff",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 19487,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "c2389e2b53814b4c8a4387231d6fda6f",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4ec8367bf0964d33b2a64afb7169deb1",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "290eb9af79dd4893be535c8c4d05cb46",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 12248,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "bf677f16321a431c9b56b13df60b3562",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10539,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "a68afa9db8994c59b0d60d90ebfa501b",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 11372,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "8c913362427e4135a5210f6b9bda46c5",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10289,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "fcc3751ec43a4c058f04e2953a20be92",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10394,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "66166ff03b5e498489101121f650aea7",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 9414,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "1f45260f295d4e169c2db6d256b2021e",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10758,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "8091e26681224edbb4f729cdbf54ab86",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10061,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "c1268284db41478ead6530cf62f8cfd5",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 10377,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "57f4183bc50347d29ff3971353ac4320",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": 9664,
+      "termination": "candidate_attempt_budget"
+    },
+    {
+      "id": "d49521eb0c9c4419b2e176c66b11aea4",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "7832c2e8c6594253a09e414a7ff2c79d",
+      "scenario": "sp_evaluation_12",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "50166b511f9b4b3e9a051bcc1c61ca96",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7cdd198b730d41f9ac4ca3a23005582b",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d5add0f431e646eb8a1753c2f7e14a87",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "eee30b58c5224eeeadb238d1fa426df7",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "a218cf5c5e5c4d48a530571669f00d39",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "17b20236b4084789834014a6ef077352",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "5df19fb9a15041edabefc1b606768e81",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "fb934fe4e34d440da832d22774c3a7bd",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "81d41631f0fd4d399bc113111767a450",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "59a56ace74c14dfe9a72d532323808a2",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "3f726193e31c436ab470488965c4e9b3",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "75d7f5ff550147ef9a3c9e07cd1eb86e",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d3c0d74ddc4f485781093b70a75572e0",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8a7c3220fe0a4788b045e64ade748f5d",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "92397d1be16b4569a55357587ef224e3",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "51306a00ae874ba4bbc14711534db8ce",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "513d37a47f884f90919cedb1ffb9485e",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "de31c7e5a9db434ca38be2960c7f993b",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "2ca2f56c476546099592516b5a822801",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "27a37fd279da4475bedb044eb72ec0d4",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7e36e62e3f2c439a8cf61a98cd8ac71f",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "446fe4bb85c249199cbc54f9e87a53a8",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "78c0cf9f729c4bbfb0734b15f7643be2",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "937cbaead74542a083a1a8bc5f8e8d02",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "08fd8112ebdf43c6ac31caf92c2ea535",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "10c1acce84024da7b9b62feeaa845989",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1bb08965152f469e9a5d46914e853c45",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "bb9ef74575244961bfe8f8a5def090d6",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d5414bb402ac43ccb93ff1d76140965c",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "a141ccfba1c84b3b97d0af7abc111cfc",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "896add586db747d889bcfe4fecaa20fb",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "8c4bdfed90d941c1a4ee8fe2043660df",
+      "scenario": "sp_evaluation_30",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "ad955f8d4b5444b1b6b6ba094a613da5",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "3d521230594f4b73a49e42931f654729",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c466a970b62a4eb6b1be5816e152c193",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "bfec0c7d57824ad197bcb4fd5a42dff9",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ce1917eaf2314cdab60f614fe449cc2b",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "bd3d2e1d41884a4192fe15857f819aba",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "57ca492c06e048d8be1ac3c9663cab33",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "8c34b786509d4befbcd994bd03f7e799",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "5b7fb431eae44d7f8496ba7b7ed725ad",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "ce1a5b5bca3f4347975e6c9a0778d86f",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "a9dede0d82244fa9a387e4db5f5ef8b2",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "66ea8891ab9748499d60bbcc73634195",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "7b0a5cbca8ec4a94819b770cc35e24d7",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "3ed19fe37f734ea2a8d4b3d1b3892c05",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "23f8bb60c7ce4df4ae7f006921d9f781",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "fc181b431be846489c99e1b1533adb3c",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "36b8a572ae8545b4b9800f70d54e6f4d",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c4d100c682fd4547980c762c7822715c",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "d565169c9d5a4fdb85be96337d74544d",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "1fc178970baf43d49eb011b078944993",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4d3f58efc7fa463fb036a49f6df0f437",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c9857983b88b45158e0587af5db8f341",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "67e2b25ac50547d6935bae53dc1d273f",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "08b3e63fcd6144178547d7caa863e91b",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "14ee352dc12d4c73afc181ebdf5fdf20",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0b50b5cba5b444a7898166297e322b14",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "e2f8b687f40d4202a7bba18cc9185989",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0bbcef6dc7584fe398c4f2a9f68fc850",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "0e5283101ee940bb971535aa94a2f0a6",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "f016b30a4f214289a7e982f3c143ba9a",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "43924baf15c444a8b6052e017e71c368",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "02486dd1c25742da93a651a40e9a3f1c",
+      "scenario": "sp_evaluation_60",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "273d896b836245679b4d718253b77218",
+      "scenario": "sp_sensitivity_0",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "c45ab14e409d40879ca4f006d1f588da",
+      "scenario": "sp_sensitivity_0_01",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "465f5e217dc84d7e868da17106e50aee",
+      "scenario": "sp_sensitivity_0_05",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "4c24ecefecff46b28efb64a287f6ae9c",
+      "scenario": "sp_sensitivity_0_1",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "79b1d28afa494bc69c6e35cbf01d951a",
+      "scenario": "sp_stress_capacity",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "e3f07407064c4fb181dcbbdac42721f3",
+      "scenario": "sp_stress_capacity",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "1846733336a443a8b6502f659613b468",
+      "scenario": "sp_stress_capacity",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "70cb1f9288d649a88c0bbb6d4ac0260e",
+      "scenario": "sp_stress_range",
+      "status": "feasible",
+      "evaluations": 20000,
+      "termination": "evaluation_budget"
+    },
+    {
+      "id": "2a13ce79748a4496a4b64080f464b0ee",
+      "scenario": "sp_stress_range",
+      "status": "feasible",
+      "evaluations": null,
+      "termination": null
+    },
+    {
+      "id": "605ae1caa2aa47859e3cbc8155701a69",
+      "scenario": "sp_stress_range",
+      "status": "no_feasible_solution",
+      "evaluations": null,
+      "termination": null
+    }
+  ],
+  "errors": [],
+  "budget_errors": [],
+  "implementation_hash": "23c6787d44a0c52a93a54e898c76da4f4339484cd6dcf6bd288bcef2c2ec8dd3"
+}

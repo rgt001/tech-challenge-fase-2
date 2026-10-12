@@ -1,0 +1,80 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "overview",
+        "fact_ids": [
+          "s0.scenario",
+          "s0.day",
+          "s0.status",
+          "s0.start"
+        ]
+      },
+      {
+        "heading": "routes",
+        "fact_ids": [
+          "s0.r0.sequence",
+          "s0.r1.sequence"
+        ]
+      },
+      {
+        "heading": "performance",
+        "fact_ids": [
+          "s0.distance",
+          "s0.deliveries",
+          "s0.vehicles",
+          "s0.objective",
+          "s0.critical_arrival",
+          "s0.r0.distance",
+          "s0.r0.return",
+          "s0.r1.distance",
+          "s0.r1.return"
+        ]
+      },
+      {
+        "heading": "priorities",
+        "fact_ids": [
+          "s0.r0.p0.arrival",
+          "s0.r0.p1.arrival",
+          "s0.r0.p2.arrival",
+          "s0.r0.p5.arrival",
+          "s0.r0.p6.arrival",
+          "s0.r1.p0.arrival",
+          "s0.r1.p1.arrival"
+        ]
+      },
+      {
+        "heading": "limitations",
+        "fact_ids": [
+          "s0.time_basis",
+          "s0.algorithm",
+          "s0.r0.load",
+          "s0.r1.load"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [
+      "check_traffic",
+      "review_critical",
+      "confirm_load",
+      "compare_scenarios"
+    ]
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v1",
+    "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+    "contract_hash": "9c7280af00976bee198c5f924625e4c57d0c95bc39e2fd32a51a3dd17758b10b",
+    "response_id": "resp_0e5b6f181b589e70016ac96bff082c87d1a40a25335b92e074",
+    "reservation_id": "e9dc3187471141d399d6d4ed02d04d11",
+    "created_at": "2026-10-09T22:34:43.624139+00:00",
+    "input_tokens": 2330,
+    "output_tokens": 253,
+    "cached_tokens": 0
+  }
+}

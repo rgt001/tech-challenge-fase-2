@@ -1,0 +1,81 @@
+{
+  "selection": {
+    "status": "answered",
+    "reason": "none",
+    "sections": [
+      {
+        "heading": "overview",
+        "fact_ids": [
+          "s0.day",
+          "s0.scenario",
+          "s0.status",
+          "s0.distance",
+          "s0.deliveries",
+          "s0.vehicles",
+          "s0.objective",
+          "s0.algorithm",
+          "s0.start"
+        ]
+      },
+      {
+        "heading": "routes",
+        "fact_ids": [
+          "s0.r0.sequence",
+          "s0.r0.distance",
+          "s0.r0.load",
+          "s0.r0.return",
+          "s0.r1.sequence",
+          "s0.r1.distance",
+          "s0.r1.load",
+          "s0.r1.return"
+        ]
+      },
+      {
+        "heading": "performance",
+        "fact_ids": [
+          "s0.critical_arrival",
+          "s0.r0.p0.arrival",
+          "s0.r0.p1.arrival",
+          "s0.r0.p2.arrival",
+          "s0.r0.p3.arrival",
+          "s0.r0.p4.arrival",
+          "s0.r0.p5.arrival",
+          "s0.r0.p6.arrival",
+          "s0.r0.p7.arrival",
+          "s0.r0.p8.arrival",
+          "s0.r1.p0.arrival",
+          "s0.r1.p1.arrival",
+          "s0.r1.p2.arrival"
+        ]
+      },
+      {
+        "heading": "priorities",
+        "fact_ids": [
+          "s0.critical_arrival"
+        ]
+      },
+      {
+        "heading": "limitations",
+        "fact_ids": [
+          "s0.time_basis"
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": []
+  },
+  "provenance": {
+    "origin": "api",
+    "model": "gpt-6-luna",
+    "response_model": "gpt-6-luna",
+    "prompt_version": "v2",
+    "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+    "contract_hash": "3d9cc28aa6ebee2f2ab213c049abd1d33b0461c7b15a3470adfd76b43125bd8f",
+    "response_id": "resp_019bac44439b24c5016ac96c4f1d8887d19d6e07cb4586b46f",
+    "reservation_id": "68a2dfc493be4950acdaf43acd56a0a8",
+    "created_at": "2026-10-09T22:36:03.278644+00:00",
+    "input_tokens": 2767,
+    "output_tokens": 286,
+    "cached_tokens": 0
+  }
+}

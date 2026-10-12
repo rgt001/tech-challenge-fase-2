@@ -1,0 +1,423 @@
+{
+  "case_id": "c04",
+  "prompt_version": "v2",
+  "context_hash": "a3d8dfc1456e1a44db6ad6ed5e3ed0fb77f9fb4cbff16333424c37d2109403a2",
+  "case_hash": "7e4c7998a51c0a7d53f1436b55f3c59e641e4a7f4ac1fe229b33775e662f0b15",
+  "contract_hash": "e76c26191128c9f08043efb89c594e019f0190aeaaf0b920c92f3899e57db17a",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:50.866973+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resumo",
+        "facts": [
+          {
+            "id": "period.deliveries",
+            "value": 84,
+            "text": "Entregas atendidas no período: 84."
+          },
+          {
+            "id": "period.distance",
+            "value": 313.0879282592782,
+            "text": "Distância acumulada: 313.088 km."
+          },
+          {
+            "id": "period.vehicles",
+            "value": 14,
+            "text": "Veículos-dia utilizados no período: 14."
+          }
+        ]
+      },
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_011",
+              "ENT_008",
+              "ENT_004",
+              "ENT_001",
+              "ENT_002",
+              "ENT_010",
+              "ENT_003"
+            ],
+            "text": "VEI_01: depósito → ENT_011 → ENT_008 → ENT_004 → ENT_001 → ENT_002 → ENT_010 → ENT_003 → depósito."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_009",
+              "ENT_006",
+              "ENT_005",
+              "ENT_007",
+              "ENT_012"
+            ],
+            "text": "VEI_02: depósito → ENT_009 → ENT_006 → ENT_005 → ENT_007 → ENT_012 → depósito."
+          },
+          {
+            "id": "s1.r0.sequence",
+            "value": [
+              "ENT_010",
+              "ENT_006",
+              "ENT_012",
+              "ENT_007",
+              "ENT_008",
+              "ENT_002"
+            ],
+            "text": "VEI_01: depósito → ENT_010 → ENT_006 → ENT_012 → ENT_007 → ENT_008 → ENT_002 → depósito."
+          },
+          {
+            "id": "s1.r1.sequence",
+            "value": [
+              "ENT_005",
+              "ENT_009",
+              "ENT_011",
+              "ENT_004",
+              "ENT_001",
+              "ENT_003"
+            ],
+            "text": "VEI_02: depósito → ENT_005 → ENT_009 → ENT_011 → ENT_004 → ENT_001 → ENT_003 → depósito."
+          },
+          {
+            "id": "s2.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_012",
+              "ENT_005",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001",
+              "ENT_011",
+              "ENT_002",
+              "ENT_010"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_012 → ENT_005 → ENT_006 → ENT_007 → ENT_001 → ENT_011 → ENT_002 → ENT_010 → depósito."
+          },
+          {
+            "id": "s2.r1.sequence",
+            "value": [
+              "ENT_009",
+              "ENT_003",
+              "ENT_008"
+            ],
+            "text": "VEI_02: depósito → ENT_009 → ENT_003 → ENT_008 → depósito."
+          },
+          {
+            "id": "s3.r0.sequence",
+            "value": [
+              "ENT_009",
+              "ENT_011",
+              "ENT_004",
+              "ENT_012",
+              "ENT_005",
+              "ENT_010"
+            ],
+            "text": "VEI_01: depósito → ENT_009 → ENT_011 → ENT_004 → ENT_012 → ENT_005 → ENT_010 → depósito."
+          },
+          {
+            "id": "s3.r1.sequence",
+            "value": [
+              "ENT_002",
+              "ENT_007",
+              "ENT_006",
+              "ENT_001",
+              "ENT_003",
+              "ENT_008"
+            ],
+            "text": "VEI_02: depósito → ENT_002 → ENT_007 → ENT_006 → ENT_001 → ENT_003 → ENT_008 → depósito."
+          },
+          {
+            "id": "s4.r0.sequence",
+            "value": [
+              "ENT_006",
+              "ENT_011",
+              "ENT_012",
+              "ENT_010",
+              "ENT_002",
+              "ENT_007",
+              "ENT_005"
+            ],
+            "text": "VEI_01: depósito → ENT_006 → ENT_011 → ENT_012 → ENT_010 → ENT_002 → ENT_007 → ENT_005 → depósito."
+          },
+          {
+            "id": "s4.r1.sequence",
+            "value": [
+              "ENT_008",
+              "ENT_001",
+              "ENT_004",
+              "ENT_009",
+              "ENT_003"
+            ],
+            "text": "VEI_02: depósito → ENT_008 → ENT_001 → ENT_004 → ENT_009 → ENT_003 → depósito."
+          },
+          {
+            "id": "s5.r0.sequence",
+            "value": [
+              "ENT_007",
+              "ENT_011",
+              "ENT_009",
+              "ENT_002",
+              "ENT_010",
+              "ENT_005",
+              "ENT_006"
+            ],
+            "text": "VEI_01: depósito → ENT_007 → ENT_011 → ENT_009 → ENT_002 → ENT_010 → ENT_005 → ENT_006 → depósito."
+          },
+          {
+            "id": "s5.r1.sequence",
+            "value": [
+              "ENT_008",
+              "ENT_003",
+              "ENT_004",
+              "ENT_001",
+              "ENT_012"
+            ],
+            "text": "VEI_02: depósito → ENT_008 → ENT_003 → ENT_004 → ENT_001 → ENT_012 → depósito."
+          },
+          {
+            "id": "s6.r0.sequence",
+            "value": [
+              "ENT_011",
+              "ENT_012",
+              "ENT_006",
+              "ENT_003",
+              "ENT_001",
+              "ENT_010"
+            ],
+            "text": "VEI_01: depósito → ENT_011 → ENT_012 → ENT_006 → ENT_003 → ENT_001 → ENT_010 → depósito."
+          },
+          {
+            "id": "s6.r1.sequence",
+            "value": [
+              "ENT_002",
+              "ENT_007",
+              "ENT_005",
+              "ENT_004",
+              "ENT_008",
+              "ENT_009"
+            ],
+            "text": "VEI_02: depósito → ENT_002 → ENT_007 → ENT_005 → ENT_004 → ENT_008 → ENT_009 → depósito."
+          }
+        ]
+      },
+      {
+        "heading": "Desempenho",
+        "facts": [
+          {
+            "id": "s0.distance",
+            "value": 45.65187960147617,
+            "text": "Distância total: 45.652 km."
+          },
+          {
+            "id": "s0.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s1.distance",
+            "value": 49.232516773659746,
+            "text": "Distância total: 49.233 km."
+          },
+          {
+            "id": "s1.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s1.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s2.distance",
+            "value": 42.573832634303294,
+            "text": "Distância total: 42.574 km."
+          },
+          {
+            "id": "s2.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s2.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s3.distance",
+            "value": 46.786216853754176,
+            "text": "Distância total: 46.786 km."
+          },
+          {
+            "id": "s3.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s3.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s4.distance",
+            "value": 41.60065980106032,
+            "text": "Distância total: 41.601 km."
+          },
+          {
+            "id": "s4.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s4.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s5.distance",
+            "value": 40.437364390953434,
+            "text": "Distância total: 40.437 km."
+          },
+          {
+            "id": "s5.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s5.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s6.distance",
+            "value": 46.80545820407111,
+            "text": "Distância total: 46.805 km."
+          },
+          {
+            "id": "s6.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s6.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          }
+        ]
+      },
+      {
+        "heading": "Prioridades",
+        "facts": [
+          {
+            "id": "s0.critical_arrival",
+            "value": 7.887570674151276,
+            "text": "Chegada média das entregas críticas: 7.89 minutos após a saída."
+          },
+          {
+            "id": "s1.critical_arrival",
+            "value": 8.302832169397515,
+            "text": "Chegada média das entregas críticas: 8.30 minutos após a saída."
+          },
+          {
+            "id": "s2.critical_arrival",
+            "value": 7.231009512801084,
+            "text": "Chegada média das entregas críticas: 7.23 minutos após a saída."
+          },
+          {
+            "id": "s3.critical_arrival",
+            "value": 10.075853217641662,
+            "text": "Chegada média das entregas críticas: 10.08 minutos após a saída."
+          },
+          {
+            "id": "s4.critical_arrival",
+            "value": 6.8337411715036565,
+            "text": "Chegada média das entregas críticas: 6.83 minutos após a saída."
+          },
+          {
+            "id": "s5.critical_arrival",
+            "value": 5.721440152246626,
+            "text": "Chegada média das entregas críticas: 5.72 minutos após a saída."
+          },
+          {
+            "id": "s6.critical_arrival",
+            "value": 4.6618567687759525,
+            "text": "Chegada média das entregas críticas: 4.66 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Premissas e limites",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s1.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s2.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s3.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s4.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s5.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s6.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "a3d8dfc1456e1a44db6ad6ed5e3ed0fb77f9fb4cbff16333424c37d2109403a2",
+      "contract_hash": "e76c26191128c9f08043efb89c594e019f0190aeaaf0b920c92f3899e57db17a",
+      "response_id": "resp_0ee0a285af6ccfdb016ac96c46ab1487d1a066b04e530af505",
+      "reservation_id": "16b4b0d425b34ac7970449a367d8e58e",
+      "created_at": "2026-10-09T22:35:55.876787+00:00",
+      "input_tokens": 13915,
+      "output_tokens": 355,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 4,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

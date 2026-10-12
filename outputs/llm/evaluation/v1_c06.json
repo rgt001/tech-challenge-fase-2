@@ -1,0 +1,214 @@
+{
+  "case_id": "c06",
+  "prompt_version": "v1",
+  "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+  "case_hash": "fd6c55b1a85add4b1a9b7d9496c4b3574445bb1b4abfd127afa9f76e933bed5a",
+  "contract_hash": "9c7280af00976bee198c5f924625e4c57d0c95bc39e2fd32a51a3dd17758b10b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:34:39.538897+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resumo",
+        "facts": [
+          {
+            "id": "s0.scenario",
+            "value": "sp_day_3",
+            "text": "Cenário: sp_day_3."
+          },
+          {
+            "id": "s0.day",
+            "value": "2026-10-07",
+            "text": "Dia simulado: 2026-10-07."
+          },
+          {
+            "id": "s0.status",
+            "value": "feasible",
+            "text": "Solução viável certificada."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          }
+        ]
+      },
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_012",
+              "ENT_005",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001",
+              "ENT_011",
+              "ENT_002",
+              "ENT_010"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_012 → ENT_005 → ENT_006 → ENT_007 → ENT_001 → ENT_011 → ENT_002 → ENT_010 → depósito."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_009",
+              "ENT_003",
+              "ENT_008"
+            ],
+            "text": "VEI_02: depósito → ENT_009 → ENT_003 → ENT_008 → depósito."
+          }
+        ]
+      },
+      {
+        "heading": "Desempenho",
+        "facts": [
+          {
+            "id": "s0.distance",
+            "value": 42.573832634303294,
+            "text": "Distância total: 42.574 km."
+          },
+          {
+            "id": "s0.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s0.objective",
+            "value": 77.63060925884665,
+            "text": "Valor do objetivo: 77.6306."
+          },
+          {
+            "id": "s0.critical_arrival",
+            "value": 7.231009512801084,
+            "text": "Chegada média das entregas críticas: 7.23 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.distance",
+            "value": 26.85639018832466,
+            "text": "Distância de VEI_01, com retorno: 26.856 km."
+          },
+          {
+            "id": "s0.r0.return",
+            "value": 81.19655127192125,
+            "text": "Retorno de VEI_01: 81.20 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.distance",
+            "value": 15.717442445978635,
+            "text": "Distância de VEI_02, com retorno: 15.717 km."
+          },
+          {
+            "id": "s0.r1.return",
+            "value": 39.375533532946406,
+            "text": "Retorno de VEI_02: 39.38 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Prioridades",
+        "facts": [
+          {
+            "id": "s0.r0.p0.arrival",
+            "value": 3.347564043453607,
+            "text": "VEI_01, parada 1: ENT_004 (Unidade simulada 004), prioridade urgente; chegada estimada 3.35 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p1.arrival",
+            "value": 8.294215117843272,
+            "text": "VEI_01, parada 2: ENT_012 (Unidade simulada 012), prioridade critica; chegada estimada 8.29 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p2.arrival",
+            "value": 15.820719895868145,
+            "text": "VEI_01, parada 3: ENT_005 (Unidade simulada 005), prioridade urgente; chegada estimada 15.82 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p5.arrival",
+            "value": 36.82332277726387,
+            "text": "VEI_01, parada 6: ENT_001 (Unidade simulada 001), prioridade urgente; chegada estimada 36.82 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p6.arrival",
+            "value": 44.65027207022321,
+            "text": "VEI_01, parada 7: ENT_011 (Unidade simulada 011), prioridade urgente; chegada estimada 44.65 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p0.arrival",
+            "value": 6.167803907758894,
+            "text": "VEI_02, parada 1: ENT_009 (Unidade simulada 009), prioridade critica; chegada estimada 6.17 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p1.arrival",
+            "value": 17.23360919184132,
+            "text": "VEI_02, parada 2: ENT_003 (Unidade simulada 003), prioridade urgente; chegada estimada 17.23 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Premissas e limites",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          },
+          {
+            "id": "s0.algorithm",
+            "value": "genetic",
+            "text": "Método usado: genetic."
+          },
+          {
+            "id": "s0.r0.load",
+            "value": 46.0,
+            "text": "Carga inicial de VEI_01: 46 kg; capacidade 50."
+          },
+          {
+            "id": "s0.r1.load",
+            "value": 27.0,
+            "text": "Carga inicial de VEI_02: 27 kg; capacidade 50."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [
+      "Conferir as condições de trânsito antes da saída: os tempos usados são estimativas sem trânsito em tempo real.",
+      "Revisar com a equipe a ordem das entregas críticas antes de executar o planejamento.",
+      "Conferir a carga física dos veículos antes da saída.",
+      "Simular alterações de frota ou demanda antes de decidir mudanças operacionais."
+    ],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+      "contract_hash": "9c7280af00976bee198c5f924625e4c57d0c95bc39e2fd32a51a3dd17758b10b",
+      "response_id": "resp_0e5b6f181b589e70016ac96bff082c87d1a40a25335b92e074",
+      "reservation_id": "e9dc3187471141d399d6d4ed02d04d11",
+      "created_at": "2026-10-09T22:34:43.624139+00:00",
+      "input_tokens": 2330,
+      "output_tokens": 253,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 4,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

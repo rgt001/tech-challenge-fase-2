@@ -1,0 +1,141 @@
+{
+  "status": "aprovado",
+  "created_at": "2026-10-09T20:03:37.759528+00:00",
+  "graph_sha256": "1f64f043f10479d7f1cf9be8c50388be6cb7e8183bcfeb2eba75c3c3bccf4596",
+  "scenarios": [
+    {
+      "scenario": "sp_day_1",
+      "scenario_hash": "78a24e0e3bb7cddcd01e6646c0348128d8b0607edb36902e7e8729d365907f33",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_2",
+      "scenario_hash": "e727438407aaa060132aa79396216605ccf263e44e287b8d795bbab5ba02d57b",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_3",
+      "scenario_hash": "8d8457ac4673a23c9cedd5e04481662178f875784143ca93b9f6e505e8f1b165",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_4",
+      "scenario_hash": "a95938aa228c55db56198140eeb0031208ba90002369a6ac985dd68589c3e61c",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_5",
+      "scenario_hash": "d74b1b196410e2414c16f9f967494199e42bc1e3b72d82a637a0a5ca5fe3af32",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_6",
+      "scenario_hash": "2545addffdb9763d25b3d46eb384f243bc1fa76bc669b039d6131a03bf3bec1a",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_day_7",
+      "scenario_hash": "045d29d9490f17c4a6f95302804af38bb31d2b0a038f568da68a04b3d5e93c42",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_development_12",
+      "scenario_hash": "637c49594906517b69e43bdacf318aa42f57a3f648828943819c7d9de77b9235",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_development_30",
+      "scenario_hash": "1aadbbefd1e65c7f112dbeedb839363dca593fb97f1677cbf10bb601ac3e07c0",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_development_60",
+      "scenario_hash": "8c413bf5bb43072edbe435d40cfc22c5664804ffe2210dc8de0f41aa6bbc32d9",
+      "pairs_checked": 3721,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_evaluation_12",
+      "scenario_hash": "1a3957a627b7b424a713e510959c2ae3e8a60f521478a67399fbcf06b9521fc2",
+      "pairs_checked": 169,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_evaluation_30",
+      "scenario_hash": "2bde729348473a7410919f10d166a3a17acb9f35cf46a391bdbd972795958de9",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_evaluation_60",
+      "scenario_hash": "ea8670f7d24564bfd5d10b5fee3129c07a60003bc961b868b34a3e970b25d7af",
+      "pairs_checked": 3721,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_sensitivity_0",
+      "scenario_hash": "de811d411f314d180a95837c012177f0b8e60f7feaf63941e75f50e90e2ede5b",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_sensitivity_0_01",
+      "scenario_hash": "3b64aa6d8b14a50709bed0098ef1d960215cb7dedef0a1f83891e4a900571bea",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_sensitivity_0_05",
+      "scenario_hash": "f622cfb19b9080ac4efe55b71b97d00f84550edf3ff9c3e85f671c323a0f449c",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_sensitivity_0_1",
+      "scenario_hash": "0286296a9ad292514a0fcd595f7197e22d3882d08bd73f5ea2dc5f87a13c69c9",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_stress_capacity",
+      "scenario_hash": "5605a586fd209a293b6aa7b736b9539a2a02a1ca2eadd282676d9cfe6b78ddb2",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    },
+    {
+      "scenario": "sp_stress_range",
+      "scenario_hash": "49f4b7594c39c3d5785b97fd013c6e7fb69b8fac10785b991d63c8b8b3e124e0",
+      "pairs_checked": 961,
+      "failures": [],
+      "directed": true
+    }
+  ],
+  "method": "independent reconstruction using saved graph and directed Dijkstra paths"
+}

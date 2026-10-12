@@ -1,0 +1,17 @@
+{
+  "origin": "api",
+  "requested_model": "gpt-6-luna",
+  "response_model": "gpt-6-luna",
+  "response_id": "resp_07bbdcf1d6da514b016ac96c39e68087d1ac8b24824e70c643",
+  "reservation_id": "d1a1401dd2c34e2aba5590cb96755188",
+  "status": "completed",
+  "service_tier": "default",
+  "context_hash": "344a51e089c54ab24daf45ac47d7ee42dea3d8ad9618ddcf660672adfde7d006",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "prompt_version": "v1",
+  "created_at": "2026-10-09T22:35:40.399621+00:00",
+  "input_tokens": 2341,
+  "output_tokens": 42,
+  "cached_tokens": 0,
+  "output_text": "{\"status\":\"answered\",\"reason\":\"none\",\"sections\":[{\"heading\":\"answer\",\"fact_ids\":[\"s0.vehicles\"]}],\"instructions\":[],\"suggestions\":[]}"
+}

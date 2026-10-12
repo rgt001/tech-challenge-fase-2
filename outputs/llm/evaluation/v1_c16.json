@@ -1,0 +1,62 @@
+{
+  "case_id": "c16",
+  "prompt_version": "v1",
+  "context_hash": "1f8acd61b41e6399e0e1fc2ca4c70168b8a3dd103bd9e10e2464e9d84423c11c",
+  "case_hash": "6483338cdb28bc7b6b37fc5196ed8c1e03fbc0d5b602f8940ce207a1138d6529",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:02.048120+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.r1.p0.arrival",
+            "value": 1.944523241651205,
+            "text": "VEI_02, parada 1: ENT_012 (Unidade simulada 012), prioridade urgente; chegada estimada 1.94 minutos após a saída."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          },
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "1f8acd61b41e6399e0e1fc2ca4c70168b8a3dd103bd9e10e2464e9d84423c11c",
+      "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+      "response_id": "resp_0fae471a8a32b34e016ac96c15982c87d1a3d95e9556a1ac3d",
+      "reservation_id": "961b78d52c62484da6c2080cc30ec54b",
+      "created_at": "2026-10-09T22:35:04.878667+00:00",
+      "input_tokens": 2330,
+      "output_tokens": 55,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": false,
+    "clarity_score": 5,
+    "utility_score": 1,
+    "missing_required_facts": [
+      "s0.r0.p0.arrival"
+    ],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

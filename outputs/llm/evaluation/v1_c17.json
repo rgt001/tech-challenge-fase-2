@@ -1,0 +1,50 @@
+{
+  "case_id": "c17",
+  "prompt_version": "v1",
+  "context_hash": "1b9eaed6cca184154b2827a46b3eab0059cf2adf420dd8381aeb8e6da1df08bc",
+  "case_hash": "e98a97db55b2cbf478e94aea9edc56ed32d0d8468bd803b0d660537a7162dc3a",
+  "contract_hash": "9c7280af00976bee198c5f924625e4c57d0c95bc39e2fd32a51a3dd17758b10b",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:04.936706+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resposta",
+        "facts": [
+          {
+            "id": "s0.day",
+            "value": "2026-10-07",
+            "text": "Dia simulado: 2026-10-07."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v1",
+      "context_hash": "1b9eaed6cca184154b2827a46b3eab0059cf2adf420dd8381aeb8e6da1df08bc",
+      "contract_hash": "9c7280af00976bee198c5f924625e4c57d0c95bc39e2fd32a51a3dd17758b10b",
+      "response_id": "resp_0f45f9a0bde320a4016ac96c18b8b887d1b9b941c3cf6b1bac",
+      "reservation_id": "9e43797f9fe9471e9fd89624cf96088a",
+      "created_at": "2026-10-09T22:35:07.392678+00:00",
+      "input_tokens": 2338,
+      "output_tokens": 41,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 5,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}

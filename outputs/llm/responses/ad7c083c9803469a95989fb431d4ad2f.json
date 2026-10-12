@@ -1,0 +1,17 @@
+{
+  "origin": "api",
+  "requested_model": "gpt-6-luna",
+  "response_model": "gpt-6-luna",
+  "response_id": "resp_01b846ff9e706689016ac96bed63dc87d1bd698e9336881b41",
+  "reservation_id": "ad7c083c9803469a95989fb431d4ad2f",
+  "status": "completed",
+  "service_tier": "default",
+  "context_hash": "0568de493c0cb36eedc12dd4921d784f46f6af65490221694af34687e18c0412",
+  "contract_hash": "63527f7687929a937bef21c3bfef454c4ad864b11e9ef2143b00db140c21d979",
+  "prompt_version": "v1",
+  "created_at": "2026-10-09T22:34:25.354017+00:00",
+  "input_tokens": 2323,
+  "output_tokens": 273,
+  "cached_tokens": 0,
+  "output_text": "{\"status\":\"answered\",\"reason\":\"none\",\"sections\":[{\"heading\":\"overview\",\"fact_ids\":[\"s0.scenario\",\"s0.status\",\"s0.day\",\"s0.start\",\"s0.deliveries\",\"s0.vehicles\",\"s0.distance\",\"s0.objective\",\"s0.algorithm\"]},{\"heading\":\"routes\",\"fact_ids\":[\"s0.r0.sequence\",\"s0.r0.load\",\"s0.r0.distance\",\"s0.r0.return\",\"s0.r0.p0.arrival\",\"s0.r0.p1.arrival\",\"s0.r0.p2.arrival\",\"s0.r0.p3.arrival\",\"s0.r0.p4.arrival\",\"s0.r0.p5.arrival\",\"s0.r1.sequence\",\"s0.r1.load\",\"s0.r1.distance\",\"s0.r1.return\",\"s0.r1.p0.arrival\",\"s0.r1.p1.arrival\",\"s0.r1.p2.arrival\",\"s0.r1.p3.arrival\",\"s0.r1.p4.arrival\",\"s0.r1.p5.arrival\"]},{\"heading\":\"performance\",\"fact_ids\":[\"s0.critical_arrival\"]},{\"heading\":\"limitations\",\"fact_ids\":[\"s0.time_basis\"]}],\"instructions\":[\n  ],\"suggestions\":[]}"
+}

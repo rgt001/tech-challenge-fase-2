@@ -1,0 +1,239 @@
+{
+  "case_id": "c06",
+  "prompt_version": "v2",
+  "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+  "case_hash": "fd6c55b1a85add4b1a9b7d9496c4b3574445bb1b4abfd127afa9f76e933bed5a",
+  "contract_hash": "3d9cc28aa6ebee2f2ab213c049abd1d33b0461c7b15a3470adfd76b43125bd8f",
+  "category": "answerable",
+  "created_at": "2026-10-09T22:35:59.070358+00:00",
+  "accepted": true,
+  "answer": {
+    "status": "answered",
+    "reason": "",
+    "sections": [
+      {
+        "heading": "Resumo",
+        "facts": [
+          {
+            "id": "s0.day",
+            "value": "2026-10-07",
+            "text": "Dia simulado: 2026-10-07."
+          },
+          {
+            "id": "s0.scenario",
+            "value": "sp_day_3",
+            "text": "Cenário: sp_day_3."
+          },
+          {
+            "id": "s0.status",
+            "value": "feasible",
+            "text": "Solução viável certificada."
+          },
+          {
+            "id": "s0.distance",
+            "value": 42.573832634303294,
+            "text": "Distância total: 42.574 km."
+          },
+          {
+            "id": "s0.deliveries",
+            "value": 12,
+            "text": "Entregas atendidas: 12."
+          },
+          {
+            "id": "s0.vehicles",
+            "value": 2,
+            "text": "Veículos utilizados: 2 de 2."
+          },
+          {
+            "id": "s0.objective",
+            "value": 77.63060925884665,
+            "text": "Valor do objetivo: 77.6306."
+          },
+          {
+            "id": "s0.algorithm",
+            "value": "genetic",
+            "text": "Método usado: genetic."
+          },
+          {
+            "id": "s0.start",
+            "value": "08:00",
+            "text": "Horário inicial do planejamento: 08:00."
+          }
+        ]
+      },
+      {
+        "heading": "Rotas",
+        "facts": [
+          {
+            "id": "s0.r0.sequence",
+            "value": [
+              "ENT_004",
+              "ENT_012",
+              "ENT_005",
+              "ENT_006",
+              "ENT_007",
+              "ENT_001",
+              "ENT_011",
+              "ENT_002",
+              "ENT_010"
+            ],
+            "text": "VEI_01: depósito → ENT_004 → ENT_012 → ENT_005 → ENT_006 → ENT_007 → ENT_001 → ENT_011 → ENT_002 → ENT_010 → depósito."
+          },
+          {
+            "id": "s0.r0.distance",
+            "value": 26.85639018832466,
+            "text": "Distância de VEI_01, com retorno: 26.856 km."
+          },
+          {
+            "id": "s0.r0.load",
+            "value": 46.0,
+            "text": "Carga inicial de VEI_01: 46 kg; capacidade 50."
+          },
+          {
+            "id": "s0.r0.return",
+            "value": 81.19655127192125,
+            "text": "Retorno de VEI_01: 81.20 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.sequence",
+            "value": [
+              "ENT_009",
+              "ENT_003",
+              "ENT_008"
+            ],
+            "text": "VEI_02: depósito → ENT_009 → ENT_003 → ENT_008 → depósito."
+          },
+          {
+            "id": "s0.r1.distance",
+            "value": 15.717442445978635,
+            "text": "Distância de VEI_02, com retorno: 15.717 km."
+          },
+          {
+            "id": "s0.r1.load",
+            "value": 27.0,
+            "text": "Carga inicial de VEI_02: 27 kg; capacidade 50."
+          },
+          {
+            "id": "s0.r1.return",
+            "value": 39.375533532946406,
+            "text": "Retorno de VEI_02: 39.38 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Desempenho",
+        "facts": [
+          {
+            "id": "s0.critical_arrival",
+            "value": 7.231009512801084,
+            "text": "Chegada média das entregas críticas: 7.23 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p0.arrival",
+            "value": 3.347564043453607,
+            "text": "VEI_01, parada 1: ENT_004 (Unidade simulada 004), prioridade urgente; chegada estimada 3.35 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p1.arrival",
+            "value": 8.294215117843272,
+            "text": "VEI_01, parada 2: ENT_012 (Unidade simulada 012), prioridade critica; chegada estimada 8.29 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p2.arrival",
+            "value": 15.820719895868145,
+            "text": "VEI_01, parada 3: ENT_005 (Unidade simulada 005), prioridade urgente; chegada estimada 15.82 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p3.arrival",
+            "value": 23.179497700525342,
+            "text": "VEI_01, parada 4: ENT_006 (Unidade simulada 006), prioridade regular; chegada estimada 23.18 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p4.arrival",
+            "value": 28.183585355410266,
+            "text": "VEI_01, parada 5: ENT_007 (Unidade simulada 007), prioridade regular; chegada estimada 28.18 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p5.arrival",
+            "value": 36.82332277726387,
+            "text": "VEI_01, parada 6: ENT_001 (Unidade simulada 001), prioridade urgente; chegada estimada 36.82 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p6.arrival",
+            "value": 44.65027207022321,
+            "text": "VEI_01, parada 7: ENT_011 (Unidade simulada 011), prioridade urgente; chegada estimada 44.65 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p7.arrival",
+            "value": 56.64646058139994,
+            "text": "VEI_01, parada 8: ENT_002 (Unidade simulada 002), prioridade regular; chegada estimada 56.65 minutos após a saída."
+          },
+          {
+            "id": "s0.r0.p8.arrival",
+            "value": 69.06320169444828,
+            "text": "VEI_01, parada 9: ENT_010 (Unidade simulada 010), prioridade regular; chegada estimada 69.06 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p0.arrival",
+            "value": 6.167803907758894,
+            "text": "VEI_02, parada 1: ENT_009 (Unidade simulada 009), prioridade critica; chegada estimada 6.17 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p1.arrival",
+            "value": 17.23360919184132,
+            "text": "VEI_02, parada 2: ENT_003 (Unidade simulada 003), prioridade urgente; chegada estimada 17.23 minutos após a saída."
+          },
+          {
+            "id": "s0.r1.p2.arrival",
+            "value": 25.81613296711118,
+            "text": "VEI_02, parada 3: ENT_008 (Unidade simulada 008), prioridade regular; chegada estimada 25.82 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Prioridades",
+        "facts": [
+          {
+            "id": "s0.critical_arrival",
+            "value": 7.231009512801084,
+            "text": "Chegada média das entregas críticas: 7.23 minutos após a saída."
+          }
+        ]
+      },
+      {
+        "heading": "Premissas e limites",
+        "facts": [
+          {
+            "id": "s0.time_basis",
+            "value": "estimated",
+            "text": "Os tempos são estimativas de viagem sem trânsito em tempo real; o atendimento é uma premissa simulada."
+          }
+        ]
+      }
+    ],
+    "instructions": [],
+    "suggestions": [],
+    "provenance": {
+      "origin": "api",
+      "model": "gpt-6-luna",
+      "response_model": "gpt-6-luna",
+      "prompt_version": "v2",
+      "context_hash": "9a7a22599c16ea3ffe8b7a2783b892ebb33f90cf798de75ae1d64c8c1d9a5e35",
+      "contract_hash": "3d9cc28aa6ebee2f2ab213c049abd1d33b0461c7b15a3470adfd76b43125bd8f",
+      "response_id": "resp_019bac44439b24c5016ac96c4f1d8887d19d6e07cb4586b46f",
+      "reservation_id": "68a2dfc493be4950acdaf43acd56a0a8",
+      "created_at": "2026-10-09T22:36:03.278644+00:00",
+      "input_tokens": 2767,
+      "output_tokens": 286,
+      "cached_tokens": 0
+    }
+  },
+  "assessment": {
+    "factual_consistency": true,
+    "useful": true,
+    "clarity_score": 3,
+    "utility_score": 5,
+    "missing_required_facts": [],
+    "rubric": "fact selection, expected status, complete ordered instructions; clarity: duplicates, excessive sections, irrelevant volume"
+  }
+}
