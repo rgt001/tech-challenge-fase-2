@@ -32,3 +32,9 @@ outputs/llm/cache/
 outputs/llm/responses/
 outputs/llm/attempts/
 outputs/validation/portability.log
+
+# Documentos enviados separadamente à faculdade
+/Tech_Challenge_Fase2_Entrega.docx
+/Tech_Challenge_Fase2_Entrega.pdf
+/outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf
+/docs/ROTEIRO_VIDEO.md

@@ -81,13 +81,10 @@ Os benchmarks A-n32-k5, A-n54-k7 e A-n80-k10 mantêm distâncias e capacidades
 originais, com referências 784, 1167 e 1763. Seus gaps não são quilômetros.
 A base FIAP é comparada apenas no TSP compatível de 15 pontos.
 
-## Notebooks e artefatos
+## Notebooks e mapas
 
 - [Otimização genética](notebooks/01_otimizacao_genetica.ipynb)
 - [Aplicação hospitalar e LLM](notebooks/02_aplicacao_hospitalar_llm.ipynb)
-- [Relatório técnico editável](Tech_Challenge_Fase2_Entrega.docx)
-- [Relatório para leitura em PDF](outputs/report-pages/Tech_Challenge_Fase2_Entrega.pdf)
-- [Roteiro de apresentação de 14:30](docs/ROTEIRO_VIDEO.md)
 - [Mapa de 12 entregas](outputs/maps/sp_evaluation_12.html)
 - [Mapa de 30 entregas](outputs/maps/sp_evaluation_30.html)
 - [Mapa de 60 entregas](outputs/maps/sp_evaluation_60.html)
@@ -139,7 +136,7 @@ As novas chamadas solicitam explicitamente o nível de serviço `default`.
 Hashes do prompt, esquema e contexto impedem reutilizar evidências de uma revisão
 antiga. A conexão TLS usa certificados confiáveis do sistema, com validação ativa.
 
-## Gerar a documentação
+## Gerar o relatório localmente
 
 As tabelas e os números do relatório são derivados dos resultados salvos:
 
@@ -147,11 +144,9 @@ As tabelas e os números do relatório são derivados dos resultados salvos:
 .venv\Scripts\python scripts/gerar_relatorio.py
 ```
 
-O DOCX permite edição e o PDF permite leitura direta no GitHub. Depois de alterar
-o relatório, exportar novamente para PDF e revisar todas as páginas. As imagens
-PNG de revisão são temporárias e não fazem parte do repositório. O registro de
-inspeção mantém os hashes dos documentos finais; gerar o DOCX não aprova sua
-apresentação automaticamente.
+O relatório técnico e o roteiro de apresentação são documentos da entrega
+acadêmica, mantidos localmente e enviados separadamente à faculdade. Após editar
+o relatório, exportar uma versão em PDF e revisar todas as páginas.
 
 ## Estrutura e referência
 
